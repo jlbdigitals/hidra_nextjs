@@ -1,4 +1,4 @@
-import { getProducts, getTopCategories } from '@/lib/products'
+import { getProducts, getTopCategories } from '@/lib/products-server'
 import AdminHeader from '../components/AdminHeader'
 import Link from 'next/link'
 

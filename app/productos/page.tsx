@@ -5,7 +5,7 @@ import {
   getSubcategories,
   getHpValues,
   getVoltajes,
-} from "@/lib/products";
+} from "@/lib/products-server";
 import ProductCard from "@/components/ProductCard";
 import FilterSidebar from "@/components/FilterSidebar";
 

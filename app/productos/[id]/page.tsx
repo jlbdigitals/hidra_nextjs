@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getProductById, getProducts, getProductImageSrc, getProductSlug, getProductBySlug } from "@/lib/products";
+import { getProductById, getProducts, getProductImageSrc, getProductSlug, getProductBySlug } from "@/lib/products-server";
 import { isVenta, formatPrice } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import ProductImage from "@/components/ProductImage";

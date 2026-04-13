@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
-import { CATEGORY_ICONS, CATEGORY_DESCRIPTIONS, getProducts } from './products'
+import { CATEGORY_ICONS, CATEGORY_DESCRIPTIONS, getProducts } from './products-server'
 
 export interface Category {
   id: number

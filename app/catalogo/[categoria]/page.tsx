@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getProducts, getProductImageSrc, isRealProduct } from "@/lib/products";
+import { getProducts, getProductImageSrc, isRealProduct } from "@/lib/products-server";
 import ProductCard from "@/components/ProductCard";
 import BrandMenu from "./BrandMenu";
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getProducts, isRealProduct } from "@/lib/products";
+import { getProducts, isRealProduct } from "@/lib/products-server";
 import { isVenta } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import ProductCarousel from "@/components/ProductCarousel";

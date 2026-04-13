@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
-import { getProducts, isRealProduct } from "@/lib/products";
+import { getProducts, isRealProduct } from "@/lib/products-server";
 import { isVenta, formatPrice } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import BombasSidebar from "./BombasSidebar";
