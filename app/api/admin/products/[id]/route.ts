@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { NextRequest, NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
-import { updateProduct } from '@/lib/products-server'
+import { updateProduct, getProducts } from '@/lib/products-server'
 
 async function checkAuth() {
   const cookieStore = await cookies()
@@ -25,7 +25,7 @@ export async function PUT(
   }
 
   const body = await req.json()
-  const products = await getProducts()
+  const products = getProducts()
   const existingProduct = products.find(p => p.id === productId)
 
   if (!existingProduct) {
