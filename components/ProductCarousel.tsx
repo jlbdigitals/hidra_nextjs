@@ -2,16 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
-
-interface Product {
-  id: number;
-  nombre: string;
-  precio: number;
-  topCategoria: string;
-  localImage?: string;
-  publicado: boolean;
-  [key: string]: any;
-}
+import type { Product } from "@/lib/products";
 
 interface Props {
   products: Product[];
