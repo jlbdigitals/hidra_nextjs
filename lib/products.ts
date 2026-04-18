@@ -16,6 +16,7 @@ export interface Product {
   imagenUrl: string
   localImage?: string
   publicado: boolean
+  destacado: boolean
 }
 
 /** Returns the best available image path for a product */

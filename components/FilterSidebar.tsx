@@ -29,6 +29,8 @@ export default function FilterSidebar({
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  const isBombas = selectedCategoria === "Bombas";
+
   const updateFilter = useCallback(
     (key: string, value: string) => {
       const params = new URLSearchParams(searchParams.toString());
@@ -38,19 +40,22 @@ export default function FilterSidebar({
         params.delete(key);
       }
       params.delete("page");
-      router.push(`/productos?${params.toString()}`);
+      // Use current path instead of hardcoded /productos
+      router.push(`${window.location.pathname}?${params.toString()}`);
     },
     [router, searchParams]
   );
 
-  const clearAll = () => router.push("/productos");
-  const hasActive = selectedCategoria || selectedMarca || selectedHp || selectedVoltaje;
+  const clearAll = () => {
+    router.push(window.location.pathname);
+  };
 
-  // Category nav — matches WooCommerce sidebar nav with Nunito 600
-  const NavItem = ({ label, href, active }: { label: string; href: string; active: boolean }) => (
-    <a
-      href={href}
-      className="block px-3 py-1.5 text-sm rounded transition-colors"
+  const hasActive = selectedMarca || (isBombas && (selectedHp || selectedVoltaje));
+
+  const NavItem = ({ label, active, onClick }: { label: string; active: boolean; onClick: () => void }) => (
+    <button
+      onClick={onClick}
+      className="block w-full text-left px-3 py-1.5 text-sm rounded transition-colors"
       style={{
         fontFamily: "var(--font-nunito)",
         fontWeight: 600,
@@ -59,33 +64,20 @@ export default function FilterSidebar({
       }}
     >
       {label}
-    </a>
+    </button>
   );
 
   return (
-    <aside className="flex flex-col gap-5">
-      {/* Category nav */}
-      <div>
-        <NavItem label="Todas" href="/productos" active={!selectedCategoria} />
-        {topCategories.map((cat) => (
-          <NavItem
-            key={cat}
-            label={cat}
-            href={`/productos?categoria=${encodeURIComponent(cat)}`}
-            active={selectedCategoria === cat}
-          />
-        ))}
-      </div>
-
-      {/* Filtrar por HP — matches WooCommerce shortcode widget */}
-      {hpValues.length > 0 && (
+    <aside className="flex flex-col gap-6">
+      {/* HP Filter — ONLY for Bombas */}
+      {isBombas && hpValues.length > 0 && (
         <div>
-          <h3
-            className="mb-2 px-1"
-            style={{ fontFamily: "Lato, sans-serif", fontWeight: 600, fontSize: 18, color: "#7A7A7A" }}
+          <h4
+            className="mb-2 px-1 text-sm font-bold text-[#7A7A7A] uppercase tracking-wider"
+            style={{ fontFamily: "Lato, sans-serif" }}
           >
             Filtrar por HP
-          </h3>
+          </h4>
           <div className="flex flex-wrap gap-1.5 px-1">
             {hpValues.map((hp) => (
               <button
@@ -106,15 +98,15 @@ export default function FilterSidebar({
         </div>
       )}
 
-      {/* Filtrar por Voltaje */}
-      {voltajes.length > 0 && (
+      {/* Voltaje Filter — ONLY for Bombas */}
+      {isBombas && voltajes.length > 0 && (
         <div>
-          <h3
-            className="mb-2 px-1"
-            style={{ fontFamily: "Lato, sans-serif", fontWeight: 600, fontSize: 18, color: "#7A7A7A" }}
+          <h4
+            className="mb-2 px-1 text-sm font-bold text-[#7A7A7A] uppercase tracking-wider"
+            style={{ fontFamily: "Lato, sans-serif" }}
           >
-            Filtrar por Voltaje
-          </h3>
+            Voltaje
+          </h4>
           <div className="flex flex-wrap gap-1.5 px-1">
             {voltajes.map((v) => (
               <button
@@ -135,37 +127,36 @@ export default function FilterSidebar({
         </div>
       )}
 
-      {/* Subcategory filter */}
+      {/* Subcategories / Brands */}
       {subcategories.length > 0 && (
         <div>
-          <h3
-            className="mb-2 px-1"
-            style={{ fontFamily: "Lato, sans-serif", fontWeight: 600, fontSize: 18, color: "#7A7A7A" }}
+          <h4
+            className="mb-2 px-1 text-sm font-bold text-[#7A7A7A] uppercase tracking-wider"
+            style={{ fontFamily: "Lato, sans-serif" }}
           >
-            Marca / Serie
-          </h3>
-          {subcategories.map((sub) => (
-            <NavItem
-              key={sub}
-              label={sub}
-              href={`/productos?categoria=${encodeURIComponent(selectedCategoria)}&marca=${encodeURIComponent(sub)}`}
-              active={selectedMarca === sub}
-            />
-          ))}
+            {isBombas ? "Marca / Serie" : "Categorías"}
+          </h4>
+          <div className="flex flex-col gap-0.5">
+            {subcategories.map((sub) => (
+              <NavItem
+                key={sub}
+                label={sub}
+                active={selectedMarca === sub}
+                onClick={() => updateFilter("marca", selectedMarca === sub ? "" : sub)}
+              />
+            ))}
+          </div>
         </div>
       )}
 
       {hasActive && (
         <button
           onClick={clearAll}
-          className="text-xs text-[#7A7A7A] hover:text-red-500 px-1 text-left transition-colors"
+          className="text-xs text-[#7A7A7A] hover:text-red-500 px-1 text-left transition-colors font-semibold"
         >
           ✕ Limpiar filtros
         </button>
       )}
-
-      {/* Unused props - needed to avoid TS error */}
-      <div className="hidden">{categoryMenuItems.map((i) => i.label).join("")}</div>
     </aside>
   );
 }

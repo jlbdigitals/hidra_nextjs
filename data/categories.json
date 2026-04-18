@@ -1,0 +1,538 @@
+[
+  {
+    "id": 1,
+    "name": "Bombas",
+    "slug": "bombas",
+    "parentId": null,
+    "description": "Bombas centrífugas, sumergibles y periféricas de las mejores marcas italianas",
+    "icon": "💧"
+  },
+  {
+    "id": 2,
+    "name": "Control",
+    "slug": "control",
+    "parentId": null,
+    "description": "Programadores, sensores y tableros de control para sistemas de riego",
+    "icon": "⚡"
+  },
+  {
+    "id": 3,
+    "name": "Entrega inmediata",
+    "slug": "entrega-inmediata",
+    "parentId": null,
+    "description": "Productos disponibles para entrega inmediata",
+    "icon": "🚚"
+  },
+  {
+    "id": 4,
+    "name": "Filtros",
+    "slug": "filtros",
+    "parentId": null,
+    "description": "Filtros para sistemas de riego y tratamiento de agua",
+    "icon": "🔧"
+  },
+  {
+    "id": 5,
+    "name": "Riego Agrícola",
+    "slug": "riego-agricola",
+    "parentId": null,
+    "description": "Aspersores, goteros, microaspersores y líneas de riego",
+    "icon": "🌱"
+  },
+  {
+    "id": 6,
+    "name": "Riego Áreas Verdes",
+    "slug": "riego-areas-verdes",
+    "parentId": null,
+    "description": "Emisores Hunter, K Rain y Rain Bird para áreas verdes",
+    "icon": "🌿"
+  },
+  {
+    "id": 7,
+    "name": "Tuberías y Fittings",
+    "slug": "tuberias-y-fittings",
+    "parentId": null,
+    "description": "Tuberías y accesorios para instalaciones hidráulicas",
+    "icon": "🔩"
+  },
+  {
+    "id": 8,
+    "name": "Válvulas",
+    "slug": "valvulas",
+    "parentId": null,
+    "description": "Válvulas de control y paso para sistemas hidráulicos",
+    "icon": "🔄"
+  },
+  {
+    "id": 9,
+    "name": "Bestflow",
+    "slug": "bestflow",
+    "parentId": 1,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 10,
+    "name": "Calpeda",
+    "slug": "calpeda",
+    "parentId": 1,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 11,
+    "name": "Pedrollo",
+    "slug": "pedrollo",
+    "parentId": 1,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 12,
+    "name": "Reggio",
+    "slug": "reggio",
+    "parentId": 1,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 13,
+    "name": "Programadores",
+    "slug": "programadores",
+    "parentId": 2,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 14,
+    "name": "Sensores",
+    "slug": "sensores",
+    "parentId": 2,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 15,
+    "name": "Tableros",
+    "slug": "tableros",
+    "parentId": 2,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 16,
+    "name": "Aspersor",
+    "slug": "aspersor",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 17,
+    "name": "Cinta de riego",
+    "slug": "cinta-de-riego",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 18,
+    "name": "Gotero",
+    "slug": "gotero",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 19,
+    "name": "Línea de riego",
+    "slug": "linea-de-riego",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 20,
+    "name": "Microaspersor",
+    "slug": "microaspersor",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 21,
+    "name": "Microjet",
+    "slug": "microjet",
+    "parentId": 5,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 22,
+    "name": "Emisores Hunter",
+    "slug": "emisores-hunter",
+    "parentId": 6,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 23,
+    "name": "Emisores K Rain",
+    "slug": "emisores-k-rain",
+    "parentId": 6,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 24,
+    "name": "Emisores Rain Bird",
+    "slug": "emisores-rain-bird",
+    "parentId": 6,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 25,
+    "name": "Serie 2C",
+    "slug": "serie-2c",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 26,
+    "name": "Serie BC",
+    "slug": "serie-bc",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 27,
+    "name": "Serie BM",
+    "slug": "serie-bm",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 28,
+    "name": "Serie BT",
+    "slug": "serie-bt",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 29,
+    "name": "Serie DW",
+    "slug": "serie-dw",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 30,
+    "name": "Serie GT",
+    "slug": "serie-gt",
+    "parentId": 9,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 31,
+    "name": "Serie CT",
+    "slug": "serie-ct",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 32,
+    "name": "Serie ME",
+    "slug": "serie-me",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 33,
+    "name": "Serie MX",
+    "slug": "serie-mx",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 34,
+    "name": "Serie NG",
+    "slug": "serie-ng",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 35,
+    "name": "Serie NM",
+    "slug": "serie-nm",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 36,
+    "name": "Serie T",
+    "slug": "serie-t",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 37,
+    "name": "Serie TM",
+    "slug": "serie-tm",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 38,
+    "name": "Serie TP",
+    "slug": "serie-tp",
+    "parentId": 10,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 39,
+    "name": "Serie 2C",
+    "slug": "serie-2c",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 40,
+    "name": "Serie 3C",
+    "slug": "serie-3c",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 41,
+    "name": "Serie 4C",
+    "slug": "serie-4c",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 42,
+    "name": "Serie 5C",
+    "slug": "serie-5c",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 43,
+    "name": "Serie CK",
+    "slug": "serie-ck",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 44,
+    "name": "Serie CP",
+    "slug": "serie-cp",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 45,
+    "name": "Serie F",
+    "slug": "serie-f",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 46,
+    "name": "Serie FUTURE",
+    "slug": "serie-future",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 47,
+    "name": "Serie HF",
+    "slug": "serie-hf",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 48,
+    "name": "Serie JD",
+    "slug": "serie-jd",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 49,
+    "name": "Serie JS",
+    "slug": "serie-js",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 50,
+    "name": "Serie NG",
+    "slug": "serie-ng",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 51,
+    "name": "Serie PK",
+    "slug": "serie-pk",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 52,
+    "name": "Serie PQ",
+    "slug": "serie-pq",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 53,
+    "name": "Serie PV",
+    "slug": "serie-pv",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 54,
+    "name": "Serie Plurijet",
+    "slug": "serie-plurijet",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 55,
+    "name": "Serie SK",
+    "slug": "serie-sk",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 56,
+    "name": "Serie TURBO",
+    "slug": "serie-turbo",
+    "parentId": 11,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 57,
+    "name": "Serie CF",
+    "slug": "serie-cf",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 58,
+    "name": "Serie HG",
+    "slug": "serie-hg",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 59,
+    "name": "Serie SA",
+    "slug": "serie-sa",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 60,
+    "name": "Serie SB",
+    "slug": "serie-sb",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 61,
+    "name": "Serie SC",
+    "slug": "serie-sc",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 62,
+    "name": "Serie SJ",
+    "slug": "serie-sj",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 63,
+    "name": "Serie SM",
+    "slug": "serie-sm",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 64,
+    "name": "Serie SN",
+    "slug": "serie-sn",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 65,
+    "name": "Serie SP",
+    "slug": "serie-sp",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 66,
+    "name": "Serie SS",
+    "slug": "serie-ss",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  },
+  {
+    "id": 67,
+    "name": "Serie ST",
+    "slug": "serie-st",
+    "parentId": 12,
+    "description": "",
+    "icon": ""
+  }
+]

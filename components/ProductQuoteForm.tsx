@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface Props {
   productId: number;
@@ -21,6 +22,7 @@ export default function ProductQuoteForm({
   productVoltaje,
   productPrice,
 }: Props) {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
@@ -71,7 +73,7 @@ export default function ProductQuoteForm({
       });
 
       if (res.ok) {
-        setSent(true);
+        router.push("/gracias-cotizar");
       } else {
         alert("Error al enviar la cotización. Intente nuevamente.");
       }

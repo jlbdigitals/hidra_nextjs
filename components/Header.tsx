@@ -19,11 +19,11 @@ const navLinks = [
       { label: "Berkeley", href: "/bombas?marca=Berkeley" },
     ],
   },
+  { label: "Filtros", href: "/catalogo/filtros" },
   {
     label: "Catálogo",
     href: "/catalogo",
     submenu: [
-      { label: "Filtros", href: "/catalogo/filtros" },
       { label: "Válvulas", href: "/catalogo/valvulas" },
       { label: "Riego Agrícola", href: "/catalogo/riego-agricola" },
       { label: "Riego Áreas Verdes", href: "/catalogo/riego-areas-verdes" },
@@ -56,7 +56,7 @@ export default function Header() {
     >
       <div className="max-w-[1140px] mx-auto px-4">
         {/* Top row: logo + search + cart */}
-        <div className="grid grid-cols-[20%_60%_20%] items-center py-3 gap-2">
+        <div className="grid grid-cols-[auto_1fr_auto] items-center py-3 gap-8">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/">
@@ -72,7 +72,7 @@ export default function Header() {
           </div>
 
           {/* Search */}
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
             <form onSubmit={handleSearch} className="w-full max-w-md">
               <div className="relative">
                 <input
@@ -96,15 +96,26 @@ export default function Header() {
 
           {/* Cart / contact */}
           <div className="flex justify-end items-center gap-4">
-            <a
-              href="tel:+56997107845"
-              className="hidden lg:flex items-center gap-1.5 text-sm text-[#7A7A7A] hover:text-[#53B94A] transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              <span>+56 9 9710 7845</span>
-            </a>
+            <div className="hidden lg:flex flex-col items-end gap-0 whitespace-nowrap">
+              <a
+                href="tel:+56227238788"
+                className="flex items-center gap-1.5 text-xs text-[#7A7A7A] hover:text-[#53B94A] transition-colors"
+              >
+                <svg className="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>Oficina: 2 2723 8788</span>
+              </a>
+              <a
+                href="tel:+56997107845"
+                className="flex items-center gap-1.5 text-xs text-[#7A7A7A] hover:text-[#53B94A] transition-colors"
+              >
+                <svg className="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>Celular: +56 9 9710 7845</span>
+              </a>
+            </div>
             <CartButton />
             {/* Mobile menu toggle */}
             <button

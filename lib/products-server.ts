@@ -8,12 +8,8 @@ export type { Product } from './products'
 export { getProductImageSrc, getProductSlug, slugify, CATEGORY_ICONS, CATEGORY_DESCRIPTIONS } from './products'
 
 const PRODUCTS_PATH = join(process.cwd(), 'public', 'products.json')
-let _products: Product[] | null = null
-
 export function getProducts(): Product[] {
-  if (_products) return _products
-  _products = JSON.parse(readFileSync(PRODUCTS_PATH, 'utf-8')) as Product[]
-  return _products
+  return JSON.parse(readFileSync(PRODUCTS_PATH, 'utf-8')) as Product[]
 }
 
 export function updateProduct(id: number, data: Partial<Omit<Product, 'id'>>): Product | null {

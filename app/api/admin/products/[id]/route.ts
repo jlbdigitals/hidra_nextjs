@@ -25,29 +25,36 @@ export async function PUT(
   }
 
   const body = await req.json()
+  const products = await getProducts()
+  const existingProduct = products.find(p => p.id === productId)
+
+  if (!existingProduct) {
+    return NextResponse.json({ error: 'Product not found' }, { status: 404 })
+  }
 
   // Parse array fields if sent as comma-separated strings
-  const hp = Array.isArray(body.hp)
-    ? body.hp
-    : String(body.hp || '').split(',').map((s: string) => s.trim()).filter(Boolean)
+  const hp = body.hp !== undefined 
+    ? (Array.isArray(body.hp) ? body.hp : String(body.hp || '').split(',').map((s: string) => s.trim()).filter(Boolean))
+    : existingProduct.hp
 
-  const voltaje = Array.isArray(body.voltaje)
-    ? body.voltaje
-    : String(body.voltaje || '').split(',').map((s: string) => s.trim()).filter(Boolean)
+  const voltaje = body.voltaje !== undefined
+    ? (Array.isArray(body.voltaje) ? body.voltaje : String(body.voltaje || '').split(',').map((s: string) => s.trim()).filter(Boolean))
+    : existingProduct.voltaje
 
   const updated = updateProduct(productId, {
-    nombre: body.nombre,
-    descripcionCorta: body.descripcionCorta ?? '',
-    descripcion: body.descripcion ?? '',
-    precio: Number(body.precio) || 0,
-    publicado: Boolean(body.publicado),
-    topCategoria: body.topCategoria ?? '',
-    deepCategoria: body.deepCategoria ?? '',
-    marca: body.marca ?? '',
+    nombre: body.nombre ?? existingProduct.nombre,
+    descripcionCorta: body.descripcionCorta ?? existingProduct.descripcionCorta,
+    descripcion: body.descripcion ?? existingProduct.descripcion,
+    precio: body.precio !== undefined ? Number(body.precio) : existingProduct.precio,
+    publicado: body.publicado !== undefined ? Boolean(body.publicado) : existingProduct.publicado,
+    destacado: body.destacado !== undefined ? Boolean(body.destacado) : existingProduct.destacado,
+    topCategoria: body.topCategoria ?? existingProduct.topCategoria,
+    deepCategoria: body.deepCategoria ?? existingProduct.deepCategoria,
+    marca: body.marca ?? existingProduct.marca,
     hp,
     voltaje,
-    localImage: body.localImage ?? '',
-    imagenUrl: body.imagenUrl ?? '',
+    localImage: body.localImage ?? existingProduct.localImage,
+    imagenUrl: body.imagenUrl ?? existingProduct.imagenUrl,
   })
 
   if (!updated) {

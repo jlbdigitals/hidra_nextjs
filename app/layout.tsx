@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CartProvider } from "@/components/CartContext";
 import CartSidebar from "@/components/CartSidebar";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -30,13 +31,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${nunito.variable} ${nunitoSans.variable} h-full`}>
-      <body className="min-h-full flex flex-col bg-white text-[#54595F] font-[family-name:var(--font-nunito)]">
+    <html lang="es" className={`${nunito.variable} ${nunitoSans.variable} h-full`} suppressHydrationWarning>
+      <body 
+        className="min-h-full flex flex-col bg-white text-[#54595F] font-[family-name:var(--font-nunito)]"
+        suppressHydrationWarning
+      >
         <CartProvider>
           <Header />
           <CartSidebar />
           <main className="flex-1">{children}</main>
           <Footer />
+          <WhatsAppButton />
         </CartProvider>
       </body>
     </html>

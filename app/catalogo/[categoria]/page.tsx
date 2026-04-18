@@ -1,9 +1,19 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
 import type { Metadata } from "next";
-import { getProducts, getProductImageSrc, isRealProduct } from "@/lib/products-server";
+import { 
+  getProducts, 
+  getProductImageSrc, 
+  isRealProduct,
+  getTopCategories,
+  getHpValues,
+  getVoltajes,
+  getProductBySlug
+} from "@/lib/products-server";
 import ProductCard from "@/components/ProductCard";
+import FilterSidebar from "@/components/FilterSidebar";
 import BrandMenu from "./BrandMenu";
 
 const CATALOG_MAP: Record<
@@ -86,6 +96,15 @@ export default async function CategoriaPage({
   const cat = CATALOG_MAP[categoria];
   if (!cat) notFound();
 
+  // Data for sidebar
+  const topCategories = getTopCategories();
+  const hpValues = getHpValues();
+  const voltajesAll = getVoltajes();
+  const categoryMenuItems = Object.entries(CATALOG_MAP).map(([k, v]) => ({
+    label: v.label,
+    href: `/catalogo/${k}`,
+  }));
+
   // For categories like Filtros where brand entries ARE the products, skip isRealProduct
   const allProducts = getProducts().filter(
     (p) => p.publicado && p.topCategoria === cat.topCategoria && (cat.showAllProducts || isRealProduct(p))
@@ -99,26 +118,6 @@ export default async function CategoriaPage({
     return true;
   });
 
-  // ── Brand menu data (Bombas only) ──────────────────────────────────────
-  const brandMap = new Map<string, Set<string>>(); // brand → set of series
-  for (const p of deduped) {
-    for (const c of p.categorias) {
-      const parts = c.split(" > ");
-      if (parts[0] === cat.topCategoria && parts.length >= 2) {
-        const brand = parts[1];
-        if (!brandMap.has(brand)) brandMap.set(brand, new Set());
-        if (parts.length >= 3) brandMap.get(brand)!.add(parts[2]);
-      }
-    }
-  }
-  const brandList = Array.from(brandMap.entries())
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([brand, seriesSet]) => ({
-      brand,
-      series: Array.from(seriesSet).sort(),
-      count: deduped.filter((p) => p.categorias.some((c) => c.includes(`> ${brand}`))).length,
-    }));
-
   // ── Subcategory pills data (non-Bombas) ────────────────────────────────
   const subcatSet = new Set<string>();
   for (const p of deduped) {
@@ -128,7 +127,6 @@ export default async function CategoriaPage({
     }
   }
   const subcategories = Array.from(subcatSet).sort();
-  const hasSubcats = subcategories.length > 0;
 
   // ── Filtering ──────────────────────────────────────────────────────────
   let filtered = deduped;
@@ -141,15 +139,6 @@ export default async function CategoriaPage({
     filtered = filtered.filter((p) =>
       p.categorias.some((c) => c.includes(`> ${serie}`))
     );
-  }
-
-  // ── Subcategory visual cards image map (non-Bombas) ────────────────────
-  const subcatImgs: Record<string, string | null> = {};
-  if (!cat.hasBrandMenu) {
-    for (const sub of subcategories) {
-      const first = deduped.find((p) => p.categorias.some((c) => c.includes(sub)));
-      subcatImgs[sub] = first ? getProductImageSrc(first) : null;
-    }
   }
 
   // ── Pagination ─────────────────────────────────────────────────────────
@@ -180,152 +169,107 @@ export default async function CategoriaPage({
             <span>/</span>
             <Link href="/catalogo" className="hover:text-white">Catálogo</Link>
             <span>/</span>
-            <span className="text-white font-semibold">{cat.label}</span>
+            {marca ? (
+              <>
+                <Link href={`/catalogo/${categoria}`} className="hover:text-white">{cat.label}</Link>
+                <span>/</span>
+                <span className="text-white font-semibold">{marca}</span>
+              </>
+            ) : (
+              <span className="text-white font-semibold">{cat.label}</span>
+            )}
           </nav>
           <h1 className="text-3xl font-bold text-white" style={{ fontFamily: "var(--font-nunito)" }}>
-            {cat.label}
+            {marca || cat.label}
           </h1>
           <p className="text-white/80 text-sm mt-1 max-w-xl">{cat.description}</p>
         </div>
       </div>
 
       <div className="max-w-[1140px] mx-auto px-4 py-8">
+        <div className="flex gap-8">
+          {/* Sidebar */}
+          <div className="hidden lg:block shrink-0" style={{ width: "22%" }}>
+            <Suspense>
+              <FilterSidebar
+                topCategories={topCategories}
+                subcategories={subcategories}
+                hpValues={hpValues}
+                voltajes={voltajesAll}
+                selectedCategoria={cat.label}
+                selectedMarca={marca || ""}
+                selectedHp=""
+                selectedVoltaje=""
+                categoryMenuItems={categoryMenuItems}
+              />
+            </Suspense>
+          </div>
 
-        {/* ── Brand menu (Bombas) ─────────────────────────────────────── */}
-        {cat.hasBrandMenu && (
-          <BrandMenu categoria={categoria} brands={brandList} totalCount={deduped.length} />
-        )}
+          {/* Main content */}
+          <div className="flex-1 min-w-0">
+            {/* ── Brand menu (Bombas) ─────────────────────────────────────── */}
+            {cat.hasBrandMenu && (
+              <BrandMenu categoria={categoria} brands={[]} totalCount={deduped.length} />
+            )}
 
-        {/* ── Pill filter + visual cards (other categories) ───────────── */}
-        {!cat.hasBrandMenu && hasSubcats && (
-          <>
-            <section className="mb-8">
-              <div className="flex flex-wrap gap-2">
-                <Link
-                  href={`/catalogo/${categoria}`}
-                  className="px-4 py-2 rounded-full text-sm font-semibold transition-colors"
-                  style={!marca
-                    ? { backgroundColor: "#53B94A", color: "white" }
-                    : { backgroundColor: "#F3F8F3", color: "#54595F", border: "1px solid #e0e0e0" }}
-                >
-                  Todos ({deduped.length})
+            {/* Results header */}
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-sm text-[#7A7A7A]">
+                {(marca || serie) && (
+                  <span className="font-semibold text-[#54595F]">
+                    {[marca, serie].filter(Boolean).join(" · ")}{" — "}
+                  </span>
+                )}
+                {filtered.length} productos
+              </p>
+              {(marca || serie) && (
+                <Link href={`/catalogo/${categoria}`} className="text-xs font-semibold hover:underline" style={{ color: "#53B94A" }}>
+                  × Limpiar filtros
                 </Link>
-                {subcategories.map((sub) => {
-                  const count = deduped.filter((p) => p.categorias.some((c) => c.includes(sub))).length;
-                  const active = marca === sub;
-                  return (
-                    <Link
-                      key={sub}
-                      href={`/catalogo/${categoria}?marca=${encodeURIComponent(sub)}`}
-                      className="px-4 py-2 rounded-full text-sm font-semibold transition-colors"
-                      style={active
-                        ? { backgroundColor: "#53B94A", color: "white" }
-                        : { backgroundColor: "#F3F8F3", color: "#54595F", border: "1px solid #e0e0e0" }}
-                    >
-                      {sub} ({count})
-                    </Link>
-                  );
-                })}
-              </div>
-            </section>
-
-            {/* Visual subcategory cards */}
-            {!marca && subcategories.length >= 2 && (
-              <section className="mb-10">
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                  {subcategories.map((sub) => {
-                    const count = deduped.filter((p) => p.categorias.some((c) => c.includes(sub))).length;
-                    const imgSrc = subcatImgs[sub];
-                    return (
-                      <Link
-                        key={sub}
-                        href={`/catalogo/${categoria}?marca=${encodeURIComponent(sub)}`}
-                        className="group flex flex-col overflow-hidden rounded-lg bg-white transition-shadow hover:shadow-md"
-                        style={{ border: "1px solid #e0e0e0" }}
-                      >
-                        <div className="relative aspect-square overflow-hidden bg-white">
-                          {imgSrc ? (
-                            // eslint-disable-next-line @next/next/no-img-element
-                            <img
-                              src={imgSrc}
-                              alt={sub}
-                              className="absolute inset-0 w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
-                            />
-                          ) : (
-                            <div className="absolute inset-0 flex items-center justify-center text-4xl opacity-20">💧</div>
-                          )}
-                        </div>
-                        <div className="px-3 py-2.5 border-t border-[#f0f0f0]">
-                          <p className="text-sm font-bold leading-tight" style={{ fontFamily: "var(--font-nunito)", color: "#54595F" }}>
-                            {sub}
-                          </p>
-                          <p className="text-xs text-[#7A7A7A] mt-0.5">{count} productos</p>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </div>
-              </section>
-            )}
-          </>
-        )}
-
-        {/* Results header */}
-        <div className="flex items-center justify-between mb-4">
-          <p className="text-sm text-[#7A7A7A]">
-            {(marca || serie) && (
-              <span className="font-semibold text-[#54595F]">
-                {[marca, serie].filter(Boolean).join(" · ")}{" — "}
-              </span>
-            )}
-            {filtered.length} productos
-          </p>
-          {(marca || serie) && (
-            <Link href={`/catalogo/${categoria}`} className="text-xs font-semibold hover:underline" style={{ color: "#53B94A" }}>
-              × Limpiar filtros
-            </Link>
-          )}
-        </div>
-
-        {/* Product grid */}
-        {pageProducts.length > 0 ? (
-          <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" style={{ columnGap: 20, rowGap: 24 }}>
-              {pageProducts.map((p) => (
-                <ProductCard key={p.id} product={p} />
-              ))}
+              )}
             </div>
 
-            {/* Pagination */}
-            {totalPages > 1 && (
-              <div className="flex justify-center items-center gap-2 mt-10">
-                {currentPage > 1 && (
-                  <Link href={pageHref(currentPage - 1)} className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]" style={{ borderColor: "#e0e0e0", color: "#54595F" }}>
-                    ← Anterior
-                  </Link>
+            {/* Product grid */}
+            {pageProducts.length > 0 ? (
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" style={{ columnGap: 20, rowGap: 24 }}>
+                  {pageProducts.map((p) => (
+                    <ProductCard key={p.id} product={p} />
+                  ))}
+                </div>
+
+                {/* Pagination */}
+                {totalPages > 1 && (
+                  <div className="flex justify-center items-center gap-2 mt-10">
+                    {currentPage > 1 && (
+                      <Link href={pageHref(currentPage - 1)} className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]" style={{ borderColor: "#e0e0e0", color: "#54595F" }}>
+                        ← Anterior
+                      </Link>
+                    )}
+                    {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                      const n = totalPages <= 7 ? i + 1 : currentPage <= 4 ? i + 1 : currentPage >= totalPages - 3 ? totalPages - 6 + i : currentPage - 3 + i;
+                      return (
+                        <Link key={n} href={pageHref(n)} className="w-9 h-9 flex items-center justify-center text-sm font-semibold rounded transition-colors"
+                          style={n === currentPage ? { backgroundColor: "#53B94A", color: "white" } : { border: "1px solid #e0e0e0", color: "#54595F" }}>
+                          {n}
+                        </Link>
+                      );
+                    })}
+                    {currentPage < totalPages && (
+                      <Link href={pageHref(currentPage + 1)} className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]" style={{ borderColor: "#e0e0e0", color: "#54595F" }}>
+                        Siguiente →
+                      </Link>
+                    )}
+                  </div>
                 )}
-                {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-                  const n = totalPages <= 7 ? i + 1 : currentPage <= 4 ? i + 1 : currentPage >= totalPages - 3 ? totalPages - 6 + i : currentPage - 3 + i;
-                  return (
-                    <Link key={n} href={pageHref(n)} className="w-9 h-9 flex items-center justify-center text-sm font-semibold rounded transition-colors"
-                      style={n === currentPage ? { backgroundColor: "#53B94A", color: "white" } : { border: "1px solid #e0e0e0", color: "#54595F" }}>
-                      {n}
-                    </Link>
-                  );
-                })}
-                {currentPage < totalPages && (
-                  <Link href={pageHref(currentPage + 1)} className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]" style={{ borderColor: "#e0e0e0", color: "#54595F" }}>
-                    Siguiente →
-                  </Link>
-                )}
+              </>
+            ) : (
+              <div className="py-16 text-center">
+                <p className="text-[#7A7A7A]">No se encontraron productos en esta categoría.</p>
               </div>
             )}
-          </>
-        ) : (
-          <div className="py-16 text-center">
-            <p className="text-[#7A7A7A]">No se encontraron productos en esta categoría.</p>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

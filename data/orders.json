@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "H1776466120131",
+    "buyOrder": "TBK1713370000",
+    "sessionId": "S123456",
+    "fecha": "2026-04-17T22:48:40.131Z",
+    "nombre": "Andrés Silva",
+    "email": "a.silva@compras.cl",
+    "telefono": "+56955554444",
+    "direccion": "Av. Las Condes 1234, Of 501",
+    "comuna": "Las Condes",
+    "region": "Metropolitana",
+    "total": 1100000,
+    "items": [
+      {
+        "id": 285,
+        "nombre": "Bomba Pedrollo Mod. JSW/3AH 3hp 380v",
+        "cantidad": 2,
+        "precio": 550000
+      }
+    ],
+    "estado": "autorizada",
+    "paymentData": {
+      "amount": 1100000,
+      "status": "AUTHORIZED",
+      "buy_order": "TBK1713370000",
+      "card_detail": {
+        "card_number": "6623"
+      },
+      "payment_type_code": "VN",
+      "response_code": 0,
+      "installments_number": 0
+    }
+  }
+]

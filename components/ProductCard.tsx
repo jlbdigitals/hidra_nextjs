@@ -74,7 +74,7 @@ export default function ProductCard({ product }: Props) {
         {showPrice && (
           <p className="font-bold text-sm mt-auto" style={{ color: "#53B94A", fontFamily: "var(--font-nunito)" }}>
             {formatPrice(product.precio)}
-            <span className="text-xs font-normal text-[#7A7A7A] ml-1">+ IVA</span>
+            <span className="text-xs font-normal text-[#7A7A7A] ml-1">IVA incluido</span>
           </p>
         )}
 

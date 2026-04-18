@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "Q1776466120130",
+    "fecha": "2026-04-17T22:48:40.130Z",
+    "nombre": "Juan Pérez",
+    "empresa": "Riego Sur S.A.",
+    "email": "juan.perez@ejemplo.cl",
+    "telefono": "+56912345678",
+    "mensaje": "Necesito cotizar 3 bombas para un proyecto de riego en Talca.",
+    "productos": [
+      {
+        "id": 285,
+        "nombre": "Bomba Pedrollo Mod. JSW/3AH 3hp 380v",
+        "cantidad": 3
+      }
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "id": "Q1776466121131",
+    "fecha": "2026-04-16T22:48:40.131Z",
+    "nombre": "María González",
+    "email": "m.gonzalez@correo.com",
+    "telefono": "+56987654321",
+    "mensaje": "COTIZACIÓN ZANJADO\nMetros: 250\nComuna: Melipilla\nMensaje: Terreno agrícola con algo de piedra.",
+    "productos": [
+      {
+        "id": 0,
+        "nombre": "Servicio de Zanjado",
+        "cantidad": 250
+      }
+    ],
+    "estado": "revisado"
+  }
+]

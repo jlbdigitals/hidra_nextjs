@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { webpayPlus } from "@/lib/transbank";
 import { getOrderByBuyOrder, updateOrder } from "@/lib/orders";
+import { sendEmail, generateOrderEmailHtml } from "@/lib/mail";
 
 export async function GET(request: Request) {
   return handleConfirmation(request);
@@ -55,11 +56,31 @@ async function handleConfirmation(request: Request) {
 
     if (result.status === "AUTHORIZED" && result.response_code === 0) {
       // SUCCESS
-      updateOrder(order.id, {
-        estado: "autorizada",
+      const updatedOrder = {
+        ...order,
+        estado: "autorizada" as const,
         token: token,
         paymentData: result
+      };
+      updateOrder(order.id, updatedOrder);
+
+      // Send emails (background)
+      const adminEmail = process.env.ADMIN_EMAIL || "contacto@hidra.cl";
+      
+      // 1. To Admin
+      sendEmail({
+        to: adminEmail,
+        subject: `Nueva Venta: ${order.buyOrder} ($${order.total.toLocaleString("es-CL")})`,
+        html: generateOrderEmailHtml(updatedOrder, true)
       });
+
+      // 2. To Customer
+      sendEmail({
+        to: order.email,
+        subject: `Tu pedido ${order.buyOrder} en Hidra Equipos ha sido confirmado`,
+        html: generateOrderEmailHtml(updatedOrder, false)
+      });
+
       return NextResponse.redirect(`${baseUrl}/checkout/resultado?status=success&id=${order.id}`);
     } else {
       // REJECTED

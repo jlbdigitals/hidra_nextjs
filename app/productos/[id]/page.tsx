@@ -1,11 +1,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { getProductById, getProducts, getProductImageSrc, getProductSlug, getProductBySlug } from "@/lib/products-server";
 import { isVenta, formatPrice } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import ProductImage from "@/components/ProductImage";
 import AddToCartButton from "@/components/AddToCartButton";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
+import ProductCarousel from "@/components/ProductCarousel";
+import BackButton from "@/components/BackButton";
 
 export async function generateStaticParams() {
   return getProducts()
@@ -22,14 +25,18 @@ export default async function ProductoPage({
   const product = getProductBySlug(id);
   if (!product) notFound();
 
-  // Related: same top category
-  const related = getProducts()
-    .filter((p) => p.publicado && p.topCategoria === product.topCategoria && p.id !== product.id)
-    .slice(0, 3);
-
   const brand = product.categorias
     .find((c) => c.includes(" > "))
     ?.split(" > ")[1] ?? null;
+
+  // Related: same brand and top category
+  const related = getProducts()
+    .filter((p) => 
+      p.publicado && 
+      p.id !== product.id && 
+      (brand ? p.categorias.some(c => c.includes(`> ${brand}`)) : p.topCategoria === product.topCategoria)
+    )
+    .slice(0, 12);
 
   const series = product.categorias
     .find((c) => c.split(" > ").length >= 3)
@@ -63,6 +70,9 @@ export default async function ProductoPage({
         <span>/</span>
         <span className="text-[#54595F] font-semibold">{product.nombre}</span>
       </nav>
+
+      {/* Back Button */}
+      <BackButton />
 
       {/* Product main — 2 columns, 50/50 */}
       <div className="flex flex-col lg:flex-row gap-6 mb-12">
@@ -206,7 +216,7 @@ export default async function ProductoPage({
               <p className="text-2xl font-bold" style={{ color: "#53B94A", fontFamily: "var(--font-nunito)" }}>
                 {formatPrice(product.precio)}
               </p>
-              <span className="text-sm text-[#7A7A7A]">+ IVA</span>
+              <span className="text-sm text-[#7A7A7A]">IVA incluido</span>
             </div>
           )}
 
@@ -233,26 +243,58 @@ export default async function ProductoPage({
               productPrice={product.precio}
             />
           </div>
+
+          {/* Webpay Logo */}
+          <div className="mt-4 flex justify-center border-t border-[#e0e0e0] pt-6">
+            <Image
+              src="/images/logo_webpay.svg"
+              alt="Webpay Plus"
+              width={120}
+              height={36}
+              className="h-8 w-auto"
+            />
+          </div>
+
+          {/* Trust Indicators */}
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 border-t border-[#e0e0e0] pt-6">
+            <div className="flex flex-col items-center text-center gap-1.5 p-2">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white text-[#53B94A] shadow-sm">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                </svg>
+              </div>
+              <span className="text-[10px] font-bold uppercase text-[#54595F] tracking-tight">Compra Segura</span>
+            </div>
+            <div className="flex flex-col items-center text-center gap-1.5 p-2">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white text-[#53B94A] shadow-sm">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span className="text-[10px] font-bold uppercase text-[#54595F] tracking-tight">Envío a Regiones</span>
+            </div>
+            <div className="flex flex-col items-center text-center gap-1.5 p-2">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white text-[#53B94A] shadow-sm">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </div>
+              <span className="text-[10px] font-bold uppercase text-[#54595F] tracking-tight">Asesoría Expertos</span>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Related products */}
       {related.length > 0 && (
-        <section>
+        <section className="mt-16">
           <h2
             className="font-bold mb-6"
             style={{ fontFamily: "var(--font-nunito-sans)", fontSize: 22, fontWeight: 700, color: "#54595F" }}
           >
             Productos relacionados
           </h2>
-          <div
-            className="grid grid-cols-1 sm:grid-cols-3"
-            style={{ columnGap: 20, rowGap: 40 }}
-          >
-            {related.map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
+          <ProductCarousel products={related} />
         </section>
       )}
     </div>

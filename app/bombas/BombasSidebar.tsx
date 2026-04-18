@@ -22,7 +22,7 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
   const currentHp = searchParams.get("hp") ?? "";
   const currentVoltaje = searchParams.get("voltaje") ?? "";
 
-  const [expandedBrand, setExpandedBrand] = useState<string | null>(currentMarca || null);
+  const [expandedBrand, setExpandedBrand] = useState<string | null>(currentMarca || "Pedrollo");
 
   const buildUrl = useCallback(
     (overrides: Record<string, string>) => {
@@ -62,84 +62,100 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
       {/* Brand / Series tree */}
       <div>
         <h3
-          className="mb-2 px-1 text-[18px] font-semibold text-[#7A7A7A]"
+          className="mb-3 px-1 text-[18px] font-bold text-[#54595F]"
           style={{ fontFamily: "Lato, sans-serif" }}
         >
-          Marca
+          Filtrar por Marca
         </h3>
 
         {/* All */}
         <button
           onClick={() => { setMarca(""); setExpandedBrand(null); }}
-          className="block w-full text-left px-3 py-1.5 text-sm rounded transition-colors"
+          className="block w-full text-left px-3 py-2 text-sm rounded transition-colors mb-1"
           style={{
             fontFamily: "var(--font-nunito)",
-            fontWeight: 600,
+            fontWeight: 700,
             color: !currentMarca ? "#53B94A" : "#7A7A7A",
             backgroundColor: !currentMarca ? "#F3F8F3" : "transparent",
+            border: !currentMarca ? "1px solid #53B94A" : "1px solid transparent",
           }}
         >
           Todas las marcas
         </button>
 
-        {brands.map((b) => {
-          const isActive = currentMarca === b.brand;
-          const isExpanded = expandedBrand === b.brand;
+        <div className="flex flex-col gap-1">
+          {brands.map((b) => {
+            const isMarcaActive = currentMarca === b.brand;
+            const isExpanded = expandedBrand === b.brand;
 
-          return (
-            <div key={b.brand}>
-              <button
-                onClick={() => {
-                  setMarca(isActive ? "" : b.brand);
-                  setExpandedBrand(isExpanded ? null : b.brand);
-                }}
-                className="flex items-center justify-between w-full px-3 py-1.5 text-sm rounded transition-colors"
-                style={{
-                  fontFamily: "var(--font-nunito)",
-                  fontWeight: 600,
-                  color: isActive ? "#53B94A" : "#7A7A7A",
-                  backgroundColor: isActive ? "#F3F8F3" : "transparent",
-                }}
-              >
-                <span>{b.brand}</span>
-                {b.series.length > 0 && (
-                  <svg
-                    className="w-3 h-3 transition-transform flex-shrink-0"
-                    style={{ transform: isExpanded ? "rotate(180deg)" : "rotate(0)" }}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+            return (
+              <div key={b.brand} className="flex flex-col">
+                <div 
+                  className="flex items-center w-full rounded transition-colors overflow-hidden"
+                  style={{ 
+                    backgroundColor: isMarcaActive ? "#F3F8F3" : "transparent",
+                    border: isMarcaActive ? "1px solid #53B94A" : "1px solid transparent"
+                  }}
+                >
+                  <button
+                    onClick={() => {
+                      setMarca(isMarcaActive && !currentSerie ? "" : b.brand);
+                    }}
+                    className="flex-1 text-left px-3 py-2 text-sm font-bold transition-colors"
+                    style={{
+                      fontFamily: "var(--font-nunito)",
+                      color: isMarcaActive ? "#53B94A" : "#7A7A7A",
+                    }}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                  </svg>
-                )}
-              </button>
-
-              {isExpanded && b.series.length > 0 && (
-                <div className="ml-3 border-l border-[#e0e0e0] pl-2 mt-0.5 mb-1">
-                  {b.series.map((serie) => {
-                    const serieActive = isActive && currentSerie === serie;
-                    return (
-                      <button
-                        key={serie}
-                        onClick={() => setSerie(serieActive ? "" : serie)}
-                        className="block w-full text-left px-2 py-1 text-xs rounded transition-colors"
-                        style={{
-                          fontFamily: "var(--font-nunito)",
-                          fontWeight: serieActive ? 600 : 400,
-                          color: serieActive ? "#53B94A" : "#7A7A7A",
-                          backgroundColor: serieActive ? "#F3F8F3" : "transparent",
-                        }}
+                    {b.brand}
+                  </button>
+                  {b.series.length > 0 && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setExpandedBrand(isExpanded ? null : b.brand);
+                      }}
+                      className="px-3 py-2 hover:bg-[#F3F8F3] transition-colors border-l border-transparent hover:border-[#e0e0e0]"
+                    >
+                      <svg
+                        className="w-4 h-4 transition-transform text-[#7A7A7A]"
+                        style={{ transform: isExpanded ? "rotate(180deg)" : "rotate(0)" }}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                        {serie}
-                      </button>
-                    );
-                  })}
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                  )}
                 </div>
-              )}
-            </div>
-          );
-        })}
+
+                {isExpanded && b.series.length > 0 && (
+                  <div className="ml-4 border-l-2 border-[#53B94A]/20 pl-2 mt-1 mb-2 flex flex-col gap-1">
+                    {b.series.map((serie) => {
+                      const isSerieActive = isMarcaActive && currentSerie === serie;
+                      return (
+                        <button
+                          key={serie}
+                          onClick={() => setSerie(isSerieActive ? "" : serie)}
+                          className="block w-full text-left px-2 py-1.5 text-xs rounded transition-colors"
+                          style={{
+                            fontFamily: "var(--font-nunito)",
+                            fontWeight: isSerieActive ? 700 : 500,
+                            color: isSerieActive ? "#53B94A" : "#7A7A7A",
+                            backgroundColor: isSerieActive ? "#F3F8F3" : "transparent",
+                          }}
+                        >
+                          • {serie}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       {/* HP filter */}

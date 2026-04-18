@@ -1,5 +1,7 @@
 import { getProducts, getTopCategories } from '@/lib/products-server'
 import AdminHeader from '../components/AdminHeader'
+import FeaturedToggle from '../components/FeaturedToggle'
+import QuickEditProduct from '../components/QuickEditProduct'
 import Link from 'next/link'
 
 const PAGE_SIZE = 50
@@ -96,17 +98,21 @@ export default async function AdminProductosPage({
         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
             <tr>
+              <th style={{ ...S.th, width: 40 }}>★</th>
               <th style={{ ...S.th, width: 60 }}>Img</th>
               <th style={S.th}>Nombre</th>
               <th style={S.th}>Categoría</th>
               <th style={S.th}>HP</th>
               <th style={S.th}>Voltaje</th>
-              <th style={{ ...S.th, textAlign: 'center' }}>Estado</th>
+              <th style={S.th}>Precio y Estado</th>
             </tr>
           </thead>
           <tbody>
             {paged.map((p) => (
               <tr key={p.id} style={{ cursor: 'pointer' }}>
+                <td style={{ ...S.td, textAlign: 'center', width: 40 }}>
+                  <FeaturedToggle productId={p.id} initialValue={p.destacado} />
+                </td>
                 <td style={S.td}>
                   <div style={{ width: 40, height: 40, backgroundColor: '#F3F8F3', border: '1px solid #e0e0e0', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                     {(p.localImage || p.imagenUrl) ? (
@@ -122,21 +128,27 @@ export default async function AdminProductosPage({
                 </td>
                 <td style={{ ...S.td, color: '#6d7175', fontSize: 13 }}>{p.deepCategoria}</td>
                 <td style={S.td}>
-                  {p.hp.slice(0, 2).map((h) => (
-                    <span key={h} style={{ display: 'inline-block', marginRight: 4, padding: '2px 6px', backgroundColor: '#F3F8F3', color: '#53B94A', borderRadius: 4, fontSize: 11, fontWeight: 600 }}>{h}</span>
-                  ))}
+                  {(() => {
+                    const hpArr = Array.isArray(p.hp) ? p.hp : (p.hp ? [p.hp] : []);
+                    return hpArr.slice(0, 2).map((h) => (
+                      <span key={h} style={{ display: 'inline-block', marginRight: 4, padding: '2px 6px', backgroundColor: '#F3F8F3', color: '#53B94A', borderRadius: 4, fontSize: 11, fontWeight: 600 }}>{h}</span>
+                    ));
+                  })()}
                 </td>
                 <td style={S.td}>
-                  {p.voltaje.slice(0, 2).map((v) => (
-                    <span key={v} style={{ display: 'inline-block', marginRight: 4, padding: '2px 6px', backgroundColor: '#f4f6f8', color: '#6d7175', borderRadius: 4, fontSize: 11, fontWeight: 600 }}>{v}V</span>
-                  ))}
+                  {(() => {
+                    const vArr = Array.isArray(p.voltaje) ? p.voltaje : (p.voltaje ? [p.voltaje] : []);
+                    return vArr.slice(0, 2).map((v) => (
+                      <span key={v} style={{ display: 'inline-block', marginRight: 4, padding: '2px 6px', backgroundColor: '#f4f6f8', color: '#6d7175', borderRadius: 4, fontSize: 11, fontWeight: 600 }}>{v.includes('V') ? v : `${v}V`}</span>
+                    ));
+                  })()}
                 </td>
-                <td style={{ ...S.td, textAlign: 'center' }}>
-                  <span style={{ display: 'inline-block', padding: '3px 10px', borderRadius: 20, fontSize: 12, fontWeight: 600,
-                    backgroundColor: p.publicado ? '#e3f5e1' : '#fef3cd',
-                    color: p.publicado ? '#2d6a4f' : '#856404' }}>
-                    {p.publicado ? 'Publicado' : 'Borrador'}
-                  </span>
+                <td style={S.td}>
+                  <QuickEditProduct 
+                    productId={p.id} 
+                    initialPrice={p.precio} 
+                    initialPublicado={p.publicado} 
+                  />
                 </td>
               </tr>
             ))}

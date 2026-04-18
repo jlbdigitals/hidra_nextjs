@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ZanjadoQuoteForm from "@/components/ZanjadoQuoteForm";
 
 export const metadata: Metadata = {
   title: "Zanjado — Hidra",
@@ -112,7 +113,7 @@ export default function ZanjadoPage() {
           Canalización subterránea con zanjadora mecanizada. Profundidad máxima 70 cm · Ancho 16 cm.
         </p>
         <Link
-          href="/contacto"
+          href="#formulario-zanjado"
           className="inline-block px-7 py-3 rounded font-semibold text-sm bg-white transition-opacity hover:opacity-90"
           style={{ color: "#53B94A" }}
         >
@@ -261,6 +262,11 @@ export default function ZanjadoPage() {
           </div>
         </div>
 
+        {/* Formulario de Cotización */}
+        <div className="mb-14 scroll-mt-24" id="formulario-zanjado">
+          <ZanjadoQuoteForm />
+        </div>
+
         {/* CTA final */}
         <div
           className="rounded-lg p-8 flex flex-col sm:flex-row items-center justify-between gap-5"
@@ -274,7 +280,7 @@ export default function ZanjadoPage() {
               ¿Necesita una cotización?
             </h3>
             <p className="text-white/85 text-sm">
-              Contáctenos y le responderemos a la brevedad con precios y disponibilidad.
+              Complete el formulario o contáctenos directamente.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 flex-shrink-0">
@@ -286,10 +292,10 @@ export default function ZanjadoPage() {
               +56 9 9710 7845
             </a>
             <Link
-              href="/contacto"
+              href="#formulario-zanjado"
               className="px-5 py-2.5 rounded font-semibold text-sm border border-white text-white transition-opacity hover:opacity-90"
             >
-              Formulario de contacto
+              Ir al formulario
             </Link>
           </div>
         </div>

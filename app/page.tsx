@@ -5,14 +5,16 @@ import { isVenta } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import ProductCarousel from "@/components/ProductCarousel";
 import CategorySlider from "@/components/CategorySlider";
+import CategoryRectSlider from "@/components/CategoryRectSlider";
+import BrandCarousel from "@/components/BrandCarousel";
 
 const categorySlides = [
-  { name: "Bombas", img: "/images/categories/bombas.png", href: "/productos?categoria=Bombas" },
-  { name: "Control", img: "/images/categories/control.png", href: "/productos?categoria=Control" },
-  { name: "Riego Agrícola", img: "/images/categories/riego-agricola.png", href: "/productos?categoria=Riego+Agrícola" },
-  { name: "Riego Áreas Verdes", img: "/images/categories/riego-areas-verdes.png", href: "/productos?categoria=Riego+Áreas+Verdes" },
-  { name: "Tuberías", img: "/images/categories/tuberias.png", href: "/productos?categoria=Tuberías+y+Fittings" },
-  { name: "Válvulas", img: "/images/categories/valvulas.png", href: "/productos?categoria=Válvulas" },
+  { name: "Bombas", img: "/images/categories/bombas.png", href: "/bombas" },
+  { name: "Control", img: "/images/categories/control.png", href: "/catalogo/control" },
+  { name: "Riego Agrícola", img: "/images/categories/riego-agricola.png", href: "/catalogo/riego-agricola" },
+  { name: "Riego Áreas Verdes", img: "/images/categories/riego-areas-verdes.png", href: "/catalogo/riego-areas-verdes" },
+  { name: "Tuberías", img: "/images/categories/tuberias.png", href: "/catalogo/tuberias" },
+  { name: "Válvulas", img: "/images/categories/valvulas.png", href: "/catalogo/valvulas" },
 ];
 
 const features = [
@@ -24,8 +26,14 @@ const features = [
 
 export default function HomePage() {
   const allProducts = getProducts().filter((p) => p.publicado);
-  // Featured: products with HP specs (actual specific models)
-  const featured = allProducts.filter((p) => p.hp.length > 0).slice(0, 6);
+  
+  // Featured: products marked as 'destacado', or fallback to those with HP specs
+  let featured = allProducts.filter((p) => p.destacado);
+  if (featured.length === 0) {
+    featured = allProducts.filter((p) => p.hp.length > 0).slice(0, 6);
+  } else {
+    featured = featured.slice(0, 6); // Limit to 6
+  }
 
   // Electrobombas carousel: 3 Pedrollo + 3 others, all with price
   const bombasConPrecio = allProducts.filter(
@@ -242,16 +250,54 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========== CATEGORY SLIDER ========== */}
+      {/* ========== MARCAS DE FILTROS ========== */}
+      <BrandCarousel />
+
+      {/* ========== NUESTROS PRODUCTOS (Slider + Catalog) ========== */}
       <section className="py-16 bg-white">
         <div className="max-w-[1140px] mx-auto px-4">
           <h2
-            className="text-center font-bold mb-8"
+            className="text-center font-bold mb-10 uppercase"
             style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontWeight: 700, fontSize: 28 }}
           >
-            Nuestras categorías
+            NUESTROS PRODUCTOS
           </h2>
-          <CategorySlider categories={categorySlides} />
+          
+          <div className="flex flex-col md:flex-row gap-6 items-stretch mb-12">
+            {/* Left Column: Category Slider (65%) */}
+            <div className="w-full md:w-[65%]">
+              <CategoryRectSlider categories={categorySlides} />
+            </div>
+
+            {/* Right Column: Catálogo (35%) */}
+            <div className="w-full md:w-[35%]">
+              <Link href="/catalogo" className="group relative block h-full min-h-[300px] overflow-hidden rounded-lg shadow-lg">
+                <Image
+                  src="/images/consulta-catalogo.webp" 
+                  alt="Consulta nuestro catálogo"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
+              </Link>
+            </div>
+          </div>
+
+          {/* WhatsApp Button */}
+          <div className="text-center">
+            <a
+              href="https://wa.me/56997107845"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-10 py-4 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg"
+              style={{ backgroundColor: "#25D366" }}
+            >
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.89-11.893 11.89-.199 0-.399-.012-.593-.035l-6.191 1.621c-.482.126-.957.172-1.422.172-.857 0-1.611-.253-2.146-.732-.489-.439-.817-1.129-.734-2.005zm4.032-5.753l-.248.437c-1.01 1.772-1.545 3.812-1.545 5.894 0 .438.163.812.441 1.062.242.244.629.404 1.157.301l4.437-1.162.483.287c1.3.774 2.766 1.182 4.28 1.182 5.674 0 10.291-4.616 10.291-10.291s-4.617-10.291-10.291-10.291c-5.676 0-10.292 4.616-10.292 10.291 0 1.838.537 3.633 1.554 5.188l.288.439-1.135 4.144 4.331-1.132z" />
+              </svg>
+              COTIZA AQUÍ
+            </a>
+          </div>
         </div>
       </section>
 

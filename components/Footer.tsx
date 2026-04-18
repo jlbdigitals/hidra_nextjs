@@ -90,9 +90,18 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-[#e0e0e0]">
-        <div className="max-w-[1140px] mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-[#aaa]">
-          <span>© {new Date().getFullYear()} Hidra. Todos los derechos reservados.</span>
-          <span>Todo en bombas de agua y filtros para la industria y la agricultura.</span>
+        <div className="max-w-[1140px] mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#aaa]">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
+            <span>© {new Date().getFullYear()} Hidra. Todos los derechos reservados.</span>
+            <span>Todo en bombas de agua y filtros para la industria y la agricultura.</span>
+          </div>
+          <Image
+            src="/images/logo_webpay.svg"
+            alt="Webpay Plus"
+            width={100}
+            height={30}
+            className="h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+          />
         </div>
       </div>
     </footer>
