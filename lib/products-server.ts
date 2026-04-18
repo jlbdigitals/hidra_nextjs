@@ -18,7 +18,6 @@ export function updateProduct(id: number, data: Partial<Omit<Product, 'id'>>): P
   if (idx === -1) return null
   raw[idx] = { ...raw[idx], ...data }
   writeFileSync(PRODUCTS_PATH, JSON.stringify(raw))
-  _products = null
   return raw[idx]
 }
 
