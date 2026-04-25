@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 
 interface Product {
@@ -46,8 +46,9 @@ export default function ProductEditor({ product, productSlug }: { product: Produ
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [error, setError] = useState('')
+  const [uploading, setUploading] = useState(false)
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
-  // Preview: use localImage if set, otherwise imagenUrl
   const previewSrc = localImage || (imagenUrl ? imagenUrl.replace('http://hidra.local', '') : '')
 
   async function handleSave() {
@@ -78,6 +79,36 @@ export default function ProductEditor({ product, productSlug }: { product: Produ
     } finally {
       setSaving(false)
     }
+  }
+
+  async function handleUploadImage(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0]
+    if (!file) return
+    setUploading(true)
+    try {
+      const fd = new FormData()
+      fd.append('file', file)
+      const res = await fetch('/api/admin/products/upload', { method: 'POST', body: fd })
+      const data = await res.json()
+      if (data.success) {
+        setLocalImage(data.path)
+      } else {
+        setError(data.error || 'Error al subir imagen')
+      }
+    } catch {
+      setError('Error de conexión')
+    } finally {
+      setUploading(false)
+    }
+  }
+
+  async function handleRemoveImage() {
+    const fd = new FormData()
+    fd.append('action', 'delete')
+    fd.append('filename', localImage.split('/').pop() || '')
+    await fetch('/api/admin/products/upload', { method: 'POST', body: fd })
+    setLocalImage('')
+    setImagenUrl('')
   }
 
   return (
@@ -242,8 +273,22 @@ export default function ProductEditor({ product, productSlug }: { product: Produ
             )}
           </div>
 
+          <input ref={fileInputRef} type="file" accept="image/*" onChange={handleUploadImage} style={{ display: 'none' }} />
+          <div style={{ display: 'flex', gap: 8, marginBottom: 12 }}>
+            <button onClick={() => fileInputRef.current?.click()} disabled={uploading}
+              style={{ flex: 1, padding: '8px', backgroundColor: '#53B94A', color: '#fff', border: 'none', borderRadius: 6, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}>
+              {uploading ? '...' : 'Subir imagen'}
+            </button>
+            {localImage && (
+              <button onClick={handleRemoveImage}
+                style={{ padding: '8px 12px', backgroundColor: '#fff', color: '#b32d2e', border: '1px solid #b32d2e', borderRadius: 6, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}>
+                ✕
+              </button>
+            )}
+          </div>
+
           <div style={{ marginBottom: 12 }}>
-            <label style={S.label}>Imagen local (ruta /uploads/...)</label>
+            <label style={S.label}>Ruta /uploads/...</label>
             <input value={localImage} onChange={e => setLocalImage(e.target.value)} style={S.input} placeholder="/uploads/foto.jpg" />
           </div>
           <div>
