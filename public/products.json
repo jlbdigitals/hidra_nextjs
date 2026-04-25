@@ -1853,7 +1853,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 254,
@@ -1879,7 +1880,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 255,
@@ -1905,7 +1907,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 256,
@@ -1931,7 +1934,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 257,
@@ -1957,7 +1961,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 258,
@@ -1983,7 +1988,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 265,
@@ -2009,7 +2015,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 266,
@@ -2035,7 +2042,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 267,
@@ -2061,7 +2069,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 268,
@@ -2087,7 +2096,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 269,
@@ -2113,7 +2123,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 270,
@@ -2139,7 +2150,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 271,
@@ -2165,7 +2177,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 272,
@@ -2191,7 +2204,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 273,
@@ -2217,7 +2231,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 281,
@@ -2243,7 +2258,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
     "localImage": "/uploads/PK.png",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 282,
@@ -2269,7 +2285,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
     "localImage": "/uploads/ck.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 283,
@@ -2295,7 +2312,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
     "localImage": "/uploads/ck.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 284,
@@ -2321,7 +2339,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
     "localImage": "/uploads/ck.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 285,
@@ -2347,7 +2366,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 286,
@@ -2373,7 +2393,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 287,
@@ -2399,7 +2420,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 288,
@@ -2425,7 +2447,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 289,
@@ -2451,7 +2474,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 290,
@@ -2477,7 +2501,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 291,
@@ -2503,7 +2528,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 292,
@@ -2529,7 +2555,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 293,
@@ -2555,7 +2582,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 294,
@@ -2581,7 +2609,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 295,
@@ -2607,7 +2636,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 296,
@@ -2633,7 +2663,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 297,
@@ -2659,7 +2690,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 298,
@@ -2685,7 +2717,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 299,
@@ -2711,7 +2744,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 300,
@@ -2737,7 +2771,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 301,
@@ -2763,7 +2798,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-80-100.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-80-100.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 302,
@@ -2789,7 +2825,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 303,
@@ -2815,7 +2852,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-80-100.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-80-100.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 304,
@@ -2841,7 +2879,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
     "localImage": "/uploads/plurijet-90-130-200.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 305,
@@ -2867,7 +2906,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 306,
@@ -2893,7 +2933,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 307,
@@ -2919,7 +2960,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 308,
@@ -2945,7 +2987,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 309,
@@ -2971,7 +3014,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 310,
@@ -2997,7 +3041,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/jdw.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 311,
@@ -3023,7 +3068,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 312,
@@ -3049,7 +3095,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 313,
@@ -3075,7 +3122,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 314,
@@ -3101,7 +3149,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 315,
@@ -3127,7 +3176,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 316,
@@ -3153,7 +3203,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 317,
@@ -3179,7 +3230,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 318,
@@ -3205,7 +3257,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 319,
@@ -3231,7 +3284,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 320,
@@ -3257,7 +3311,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 321,
@@ -3283,7 +3338,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 322,
@@ -3309,7 +3365,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 323,
@@ -3335,7 +3392,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 324,
@@ -3361,7 +3419,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 325,
@@ -3387,7 +3446,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 326,
@@ -3413,7 +3473,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 327,
@@ -3439,7 +3500,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 328,
@@ -3465,7 +3527,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 329,
@@ -3491,7 +3554,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 330,
@@ -3517,7 +3581,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 331,
@@ -3543,7 +3608,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 332,
@@ -3569,7 +3635,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 333,
@@ -3595,7 +3662,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 334,
@@ -3621,7 +3689,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 335,
@@ -3647,7 +3716,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 336,
@@ -3673,7 +3743,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 337,
@@ -3699,7 +3770,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 338,
@@ -3725,7 +3797,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 339,
@@ -3751,7 +3824,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 340,
@@ -3777,7 +3851,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 341,
@@ -3803,7 +3878,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 342,
@@ -3829,7 +3905,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 343,
@@ -3855,7 +3932,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 344,
@@ -3881,7 +3959,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 345,
@@ -3907,7 +3986,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 346,
@@ -3933,7 +4013,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 347,
@@ -3959,7 +4040,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 348,
@@ -3985,7 +4067,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 349,
@@ -4011,7 +4094,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 350,
@@ -4037,7 +4121,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 351,
@@ -4063,7 +4148,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 352,
@@ -4089,7 +4175,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 353,
@@ -4115,7 +4202,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 354,
@@ -4141,7 +4229,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 355,
@@ -4167,7 +4256,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 356,
@@ -4193,7 +4283,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 357,
@@ -4219,7 +4310,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 358,
@@ -4245,7 +4337,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 359,
@@ -4271,7 +4364,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 360,
@@ -4297,7 +4391,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 361,
@@ -4323,7 +4418,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 362,
@@ -4349,7 +4445,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 363,
@@ -4375,7 +4472,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
     "localImage": "/uploads/nga.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 364,
@@ -4401,7 +4499,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 365,
@@ -4427,7 +4526,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 366,
@@ -4453,7 +4553,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 367,
@@ -4479,7 +4580,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 368,
@@ -4505,7 +4607,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 369,
@@ -4531,7 +4634,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
     "localImage": "/uploads/nga-gris.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 370,
@@ -4557,7 +4661,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 371,
@@ -4583,7 +4688,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 372,
@@ -4609,7 +4715,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 373,
@@ -4635,7 +4742,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 374,
@@ -4661,7 +4769,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 375,
@@ -4687,7 +4796,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 376,
@@ -4713,7 +4823,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 377,
@@ -4739,7 +4850,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 378,
@@ -4765,7 +4877,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 379,
@@ -4791,7 +4904,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 380,
@@ -4817,7 +4931,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 381,
@@ -4843,7 +4958,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 382,
@@ -4869,7 +4985,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 383,
@@ -4895,7 +5012,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 384,
@@ -4921,7 +5039,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 385,
@@ -4947,7 +5066,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudaes-altos.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 386,
@@ -4973,7 +5093,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 387,
@@ -4999,7 +5120,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 388,
@@ -5025,7 +5147,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 389,
@@ -5051,7 +5174,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 390,
@@ -5077,7 +5201,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 391,
@@ -5103,7 +5228,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 392,
@@ -5129,7 +5255,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 393,
@@ -5155,7 +5282,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 394,
@@ -5181,7 +5309,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 395,
@@ -5207,7 +5336,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 396,
@@ -5233,7 +5363,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 397,
@@ -5259,7 +5390,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
     "localImage": "/uploads/hfcaudales-medios.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 398,
@@ -5284,7 +5416,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 399,
@@ -5309,7 +5442,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 400,
@@ -5334,7 +5468,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 401,
@@ -5359,7 +5494,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 402,
@@ -5384,7 +5520,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 403,
@@ -5409,7 +5546,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 404,
@@ -5434,7 +5572,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 405,
@@ -5459,7 +5598,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 406,
@@ -5484,7 +5624,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 407,
@@ -5509,7 +5650,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 408,
@@ -5534,7 +5676,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 409,
@@ -5559,7 +5702,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 410,
@@ -5584,7 +5728,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 411,
@@ -5609,7 +5754,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 412,
@@ -5634,7 +5780,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 413,
@@ -5659,7 +5806,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 414,
@@ -5684,7 +5832,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 415,
@@ -5710,7 +5859,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 416,
@@ -5736,7 +5886,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 417,
@@ -5762,7 +5913,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 418,
@@ -5788,7 +5940,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 419,
@@ -5814,7 +5967,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 420,
@@ -5840,7 +5994,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 421,
@@ -5866,7 +6021,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 422,
@@ -5892,7 +6048,8 @@
     "imagenUrl": "",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 423,
@@ -5918,7 +6075,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 424,
@@ -5944,7 +6102,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 425,
@@ -5970,7 +6129,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
     "localImage": "/uploads/cp.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 426,
@@ -5996,7 +6156,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 427,
@@ -6022,7 +6183,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 428,
@@ -6048,7 +6210,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 429,
@@ -6074,7 +6237,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 430,
@@ -6100,7 +6264,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 431,
@@ -6126,7 +6291,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 432,
@@ -6152,7 +6318,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 433,
@@ -6178,7 +6345,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 434,
@@ -6204,7 +6372,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 435,
@@ -6230,7 +6399,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 436,
@@ -6256,7 +6426,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 437,
@@ -6282,7 +6453,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 438,
@@ -6308,7 +6480,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 439,
@@ -6334,7 +6507,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 440,
@@ -6360,7 +6534,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 441,
@@ -6386,7 +6561,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 442,
@@ -6412,7 +6588,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 443,
@@ -6438,7 +6615,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 444,
@@ -6464,7 +6642,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 445,
@@ -6490,7 +6669,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 446,
@@ -6516,7 +6696,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 447,
@@ -6542,7 +6723,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 448,
@@ -6568,7 +6750,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 449,
@@ -6594,7 +6777,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 450,
@@ -6620,7 +6804,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 451,
@@ -6646,7 +6831,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 452,
@@ -6672,7 +6858,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 453,
@@ -6698,7 +6885,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 454,
@@ -6724,7 +6912,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 455,
@@ -6750,7 +6939,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 456,
@@ -6776,7 +6966,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 457,
@@ -6802,7 +6993,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 458,
@@ -6828,7 +7020,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 459,
@@ -6854,7 +7047,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 460,
@@ -6880,7 +7074,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 461,
@@ -6906,7 +7101,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 462,
@@ -6932,7 +7128,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 463,
@@ -6958,7 +7155,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 464,
@@ -6984,7 +7182,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 465,
@@ -7010,7 +7209,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 466,
@@ -7036,7 +7236,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 467,
@@ -7062,7 +7263,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 468,
@@ -7088,7 +7290,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 469,
@@ -7114,7 +7317,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 470,
@@ -7140,7 +7344,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 471,
@@ -7166,7 +7371,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 472,
@@ -7192,7 +7398,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 473,
@@ -7218,7 +7425,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 474,
@@ -7244,7 +7452,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 475,
@@ -7270,7 +7479,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 476,
@@ -7296,7 +7506,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 477,
@@ -7322,7 +7533,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 478,
@@ -7348,7 +7560,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 479,
@@ -7374,7 +7587,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 480,
@@ -7400,7 +7614,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 481,
@@ -7426,7 +7641,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 482,
@@ -7452,7 +7668,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 483,
@@ -7478,7 +7695,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 484,
@@ -7504,7 +7722,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 485,
@@ -7530,7 +7749,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 486,
@@ -7556,7 +7776,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 487,
@@ -7582,7 +7803,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 488,
@@ -7608,7 +7830,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 489,
@@ -7634,7 +7857,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 490,
@@ -7660,7 +7884,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 491,
@@ -7686,7 +7911,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 492,
@@ -7712,7 +7938,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 493,
@@ -7738,7 +7965,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 494,
@@ -7764,7 +7992,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 495,
@@ -7790,7 +8019,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 496,
@@ -7816,7 +8046,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 497,
@@ -7842,7 +8073,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 498,
@@ -7868,7 +8100,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 499,
@@ -7894,7 +8127,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 500,
@@ -7920,7 +8154,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 501,
@@ -7946,7 +8181,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 502,
@@ -7972,7 +8208,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 503,
@@ -7998,7 +8235,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 504,
@@ -8024,7 +8262,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 505,
@@ -8050,7 +8289,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 506,
@@ -8076,7 +8316,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 507,
@@ -8102,7 +8343,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 508,
@@ -8128,7 +8370,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 509,
@@ -8154,7 +8397,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 510,
@@ -8180,7 +8424,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 511,
@@ -8206,7 +8451,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 512,
@@ -8232,7 +8478,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
     "localImage": "/uploads/f.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 513,
@@ -8258,7 +8505,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 514,
@@ -8284,7 +8532,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 515,
@@ -8310,7 +8559,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 516,
@@ -8336,7 +8586,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 517,
@@ -8362,7 +8613,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 518,
@@ -8388,7 +8640,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 519,
@@ -8414,7 +8667,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
     "localImage": "/uploads/future.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 520,
@@ -8440,7 +8694,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pq.jpg",
     "publicado": true,
     "localImage": "/uploads/pq.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 521,
@@ -8466,7 +8721,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pv.jpg",
     "publicado": true,
     "localImage": "/uploads/pv.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 522,
@@ -8492,7 +8748,8 @@
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pv.jpg",
     "publicado": true,
     "localImage": "/uploads/pv.jpg",
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 523,
@@ -8517,7 +8774,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 524,
@@ -8542,7 +8800,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 525,
@@ -8567,7 +8826,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 526,
@@ -8592,7 +8852,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 527,
@@ -8617,7 +8878,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 528,
@@ -8642,7 +8904,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 529,
@@ -8667,7 +8930,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 530,
@@ -8692,7 +8956,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 531,
@@ -8717,7 +8982,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 532,
@@ -8742,7 +9008,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 533,
@@ -8767,7 +9034,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 534,
@@ -8792,7 +9060,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 535,
@@ -8817,7 +9086,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 536,
@@ -8842,7 +9112,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 537,
@@ -8867,7 +9138,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 538,
@@ -8892,7 +9164,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 539,
@@ -8917,7 +9190,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 540,
@@ -8942,7 +9216,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 541,
@@ -8967,7 +9242,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 542,
@@ -8992,7 +9268,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 543,
@@ -9017,7 +9294,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 544,
@@ -9042,7 +9320,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 545,
@@ -9067,7 +9346,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 546,
@@ -9092,7 +9372,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 547,
@@ -9117,7 +9398,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 548,
@@ -9142,7 +9424,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 549,
@@ -9167,7 +9450,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 550,
@@ -9192,7 +9476,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 551,
@@ -9217,7 +9502,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 552,
@@ -9242,7 +9528,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 553,
@@ -9267,7 +9554,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 554,
@@ -9292,7 +9580,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 555,
@@ -9317,7 +9606,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 556,
@@ -9342,7 +9632,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 557,
@@ -9367,7 +9658,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 558,
@@ -9392,7 +9684,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 559,
@@ -9417,7 +9710,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 560,
@@ -9442,7 +9736,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 561,
@@ -9467,7 +9762,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 562,
@@ -9492,7 +9788,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 563,
@@ -9517,7 +9814,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 564,
@@ -9542,7 +9840,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 565,
@@ -9567,7 +9866,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 566,
@@ -9592,7 +9892,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 567,
@@ -9617,7 +9918,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 568,
@@ -9642,7 +9944,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 569,
@@ -9667,7 +9970,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 570,
@@ -9692,7 +9996,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 571,
@@ -9717,7 +10022,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 572,
@@ -9742,7 +10048,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 573,
@@ -9767,7 +10074,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 574,
@@ -9792,7 +10100,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 575,
@@ -9817,7 +10126,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 576,
@@ -9842,7 +10152,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 577,
@@ -9867,7 +10178,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 578,
@@ -9892,7 +10204,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 579,
@@ -9917,7 +10230,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 580,
@@ -9942,7 +10256,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 581,
@@ -9967,7 +10282,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 582,
@@ -9992,7 +10308,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 583,
@@ -10017,7 +10334,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 584,
@@ -10042,7 +10360,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 585,
@@ -10067,7 +10386,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 586,
@@ -10092,7 +10412,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 587,
@@ -10117,7 +10438,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 588,
@@ -10142,7 +10464,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 589,
@@ -10167,7 +10490,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 590,
@@ -10192,7 +10516,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 591,
@@ -10217,7 +10542,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 592,
@@ -10242,7 +10568,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 593,
@@ -10267,7 +10594,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 594,
@@ -10292,7 +10620,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 595,
@@ -10317,7 +10646,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 596,
@@ -10342,7 +10672,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 597,
@@ -10367,7 +10698,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 598,
@@ -10392,7 +10724,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 599,
@@ -10417,7 +10750,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 600,
@@ -10442,7 +10776,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 601,
@@ -10517,7 +10852,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 604,
@@ -10542,7 +10878,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 605,
@@ -10567,7 +10904,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 606,
@@ -10592,7 +10930,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 607,
@@ -10617,7 +10956,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 608,
@@ -10642,7 +10982,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 609,
@@ -10667,7 +11008,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 610,
@@ -10692,7 +11034,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 611,
@@ -10717,7 +11060,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 612,
@@ -10742,7 +11086,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 613,
@@ -10767,7 +11112,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 614,
@@ -10792,7 +11138,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 615,
@@ -10817,7 +11164,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 616,
@@ -10842,7 +11190,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 617,
@@ -10867,7 +11216,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 618,
@@ -10892,7 +11242,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 619,
@@ -10917,7 +11268,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 620,
@@ -10942,7 +11294,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 621,
@@ -10967,7 +11320,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 622,
@@ -10992,7 +11346,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 623,
@@ -11017,7 +11372,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 624,
@@ -11042,7 +11398,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 625,
@@ -11067,7 +11424,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 626,
@@ -11092,7 +11450,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 627,
@@ -11117,7 +11476,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 628,
@@ -11142,7 +11502,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 629,
@@ -11167,7 +11528,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 630,
@@ -11192,7 +11554,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 631,
@@ -11217,7 +11580,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 632,
@@ -11242,7 +11606,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 633,
@@ -11267,7 +11632,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 634,
@@ -11292,7 +11658,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 635,
@@ -11317,7 +11684,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 636,
@@ -11342,7 +11710,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 637,
@@ -11367,7 +11736,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 638,
@@ -11392,7 +11762,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 639,
@@ -11417,7 +11788,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 640,
@@ -11442,7 +11814,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 641,
@@ -11467,7 +11840,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 642,
@@ -11492,7 +11866,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 643,
@@ -11517,7 +11892,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 644,
@@ -11542,7 +11918,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 645,
@@ -11567,7 +11944,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 646,
@@ -11592,7 +11970,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 647,
@@ -11617,7 +11996,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 648,
@@ -11642,7 +12022,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 649,
@@ -11667,7 +12048,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 650,
@@ -11692,7 +12074,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 651,
@@ -11717,7 +12100,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 652,
@@ -11742,7 +12126,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 653,
@@ -11767,7 +12152,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 654,
@@ -11792,7 +12178,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 655,
@@ -11817,7 +12204,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 656,
@@ -11842,7 +12230,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 657,
@@ -11867,7 +12256,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 658,
@@ -11892,7 +12282,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 659,
@@ -11917,7 +12308,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 660,
@@ -11942,7 +12334,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 661,
@@ -11967,7 +12360,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 662,
@@ -11992,7 +12386,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 663,
@@ -12017,7 +12412,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 664,
@@ -12042,7 +12438,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 665,
@@ -12067,7 +12464,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 666,
@@ -12092,7 +12490,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 667,
@@ -12117,7 +12516,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 668,
@@ -12142,7 +12542,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 669,
@@ -12167,7 +12568,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 670,
@@ -12192,7 +12594,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 671,
@@ -12217,7 +12620,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 672,
@@ -12242,7 +12646,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 673,
@@ -12267,7 +12672,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 674,
@@ -12292,7 +12698,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 675,
@@ -12317,7 +12724,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 676,
@@ -12342,7 +12750,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 677,
@@ -12367,7 +12776,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 678,
@@ -12392,7 +12802,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 679,
@@ -12417,7 +12828,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 680,
@@ -12442,7 +12854,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 681,
@@ -12467,7 +12880,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 682,
@@ -12492,7 +12906,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 683,
@@ -12517,7 +12932,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 684,
@@ -12542,7 +12958,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 685,
@@ -12567,7 +12984,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 686,
@@ -12592,7 +13010,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 687,
@@ -12617,7 +13036,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 688,
@@ -12642,7 +13062,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 689,
@@ -12667,7 +13088,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 690,
@@ -12692,7 +13114,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 691,
@@ -12717,7 +13140,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 692,
@@ -12742,7 +13166,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 693,
@@ -12767,7 +13192,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 694,
@@ -12792,7 +13218,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 695,
@@ -12817,7 +13244,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 696,
@@ -12842,7 +13270,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 697,
@@ -12867,7 +13296,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 698,
@@ -12892,7 +13322,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 699,
@@ -12917,7 +13348,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 700,
@@ -12942,7 +13374,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 701,
@@ -12967,7 +13400,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 702,
@@ -12992,7 +13426,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 703,
@@ -13017,7 +13452,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 704,
@@ -13042,7 +13478,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 705,
@@ -13067,7 +13504,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 706,
@@ -13092,7 +13530,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 707,
@@ -13117,7 +13556,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 708,
@@ -13142,7 +13582,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 709,
@@ -13167,7 +13608,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 710,
@@ -13192,7 +13634,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 711,
@@ -13217,7 +13660,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 712,
@@ -13242,7 +13686,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 713,
@@ -13267,7 +13712,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 714,
@@ -13292,7 +13738,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 715,
@@ -13317,7 +13764,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 716,
@@ -13342,7 +13790,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 717,
@@ -13367,7 +13816,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 718,
@@ -13392,7 +13842,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 719,
@@ -13417,7 +13868,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 720,
@@ -13442,7 +13894,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 721,
@@ -13467,7 +13920,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 722,
@@ -13492,7 +13946,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 723,
@@ -13517,7 +13972,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 724,
@@ -13542,7 +13998,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 725,
@@ -13567,7 +14024,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 726,
@@ -13592,7 +14050,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 727,
@@ -13617,7 +14076,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 728,
@@ -13642,7 +14102,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 729,
@@ -13667,7 +14128,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 730,
@@ -13692,7 +14154,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 731,
@@ -13717,7 +14180,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 732,
@@ -13742,7 +14206,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 733,
@@ -13767,7 +14232,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 734,
@@ -13792,7 +14258,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Monofásica"
   },
   {
     "id": 735,
@@ -13817,7 +14284,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 736,
@@ -13842,7 +14310,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 737,
@@ -13867,7 +14336,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 738,
@@ -13892,7 +14362,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 739,
@@ -13917,7 +14388,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 740,
@@ -13942,7 +14414,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 741,
@@ -13967,7 +14440,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 742,
@@ -13992,7 +14466,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 743,
@@ -14017,7 +14492,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 744,
@@ -14042,7 +14518,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 745,
@@ -14067,7 +14544,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 746,
@@ -14092,7 +14570,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 747,
@@ -14117,7 +14596,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 748,
@@ -14142,7 +14622,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 749,
@@ -14167,7 +14648,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 750,
@@ -14192,7 +14674,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 751,
@@ -14217,7 +14700,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 752,
@@ -14242,7 +14726,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 753,
@@ -14267,7 +14752,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 754,
@@ -14292,7 +14778,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 755,
@@ -14317,7 +14804,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 756,
@@ -14342,7 +14830,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 757,
@@ -14367,7 +14856,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 758,
@@ -14392,7 +14882,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 759,
@@ -14417,7 +14908,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 760,
@@ -14442,7 +14934,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 761,
@@ -14467,7 +14960,8 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "destacado": false
+    "destacado": false,
+    "fasico": "Trifásica"
   },
   {
     "id": 762,

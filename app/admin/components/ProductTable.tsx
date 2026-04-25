@@ -14,6 +14,7 @@ interface Product {
   precio: number;
   hp: string[];
   voltaje: string[];
+  fasico?: string;
   publicado: boolean;
   categorias: string[];
   topCategoria: string;
@@ -35,6 +36,7 @@ const PAGE_SIZE = 50;
 export default function ProductTable({ products, topCats, q, categoria, currentPage, totalPages }: Props) {
   const [selected, setSelected] = useState<Set<number>>(new Set());
   const [bulkEditorOpen, setBulkEditorOpen] = useState(false);
+  const [bulkMode, setBulkMode] = useState<"image" | "fasico">("image");
 
   function toggleAll(e: React.ChangeEvent<HTMLInputElement>) {
     if (e.target.checked) {
@@ -90,9 +92,13 @@ export default function ProductTable({ products, topCats, q, categoria, currentP
           <span style={{ fontSize: 13, fontWeight: 600, color: "#2d6a4f" }}>
             {selected.size} seleccionado{selected.size > 1 ? "s" : ""}
           </span>
-          <button onClick={() => setBulkEditorOpen(true)}
+          <button onClick={() => { setBulkMode("image"); setBulkEditorOpen(true); }}
             style={{ padding: "6px 14px", backgroundColor: "#53B94A", color: "#fff", border: "none", borderRadius: 6, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
             Editar imagen
+          </button>
+          <button onClick={() => { setBulkMode("fasico"); setBulkEditorOpen(true); }}
+            style={{ padding: "6px 14px", backgroundColor: "#fff", color: "#53B94A", border: "1px solid #53B94A", borderRadius: 6, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
+            Editar fásico
           </button>
           <button onClick={() => setSelected(new Set())}
             style={{ padding: "6px 14px", backgroundColor: "transparent", color: "#6d7175", border: "1px solid #c9cccf", borderRadius: 6, fontSize: 13, cursor: "pointer" }}>
@@ -115,6 +121,7 @@ export default function ProductTable({ products, topCats, q, categoria, currentP
               <th style={S.th}>Categoría</th>
               <th style={S.th}>HP</th>
               <th style={S.th}>Voltaje</th>
+              <th style={S.th}>Fásico</th>
               <th style={S.th}>Precio y Estado</th>
             </tr>
           </thead>
@@ -150,6 +157,18 @@ export default function ProductTable({ products, topCats, q, categoria, currentP
                   {Array.isArray(p.voltaje) ? p.voltaje.slice(0, 2).map((v) => (
                     <span key={v} style={{ display: "inline-block", marginRight: 4, padding: "2px 6px", backgroundColor: "#f4f6f8", color: "#6d7175", borderRadius: 4, fontSize: 11, fontWeight: 600 }}>{v.includes("V") ? v : `${v}V`}</span>
                   )) : null}
+                </td>
+                <td style={S.td}>
+                  {p.fasico ? (
+                    <span style={{ padding: "2px 8px", borderRadius: 4, fontSize: 11, fontWeight: 600,
+                      backgroundColor: p.fasico === "Monofásica" ? "#e3f5e1" : "#e8eaf6",
+                      color: p.fasico === "Monofásica" ? "#2d6a4f" : "#3f51b5"
+                    }}>
+                      {p.fasico}
+                    </span>
+                  ) : (
+                    <span style={{ fontSize: 11, color: "#c9cccf" }}>—</span>
+                  )}
                 </td>
                 <td style={S.td}>
                   <QuickEditProduct
@@ -190,6 +209,7 @@ export default function ProductTable({ products, topCats, q, categoria, currentP
           selectedIds={Array.from(selected)}
           onClose={() => setBulkEditorOpen(false)}
           onDone={() => { setBulkEditorOpen(false); setSelected(new Set()); }}
+          mode={bulkMode}
         />
       )}
     </>

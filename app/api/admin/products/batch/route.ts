@@ -16,7 +16,7 @@ export async function PUT(req: NextRequest) {
   }
 
   const body = await req.json()
-  const { productIds, localImage, accion } = body
+  const { productIds, localImage, accion, fasico } = body
 
   if (!Array.isArray(productIds) || productIds.length === 0) {
     return NextResponse.json({ error: 'productIds required' }, { status: 400 })
@@ -33,6 +33,9 @@ export async function PUT(req: NextRequest) {
 
     if (accion === 'removeImage') {
       const updated = updateProduct(productId, { localImage: '', imagenUrl: '' })
+      results.push({ id: productId, success: !!updated })
+    } else if (fasico !== undefined) {
+      const updated = updateProduct(productId, { fasico })
       results.push({ id: productId, success: !!updated })
     } else if (localImage !== undefined) {
       const updated = updateProduct(productId, { localImage })

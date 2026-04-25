@@ -7,9 +7,10 @@ interface Props {
   selectedIds: number[];
   onClose: () => void;
   onDone: () => void;
+  mode: 'image' | 'fasico';
 }
 
-export default function BulkImageEditor({ selectedIds, onClose, onDone }: Props) {
+export default function BulkImageEditor({ selectedIds, onClose, onDone, mode }: Props) {
   const router = useRouter();
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [uploading, setUploading] = useState(false);
@@ -17,6 +18,7 @@ export default function BulkImageEditor({ selectedIds, onClose, onDone }: Props)
   const [filename, setFilename] = useState<string | null>(null);
   const [applying, setApplying] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const [selectedFasico, setSelectedFasico] = useState<string>('');
 
   async function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -57,11 +59,6 @@ export default function BulkImageEditor({ selectedIds, onClose, onDone }: Props)
     setApplying(true);
     setMessage(null);
     try {
-      const fd = new FormData();
-      fd.append("action", "delete");
-      fd.append("filename", filename || "");
-      await fetch("/api/admin/products/upload", { method: "POST", body: fd });
-
       const res = await fetch("/api/admin/products/batch", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
@@ -102,6 +99,86 @@ export default function BulkImageEditor({ selectedIds, onClose, onDone }: Props)
     } finally {
       setApplying(false);
     }
+  }
+
+  async function handleApplyFasico() {
+    if (!selectedFasico) return;
+    setApplying(true);
+    setMessage(null);
+    try {
+      const res = await fetch("/api/admin/products/batch", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds: selectedIds, fasico: selectedFasico }),
+      });
+      const data = await res.json();
+      if (data.results?.every((r: any) => r.success)) {
+        setMessage({ type: "success", text: `${selectedFasico} aplicada a ${selectedIds.length} productos` });
+        setTimeout(() => { onDone(); router.refresh(); }, 1200);
+      } else {
+        setMessage({ type: "error", text: "Error al aplicar" });
+      }
+    } catch {
+      setMessage({ type: "error", text: "Error de conexión" });
+    } finally {
+      setApplying(false);
+    }
+  }
+
+  if (mode === 'fasico') {
+    return (
+      <div style={{
+        position: "fixed", inset: 0, backgroundColor: "rgba(0,0,0,0.5)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999
+      }} onClick={(e) => e.target === e.currentTarget && onClose()}>
+        <div style={{
+          backgroundColor: "#fff", borderRadius: 12, padding: 32, width: 400, maxWidth: "95vw",
+          boxShadow: "0 20px 60px rgba(0,0,0,0.2)"
+        }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
+            <h2 style={{ fontSize: 18, fontWeight: 700, color: "#202223", margin: 0 }}>
+              Editar fáico ({selectedIds.length} productos)
+            </h2>
+            <button onClick={onClose} style={{ background: "none", border: "none", fontSize: 20, cursor: "pointer", color: "#6d7175" }}>✕</button>
+          </div>
+
+          {message && (
+            <div style={{
+              padding: "10px 14px", borderRadius: 6, fontSize: 13, marginBottom: 16,
+              backgroundColor: message.type === "success" ? "#e3f5e1" : "#fff4f4",
+              color: message.type === "success" ? "#2d6a4f" : "#b32d2e",
+              border: `1px solid ${message.type === "success" ? "#b7dfb4" : "#fcc"}`
+            }}>
+              {message.text}
+            </div>
+          )}
+
+          <div style={{ marginBottom: 20 }}>
+            <label style={{ fontSize: 12, fontWeight: 600, color: "#6d7175", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8, display: "block" }}>
+              Tipo de fáico
+            </label>
+            <div style={{ display: "flex", gap: 12 }}>
+              {['Monofásica', 'Trifásica'].map((f) => (
+                <button key={f} onClick={() => setSelectedFasico(f)}
+                  style={{ flex: 1, padding: "14px", borderRadius: 6, fontSize: 14, fontWeight: 600, cursor: "pointer",
+                    border: `2px solid ${selectedFasico === f ? '#53B94A' : '#c9cccf'}`,
+                    backgroundColor: selectedFasico === f ? '#e8f5e9' : '#fff',
+                    color: selectedFasico === f ? '#2d6a4f' : '#202223' }}>
+                  {f}
+                </button>
+              ))}
+            </div>
+            <div style={{ marginTop: 8, fontSize: 12, color: "#6d7175" }}>
+              Monofásica: 220V, 230V, 240V · Trifásica: 380V, 400V, 600V
+            </div>
+          </div>
+
+          <button onClick={handleApplyFasico} disabled={!selectedFasico || applying}
+            style={{ width: "100%", padding: "12px", backgroundColor: "#53B94A", color: "#fff", border: "none", borderRadius: 6, fontSize: 14, fontWeight: 700, cursor: selectedFasico && !applying ? "pointer" : "not-allowed", opacity: selectedFasico && !applying ? 1 : 0.6 }}>
+            {applying ? "Aplicando..." : `Aplicar ${selectedFasico || 'fásico'}`}
+          </button>
+        </div>
+      </div>
+    );
   }
 
   return (

@@ -15,6 +15,7 @@ export interface Product {
   imagen: string
   imagenUrl: string
   localImage?: string
+  fasico?: string
   publicado: boolean
   destacado: boolean
 }
