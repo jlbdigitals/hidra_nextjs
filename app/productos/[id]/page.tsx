@@ -109,7 +109,7 @@ export default async function ProductoPage({
                 <span className="text-[10px] font-extrabold uppercase tracking-widest">{series}</span>
               </div>
             )}
-            <span className="text-[10px] font-extrabold text-[#94a3b8] uppercase tracking-[0.2em] ml-auto">REF: {product.id.slice(0, 8).toUpperCase()}</span>
+            <span className="text-[10px] font-extrabold text-[#94a3b8] uppercase tracking-[0.2em] ml-auto">REF: {String(product.id).padStart(6, '0')}</span>
           </div>
 
           {/* Title */}
