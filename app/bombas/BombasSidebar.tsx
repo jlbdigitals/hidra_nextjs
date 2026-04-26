@@ -22,7 +22,7 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
   const currentHp = searchParams.get("hp") ?? "";
   const currentVoltaje = searchParams.get("voltaje") ?? "";
 
-  const [expandedBrand, setExpandedBrand] = useState<string | null>(currentMarca || "Pedrollo");
+  const [expandedBrand, setExpandedBrand] = useState<string | null>(currentMarca || null);
 
   const buildUrl = useCallback(
     (overrides: Record<string, string>) => {
@@ -167,43 +167,18 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
           >
             Filtrar por HP
           </h3>
-          <div className="flex flex-col gap-1.5 px-1">
-            <button
-              onClick={() => toggleHp("0-1")}
-              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
-              style={{
-                fontFamily: "var(--font-nunito)",
-                backgroundColor: currentHp === "0-1" ? "#53B94A" : "#F3F8F3",
-                color: currentHp === "0-1" ? "#fff" : "#54595F",
-                borderColor: currentHp === "0-1" ? "#53B94A" : "#e0e0e0",
-              }}
+          <div className="px-1">
+            <select
+              value={currentHp}
+              onChange={(e) => toggleHp(e.target.value)}
+              className="w-full px-3 py-2 text-sm font-semibold rounded border bg-[#F3F8F3] text-[#54595F] border-[#e0e0e0] focus:outline-none focus:border-[#53B94A] transition-colors"
+              style={{ fontFamily: "var(--font-nunito)" }}
             >
-              0 a 1 HP
-            </button>
-            <button
-              onClick={() => toggleHp("1-10")}
-              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
-              style={{
-                fontFamily: "var(--font-nunito)",
-                backgroundColor: currentHp === "1-10" ? "#53B94A" : "#F3F8F3",
-                color: currentHp === "1-10" ? "#fff" : "#54595F",
-                borderColor: currentHp === "1-10" ? "#53B94A" : "#e0e0e0",
-              }}
-            >
-              1 a 10 HP
-            </button>
-            <button
-              onClick={() => toggleHp("10-100")}
-              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
-              style={{
-                fontFamily: "var(--font-nunito)",
-                backgroundColor: currentHp === "10-100" ? "#53B94A" : "#F3F8F3",
-                color: currentHp === "10-100" ? "#fff" : "#54595F",
-                borderColor: currentHp === "10-100" ? "#53B94A" : "#e0e0e0",
-              }}
-            >
-              10 a 100 HP
-            </button>
+              <option value="">Seleccionar HP...</option>
+              <option value="0-1">0 a 1 HP</option>
+              <option value="1-10">1 a 10 HP</option>
+              <option value="10-100">10 a 100 HP</option>
+            </select>
           </div>
         </div>
       )}
@@ -217,35 +192,21 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
           >
             Filtrar por Voltaje
           </h3>
-          <div className="flex flex-col gap-1.5 px-1">
-            {voltajes.some(v => parseInt(v) < 380) && (
-              <button
-                onClick={() => toggleVoltaje("monofasica")}
-                className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
-                style={{
-                  fontFamily: "var(--font-nunito)",
-                  backgroundColor: currentVoltaje === "monofasica" ? "#53B94A" : "#F3F8F3",
-                  color: currentVoltaje === "monofasica" ? "#fff" : "#54595F",
-                  borderColor: currentVoltaje === "monofasica" ? "#53B94A" : "#e0e0e0",
-                }}
-              >
-                Monofásicas (220V)
-              </button>
-            )}
-            {voltajes.some(v => parseInt(v) >= 380) && (
-              <button
-                onClick={() => toggleVoltaje("trifasica")}
-                className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
-                style={{
-                  fontFamily: "var(--font-nunito)",
-                  backgroundColor: currentVoltaje === "trifasica" ? "#53B94A" : "#F3F8F3",
-                  color: currentVoltaje === "trifasica" ? "#fff" : "#54595F",
-                  borderColor: currentVoltaje === "trifasica" ? "#53B94A" : "#e0e0e0",
-                }}
-              >
-                Trifásicas (380V+)
-              </button>
-            )}
+          <div className="px-1">
+            <select
+              value={currentVoltaje}
+              onChange={(e) => toggleVoltaje(e.target.value)}
+              className="w-full px-3 py-2 text-sm font-semibold rounded border bg-[#F3F8F3] text-[#54595F] border-[#e0e0e0] focus:outline-none focus:border-[#53B94A] transition-colors"
+              style={{ fontFamily: "var(--font-nunito)" }}
+            >
+              <option value="">Seleccionar Voltaje...</option>
+              {voltajes.some(v => parseInt(v) < 380) && (
+                <option value="monofasica">Monofásicas (220V)</option>
+              )}
+              {voltajes.some(v => parseInt(v) >= 380) && (
+                <option value="trifasica">Trifásicas (380V+)</option>
+              )}
+            </select>
           </div>
         </div>
       )}
