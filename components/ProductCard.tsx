@@ -31,11 +31,10 @@ export default function ProductCard({ product }: Props) {
           <div className="text-6xl opacity-10">💧</div>
         )}
         
-        {/* Category Tag (Optional overlay) */}
-        {product.categoria && (
+        {product.topCategoria && (
            <div className="absolute top-4 left-4">
              <span className="text-[9px] font-extrabold uppercase tracking-widest bg-white/80 backdrop-blur-sm text-slate-400 px-3 py-1.5 rounded-full border border-slate-100 shadow-sm">
-               {product.categoria}
+               {product.topCategoria}
              </span>
            </div>
         )}
