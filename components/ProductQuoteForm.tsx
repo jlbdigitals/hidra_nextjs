@@ -64,7 +64,7 @@ export default function ProductQuoteForm({
             `Categoría: ${productCategory}`,
             productBrand ? `Marca: ${productBrand}` : null,
             productHp.length > 0 ? `HP: ${productHp.join(", ")}` : null,
-            productVoltaje.length > 0 ? `Voltaje: ${productVoltaje.join(", ")}V` : null,
+            productVoltaje.length > 0 ? `Voltaje: ${productVoltaje.join(", ")}` : null,
             productPrice > 0 ? `Precio ref: $${productPrice.toLocaleString("es-CL")}` : null,
           ]
             .filter(Boolean)
@@ -128,7 +128,7 @@ export default function ProductQuoteForm({
           <span><span className="font-semibold text-[#54595F]">Categoría:</span> {productCategory}</span>
           {productBrand && <span><span className="font-semibold text-[#54595F]">Marca:</span> {productBrand}</span>}
           {productHp.length > 0 && <span><span className="font-semibold text-[#54595F]">HP:</span> {productHp.join(", ")}</span>}
-          {productVoltaje.length > 0 && <span><span className="font-semibold text-[#54595F]">Voltaje:</span> {productVoltaje.join(", ")}V</span>}
+          {productVoltaje.length > 0 && <span><span className="font-semibold text-[#54595F]">Voltaje:</span> {productVoltaje.join(", ")}</span>}
           {productPrice > 0 && (
             <span><span className="font-semibold text-[#54595F]">Precio ref:</span> ${productPrice.toLocaleString("es-CL")}</span>
           )}

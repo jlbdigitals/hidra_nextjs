@@ -363,7 +363,7 @@ export default async function BombasPage({
       : voltaje === "trifasica"
       ? "Trifásica"
       : voltaje
-      ? `${voltaje}V`
+      ? voltaje
       : null;
 
   const hpLabel =

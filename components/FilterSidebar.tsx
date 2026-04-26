@@ -120,7 +120,7 @@ export default function FilterSidebar({
                   fontFamily: "var(--font-nunito)",
                 }}
               >
-                {v}V
+                {v}
               </button>
             ))}
           </div>
