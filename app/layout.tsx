@@ -30,6 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${manrope.variable} h-full`} suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+      </head>
       <body
         className="min-h-full flex flex-col bg-white text-[#171c21] font-[family-name:var(--font-manrope)]"
         suppressHydrationWarning

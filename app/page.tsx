@@ -138,6 +138,8 @@ export default function HomePage() {
                   src="/uploads/pks.jpg"
                   alt="Bomba Pedrollo PKS"
                   fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-contain p-6 drop-shadow-2xl"
                 />
               </div>

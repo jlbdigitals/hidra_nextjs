@@ -13,7 +13,6 @@ const navLinks = [
     href: "/bombas",
     submenu: [
       { label: "Ver todas las bombas", href: "/bombas" },
-      { label: "Hidra", href: "/bombas?marca=Hidra" },
       { label: "Pedrollo", href: "/bombas?marca=Pedrollo" },
       { label: "Calpeda", href: "/bombas?marca=Calpeda" },
       { label: "Reggio", href: "/bombas?marca=Reggio" },
@@ -52,7 +51,7 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 bg-white/95 backdrop-blur-md"
+      className="sticky top-0 z-50 bg-white"
       style={{ boxShadow: "0px 10px 40px rgba(0,0,0,0.03)" }}
     >
       <div className="max-w-[1280px] mx-auto px-6">
