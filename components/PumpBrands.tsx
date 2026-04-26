@@ -4,10 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PUMP_BRANDS = [
-  { name: "Pedrollo", img: "/uploads/bomba_pedrollo.jpg", href: "/bombas?marca=Pedrollo" },
-  { name: "Calpeda", img: "/uploads/bomba_calpeda.jpg", href: "/bombas?marca=Calpeda" },
-  { name: "Reggio", img: "/uploads/bomba_reggio.jpg", href: "/bombas?marca=Reggio" },
-  { name: "Bestflow", img: "/uploads/bomba_bestflow.jpg", href: "/bombas?marca=Bestflow" },
+  { name: "Pedrollo", img: "/uploads/bomba_pedrollo.webp", href: "/bombas?marca=Pedrollo" },
+  { name: "Calpeda", img: "/uploads/bomba_calpeda.webp", href: "/bombas?marca=Calpeda" },
+  { name: "Reggio", img: "/uploads/bomba_reggio.webp", href: "/bombas?marca=Reggio" },
+  { name: "Bestflow", img: "/uploads/bomba_bestflow.webp", href: "/bombas?marca=Bestflow" },
 ];
 
 export default function PumpBrands() {
@@ -28,12 +28,12 @@ export default function PumpBrands() {
               href={brand.href}
               className="group flex flex-col items-center gap-4 transition-transform hover:-translate-y-1"
             >
-              <div className="relative w-full aspect-square bg-[#F3F8F3] rounded-lg overflow-hidden border border-[#e0e0e0] flex items-center justify-center p-4">
+              <div className="relative w-full h-32 flex items-center justify-center">
                 <Image
                   src={brand.img}
                   alt={brand.name}
                   fill
-                  className="object-contain p-6 transition-transform group-hover:scale-110"
+                  className="object-contain transition-transform group-hover:scale-110"
                 />
               </div>
               <span className="font-bold text-[#54595F] group-hover:text-[#53B94A] transition-colors">

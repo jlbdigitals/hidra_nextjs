@@ -61,7 +61,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.webp"
                 alt="Hidra"
                 width={220}
                 height={70}

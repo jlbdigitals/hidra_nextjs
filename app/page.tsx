@@ -10,12 +10,12 @@ import BrandCarousel from "@/components/BrandCarousel";
 import PumpBrands from "@/components/PumpBrands";
 
 const categorySlides = [
-  { name: "Bombas", img: "/images/categories/bombas.png", href: "/bombas" },
-  { name: "Control", img: "/images/categories/control.png", href: "/catalogo/control" },
-  { name: "Riego Agrícola", img: "/images/categories/riego-agricola.png", href: "/catalogo/riego-agricola" },
-  { name: "Riego Áreas Verdes", img: "/images/categories/riego-areas-verdes.png", href: "/catalogo/riego-areas-verdes" },
-  { name: "Tuberías", img: "/images/categories/tuberias.png", href: "/catalogo/tuberias" },
-  { name: "Válvulas", img: "/images/categories/valvulas.png", href: "/catalogo/valvulas" },
+  { name: "Bombas", img: "/images/categories/bombas.webp", href: "/bombas" },
+  { name: "Control", img: "/images/categories/control.webp", href: "/catalogo/control" },
+  { name: "Riego Agrícola", img: "/images/categories/riego-agricola.webp", href: "/catalogo/riego-agricola" },
+  { name: "Riego Áreas Verdes", img: "/images/categories/riego-areas-verdes.webp", href: "/catalogo/riego-areas-verdes" },
+  { name: "Tuberías", img: "/images/categories/tuberias.webp", href: "/catalogo/tuberias" },
+  { name: "Válvulas", img: "/images/categories/valvulas.webp", href: "/catalogo/valvulas" },
 ];
 
 const features = [
@@ -189,41 +189,10 @@ export default function HomePage() {
       {/* ========== PUMP BRANDS MODULE ========== */}
       <PumpBrands />
 
-      {/* ========== FILTROS SECTION ========== */}
-      <section className="py-16 bg-white">
-        <div className="max-w-[1140px] mx-auto px-4">
-          <div className="text-center">
-            <h2
-              className="font-bold mb-4"
-              style={{ fontFamily: "var(--font-nunito-sans)", color: "#53B94A", fontWeight: 700, fontSize: 28 }}
-            >
-              FILTROS AUTOMÁTICOS
-            </h2>
-            <p
-              className="mb-8 max-w-2xl mx-auto"
-              style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontSize: 20 }}
-            >
-              Todo en filtros automáticos de malla, anilla, arena y mucho más…
-            </p>
-          </div>
+      {/* ========== FILTROS AUTOMATICOS LOGOS ========== */}
+      <BrandCarousel />
 
-          {filtrosProducts.length > 0 && (
-            <div className="mb-10">
-              <ProductCarousel products={filtrosProducts} />
-            </div>
-          )}
 
-          <div className="text-center">
-            <Link
-              href="/productos?categoria=Filtros"
-              className="inline-block px-8 py-3 text-white font-semibold rounded transition-colors"
-              style={{ backgroundColor: "#53B94A" }}
-            >
-              Cotiza tu filtro AQUI
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* ========== PRODUCTOS DESTACADOS ========== */}
       <section className="py-16" style={{ backgroundColor: "#F3F8F3" }}>
@@ -251,8 +220,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========== MARCAS DE FILTROS ========== */}
-      <BrandCarousel />
+
 
       {/* ========== NUESTROS PRODUCTOS (Slider + Catalog) ========== */}
       <section className="py-16 bg-white">

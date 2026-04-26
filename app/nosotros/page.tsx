@@ -96,7 +96,7 @@ export default function NosotrosPage() {
             style={{ backgroundColor: "#F3F8F3", border: "1px solid #e0e0e0", minHeight: "280px" }}
           >
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.webp"
               alt="Hidra"
               width={280}
               height={100}

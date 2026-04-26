@@ -13,10 +13,10 @@
     "marca": "Bombas",
     "hp": [],
     "voltaje": [],
-    "imagen": "bomba_soplante.jpg",
+    "imagen": "bomba_soplante.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/bomba_soplante.jpg",
     "publicado": true,
-    "localImage": "/uploads/bomba_soplante.jpg",
+    "localImage": "/uploads/bomba_soplante.webp",
     "destacado": false
   },
   {
@@ -33,10 +33,10 @@
     "marca": "Bombas",
     "hp": [],
     "voltaje": [],
-    "imagen": "estanque_hidroneumatico.jpg",
+    "imagen": "estanque_hidroneumatico.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/estanque_hidroneumatico.jpg",
     "publicado": true,
-    "localImage": "/uploads/estanque_hidroneumatico.jpg",
+    "localImage": "/uploads/estanque_hidroneumatico.webp",
     "destacado": false
   },
   {
@@ -54,10 +54,10 @@
     "marca": "Sensores",
     "hp": [],
     "voltaje": [],
-    "imagen": "presostato.jpg",
+    "imagen": "presostato.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/presostato.jpg",
     "publicado": true,
-    "localImage": "/uploads/presostato.jpg",
+    "localImage": "/uploads/presostato.webp",
     "destacado": false
   },
   {
@@ -74,10 +74,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtros_amiad-1.jpg",
+    "imagen": "filtros_amiad-1.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtros_amiad-1.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtros_amiad-1.jpg",
+    "localImage": "/uploads/filtros_amiad-1.webp",
     "destacado": false
   },
   {
@@ -94,10 +94,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtros_yamit_2.jpg",
+    "imagen": "filtros_yamit_2.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtros_yamit_2.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtros_yamit_2.jpg",
+    "localImage": "/uploads/filtros_yamit_2.webp",
     "destacado": false
   },
   {
@@ -114,10 +114,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtros_javi.jpg",
+    "imagen": "filtros_javi.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtros_javi.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtros_javi.jpg",
+    "localImage": "/uploads/filtros_javi.webp",
     "destacado": false
   },
   {
@@ -134,10 +134,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtros_azud_2.jpg",
+    "imagen": "filtros_azud_2.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtros_azud_2.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtros_azud_2.jpg",
+    "localImage": "/uploads/filtros_azud_2.webp",
     "destacado": false
   },
   {
@@ -154,10 +154,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_electrica.jpg",
+    "imagen": "valvula_electrica.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_electrica.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_electrica.jpg",
+    "localImage": "/uploads/valvula_electrica.webp",
     "destacado": false
   },
   {
@@ -174,10 +174,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_mariposa.jpg",
+    "imagen": "valvula_mariposa.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_mariposa.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_mariposa.jpg",
+    "localImage": "/uploads/valvula_mariposa.webp",
     "destacado": false
   },
   {
@@ -194,10 +194,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_ventosa.jpg",
+    "imagen": "valvula_ventosa.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_ventosa.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_ventosa.jpg",
+    "localImage": "/uploads/valvula_ventosa.webp",
     "destacado": false
   },
   {
@@ -214,10 +214,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_bola.jpg",
+    "imagen": "valvula_de_bola.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_bola.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_bola.jpg",
+    "localImage": "/uploads/valvula_de_bola.webp",
     "destacado": false
   },
   {
@@ -234,10 +234,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_compuerta.jpg",
+    "imagen": "valvula_compuerta.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_compuerta.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_compuerta.jpg",
+    "localImage": "/uploads/valvula_compuerta.webp",
     "destacado": false
   },
   {
@@ -254,10 +254,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_pvc.jpg",
+    "imagen": "valvula_de_pvc.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_pvc.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_pvc.jpg",
+    "localImage": "/uploads/valvula_de_pvc.webp",
     "destacado": false
   },
   {
@@ -274,10 +274,10 @@
     "marca": "Bermad, Raphael, Tecnidro",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_caudalimetro.jpg",
+    "imagen": "valvula_caudalimetro.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_caudalimetro.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_caudalimetro.jpg",
+    "localImage": "/uploads/valvula_caudalimetro.webp",
     "destacado": false
   },
   {
@@ -294,10 +294,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_retencion.jpg",
+    "imagen": "valvula_de_retencion.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_retencion.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_retencion.jpg",
+    "localImage": "/uploads/valvula_de_retencion.webp",
     "destacado": false
   },
   {
@@ -314,10 +314,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_pie.jpg",
+    "imagen": "valvula_de_pie.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_pie.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_pie.jpg",
+    "localImage": "/uploads/valvula_de_pie.webp",
     "destacado": false
   },
   {
@@ -334,10 +334,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_bronce.jpg",
+    "imagen": "valvula_de_bronce.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_bronce.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_bronce.jpg",
+    "localImage": "/uploads/valvula_de_bronce.webp",
     "destacado": false
   },
   {
@@ -354,10 +354,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_reductora_de_presion.jpg",
+    "imagen": "valvula_reductora_de_presion.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_reductora_de_presion.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_reductora_de_presion.jpg",
+    "localImage": "/uploads/valvula_reductora_de_presion.webp",
     "destacado": false
   },
   {
@@ -374,10 +374,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_sostenedora.jpg",
+    "imagen": "valvula_sostenedora.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_sostenedora.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_sostenedora.jpg",
+    "localImage": "/uploads/valvula_sostenedora.webp",
     "destacado": false
   },
   {
@@ -394,10 +394,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_alivio_rapido.jpg",
+    "imagen": "valvula_de_alivio_rapido.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_alivio_rapido.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_alivio_rapido.jpg",
+    "localImage": "/uploads/valvula_de_alivio_rapido.webp",
     "destacado": false
   },
   {
@@ -414,10 +414,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_con_flotador.jpg",
+    "imagen": "valvula_con_flotador.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_con_flotador.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_con_flotador.jpg",
+    "localImage": "/uploads/valvula_con_flotador.webp",
     "destacado": false
   },
   {
@@ -434,10 +434,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_de_globo.jpg",
+    "imagen": "valvula_de_globo.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_de_globo.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_de_globo.jpg",
+    "localImage": "/uploads/valvula_de_globo.webp",
     "destacado": false
   },
   {
@@ -454,10 +454,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "solenoide.jpg",
+    "imagen": "solenoide.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/solenoide.jpg",
     "publicado": true,
-    "localImage": "/uploads/solenoide.jpg",
+    "localImage": "/uploads/solenoide.webp",
     "destacado": false
   },
   {
@@ -474,10 +474,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula_piloto.jpg",
+    "imagen": "valvula_piloto.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula_piloto.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula_piloto.jpg",
+    "localImage": "/uploads/valvula_piloto.webp",
     "destacado": false
   },
   {
@@ -494,10 +494,10 @@
     "marca": "Válvulas",
     "hp": [],
     "voltaje": [],
-    "imagen": "valvula-de-pie-hdpe.jpg",
+    "imagen": "valvula-de-pie-hdpe.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/valvula-de-pie-hdpe.jpg",
     "publicado": true,
-    "localImage": "/uploads/valvula-de-pie-hdpe.jpg",
+    "localImage": "/uploads/valvula-de-pie-hdpe.webp",
     "destacado": false
   },
   {
@@ -514,10 +514,10 @@
     "marca": "Riego Áreas Verdes",
     "hp": [],
     "voltaje": [],
-    "imagen": "cuerpo_pop_up_rain_bird.jpg",
+    "imagen": "cuerpo_pop_up_rain_bird.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cuerpo_pop_up_rain_bird.jpg",
     "publicado": true,
-    "localImage": "/uploads/cuerpo_pop_up_rain_bird.jpg",
+    "localImage": "/uploads/cuerpo_pop_up_rain_bird.webp",
     "destacado": false
   },
   {
@@ -534,10 +534,10 @@
     "marca": "Riego Áreas Verdes",
     "hp": [],
     "voltaje": [],
-    "imagen": "cuerpo_pop_up_k_rain.jpg",
+    "imagen": "cuerpo_pop_up_k_rain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cuerpo_pop_up_k_rain.jpg",
     "publicado": true,
-    "localImage": "/uploads/cuerpo_pop_up_k_rain.jpg",
+    "localImage": "/uploads/cuerpo_pop_up_k_rain.webp",
     "destacado": false
   },
   {
@@ -554,10 +554,10 @@
     "marca": "Riego Áreas Verdes",
     "hp": [],
     "voltaje": [],
-    "imagen": "cuerpo_pop_up_hunter.jpg",
+    "imagen": "cuerpo_pop_up_hunter.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cuerpo_pop_up_hunter.jpg",
     "publicado": true,
-    "localImage": "/uploads/cuerpo_pop_up_hunter.jpg",
+    "localImage": "/uploads/cuerpo_pop_up_hunter.webp",
     "destacado": false
   },
   {
@@ -574,10 +574,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "tuberias-tuberia-pvc.jpg",
+    "imagen": "tuberias-tuberia-pvc.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/tuberias-tuberia-pvc.jpg",
     "publicado": true,
-    "localImage": "/uploads/tuberias-tuberia-pvc.jpg",
+    "localImage": "/uploads/tuberias-tuberia-pvc.webp",
     "destacado": false
   },
   {
@@ -594,10 +594,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "fittings-pvc-2.jpg",
+    "imagen": "fittings-pvc-2.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/fittings-pvc-2.jpg",
     "publicado": true,
-    "localImage": "/uploads/fittings-pvc-2.jpg",
+    "localImage": "/uploads/fittings-pvc-2.webp",
     "destacado": false
   },
   {
@@ -614,10 +614,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "tuberias-tuberia-polietileno.jpg",
+    "imagen": "tuberias-tuberia-polietileno.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/tuberias-tuberia-polietileno.jpg",
     "publicado": true,
-    "localImage": "/uploads/tuberias-tuberia-polietileno.jpg",
+    "localImage": "/uploads/tuberias-tuberia-polietileno.webp",
     "destacado": false
   },
   {
@@ -634,10 +634,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "tuberias-manguera-plana.jpg",
+    "imagen": "tuberias-manguera-plana.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/tuberias-manguera-plana.jpg",
     "publicado": true,
-    "localImage": "/uploads/tuberias-manguera-plana.jpg",
+    "localImage": "/uploads/tuberias-manguera-plana.webp",
     "destacado": false
   },
   {
@@ -654,10 +654,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "conexiones.jpg",
+    "imagen": "conexiones.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/conexiones.jpg",
     "publicado": true,
-    "localImage": "/uploads/conexiones.jpg",
+    "localImage": "/uploads/conexiones.webp",
     "destacado": false
   },
   {
@@ -674,10 +674,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtro-lama.jpg",
+    "imagen": "filtro-lama.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtro-lama.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtro-lama.jpg",
+    "localImage": "/uploads/filtro-lama.webp",
     "destacado": false
   },
   {
@@ -694,10 +694,10 @@
     "marca": "Filtros",
     "hp": [],
     "voltaje": [],
-    "imagen": "filtro_olivos.jpg",
+    "imagen": "filtro_olivos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/filtro_olivos.jpg",
     "publicado": true,
-    "localImage": "/uploads/filtro_olivos.jpg",
+    "localImage": "/uploads/filtro_olivos.webp",
     "destacado": false
   },
   {
@@ -714,10 +714,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_rivulis.jpg",
+    "imagen": "linea_rivulis.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_rivulis.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_rivulis.jpg",
+    "localImage": "/uploads/linea_rivulis.webp",
     "destacado": false
   },
   {
@@ -734,10 +734,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_naandanjain.jpg",
+    "imagen": "linea_naandanjain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_naandanjain.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_naandanjain.jpg",
+    "localImage": "/uploads/linea_naandanjain.webp",
     "destacado": false
   },
   {
@@ -755,10 +755,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_azud.jpg",
+    "imagen": "linea_azud.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_azud.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_azud.jpg",
+    "localImage": "/uploads/linea_azud.webp",
     "destacado": false
   },
   {
@@ -775,10 +775,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_gestiriego.jpg",
+    "imagen": "linea_gestiriego.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_gestiriego.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_gestiriego.jpg",
+    "localImage": "/uploads/linea_gestiriego.webp",
     "destacado": false
   },
   {
@@ -796,10 +796,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_eurodrip.jpg",
+    "imagen": "linea_eurodrip.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_eurodrip.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_eurodrip.jpg",
+    "localImage": "/uploads/linea_eurodrip.webp",
     "destacado": false
   },
   {
@@ -817,10 +817,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "cinta_eurodrip.jpg",
+    "imagen": "cinta_eurodrip.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cinta_eurodrip.jpg",
     "publicado": true,
-    "localImage": "/uploads/cinta_eurodrip.jpg",
+    "localImage": "/uploads/cinta_eurodrip.webp",
     "destacado": false
   },
   {
@@ -838,10 +838,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "cinta_naandanjain.jpg",
+    "imagen": "cinta_naandanjain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cinta_naandanjain.jpg",
     "publicado": true,
-    "localImage": "/uploads/cinta_naandanjain.jpg",
+    "localImage": "/uploads/cinta_naandanjain.webp",
     "destacado": false
   },
   {
@@ -859,10 +859,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "cinta_irritec.jpg",
+    "imagen": "cinta_irritec.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cinta_irritec.jpg",
     "publicado": true,
-    "localImage": "/uploads/cinta_irritec.jpg",
+    "localImage": "/uploads/cinta_irritec.webp",
     "destacado": false
   },
   {
@@ -880,10 +880,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "cinta_sky.jpg",
+    "imagen": "cinta_sky.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cinta_sky.jpg",
     "publicado": true,
-    "localImage": "/uploads/cinta_sky.jpg",
+    "localImage": "/uploads/cinta_sky.webp",
     "destacado": false
   },
   {
@@ -901,10 +901,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_azud.jpg",
+    "imagen": "linea_azud.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_azud.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_azud.jpg",
+    "localImage": "/uploads/linea_azud.webp",
     "destacado": false
   },
   {
@@ -922,10 +922,10 @@
     "marca": "Cinta de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "cinta_cindrip.jpg",
+    "imagen": "cinta_cindrip.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cinta_cindrip.jpg",
     "publicado": true,
-    "localImage": "/uploads/cinta_cindrip.jpg",
+    "localImage": "/uploads/cinta_cindrip.webp",
     "destacado": false
   },
   {
@@ -943,10 +943,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_boton_naandanjain.jpg",
+    "imagen": "gotero_boton_naandanjain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_boton_naandanjain.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_boton_naandanjain.jpg",
+    "localImage": "/uploads/gotero_boton_naandanjain.webp",
     "destacado": false
   },
   {
@@ -964,10 +964,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_boton_eurodrip.jpg",
+    "imagen": "gotero_boton_eurodrip.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_boton_eurodrip.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_boton_eurodrip.jpg",
+    "localImage": "/uploads/gotero_boton_eurodrip.webp",
     "destacado": false
   },
   {
@@ -985,10 +985,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_boton_irritec.jpg",
+    "imagen": "gotero_boton_irritec.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_boton_irritec.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_boton_irritec.jpg",
+    "localImage": "/uploads/gotero_boton_irritec.webp",
     "destacado": false
   },
   {
@@ -1006,10 +1006,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_boton_hydro.jpg",
+    "imagen": "gotero_boton_hydro.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_boton_hydro.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_boton_hydro.jpg",
+    "localImage": "/uploads/gotero_boton_hydro.webp",
     "destacado": false
   },
   {
@@ -1027,10 +1027,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_microflapper.jpg",
+    "imagen": "gotero_microflapper.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_microflapper.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_microflapper.jpg",
+    "localImage": "/uploads/gotero_microflapper.webp",
     "destacado": false
   },
   {
@@ -1048,10 +1048,10 @@
     "marca": "Gotero",
     "hp": [],
     "voltaje": [],
-    "imagen": "gotero_boton_palaplast.jpg",
+    "imagen": "gotero_boton_palaplast.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/gotero_boton_palaplast.jpg",
     "publicado": true,
-    "localImage": "/uploads/gotero_boton_palaplast.jpg",
+    "localImage": "/uploads/gotero_boton_palaplast.webp",
     "destacado": false
   },
   {
@@ -1069,10 +1069,10 @@
     "marca": "Microaspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "microaspersor_naandanjain.jpg",
+    "imagen": "microaspersor_naandanjain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microaspersor_naandanjain.jpg",
     "publicado": true,
-    "localImage": "/uploads/microaspersor_naandanjain.jpg",
+    "localImage": "/uploads/microaspersor_naandanjain.webp",
     "destacado": false
   },
   {
@@ -1090,10 +1090,10 @@
     "marca": "Microaspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "bomba_soplante-1.jpg",
+    "imagen": "bomba_soplante-1.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/bomba_soplante-1.jpg",
     "publicado": true,
-    "localImage": "/uploads/bomba_soplante-1.jpg",
+    "localImage": "/uploads/bomba_soplante-1.webp",
     "destacado": false
   },
   {
@@ -1111,10 +1111,10 @@
     "marca": "Microaspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "microaspersor_tavlit.jpg",
+    "imagen": "microaspersor_tavlit.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microaspersor_tavlit.jpg",
     "publicado": true,
-    "localImage": "/uploads/microaspersor_tavlit.jpg",
+    "localImage": "/uploads/microaspersor_tavlit.webp",
     "destacado": false
   },
   {
@@ -1132,10 +1132,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "microaspersor_senninger.jpg",
+    "imagen": "microaspersor_senninger.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microaspersor_senninger.jpg",
     "publicado": true,
-    "localImage": "/uploads/microaspersor_senninger.jpg",
+    "localImage": "/uploads/microaspersor_senninger.webp",
     "destacado": false
   },
   {
@@ -1153,10 +1153,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "aspersor_de_impacto_naandanjain.jpg",
+    "imagen": "aspersor_de_impacto_naandanjain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/aspersor_de_impacto_naandanjain.jpg",
     "publicado": true,
-    "localImage": "/uploads/aspersor_de_impacto_naandanjain.jpg",
+    "localImage": "/uploads/aspersor_de_impacto_naandanjain.webp",
     "destacado": false
   },
   {
@@ -1174,10 +1174,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "aspersor_de_impacto_vyrsa.jpg",
+    "imagen": "aspersor_de_impacto_vyrsa.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/aspersor_de_impacto_vyrsa.jpg",
     "publicado": true,
-    "localImage": "/uploads/aspersor_de_impacto_vyrsa.jpg",
+    "localImage": "/uploads/aspersor_de_impacto_vyrsa.webp",
     "destacado": false
   },
   {
@@ -1195,10 +1195,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "aspersor_de_impacto_automat.jpg",
+    "imagen": "aspersor_de_impacto_automat.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/aspersor_de_impacto_automat.jpg",
     "publicado": true,
-    "localImage": "/uploads/aspersor_de_impacto_automat.jpg",
+    "localImage": "/uploads/aspersor_de_impacto_automat.webp",
     "destacado": false
   },
   {
@@ -1216,10 +1216,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "aspersor_de_impacto_rain_bird.jpg",
+    "imagen": "aspersor_de_impacto_rain_bird.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/aspersor_de_impacto_rain_bird.jpg",
     "publicado": true,
-    "localImage": "/uploads/aspersor_de_impacto_rain_bird.jpg",
+    "localImage": "/uploads/aspersor_de_impacto_rain_bird.webp",
     "destacado": false
   },
   {
@@ -1237,10 +1237,10 @@
     "marca": "Aspersor",
     "hp": [],
     "voltaje": [],
-    "imagen": "aspersor_de_impacto_sime.jpg",
+    "imagen": "aspersor_de_impacto_sime.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/aspersor_de_impacto_sime.jpg",
     "publicado": true,
-    "localImage": "/uploads/aspersor_de_impacto_sime.jpg",
+    "localImage": "/uploads/aspersor_de_impacto_sime.webp",
     "destacado": false
   },
   {
@@ -1258,10 +1258,10 @@
     "marca": "Microjet",
     "hp": [],
     "voltaje": [],
-    "imagen": "microjet_olson.jpg",
+    "imagen": "microjet_olson.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microjet_olson.jpg",
     "publicado": true,
-    "localImage": "/uploads/microjet_olson.jpg",
+    "localImage": "/uploads/microjet_olson.webp",
     "destacado": false
   },
   {
@@ -1279,10 +1279,10 @@
     "marca": "Microjet",
     "hp": [],
     "voltaje": [],
-    "imagen": "microjet_palaplast.jpg",
+    "imagen": "microjet_palaplast.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microjet_palaplast.jpg",
     "publicado": true,
-    "localImage": "/uploads/microjet_palaplast.jpg",
+    "localImage": "/uploads/microjet_palaplast.webp",
     "destacado": false
   },
   {
@@ -1300,10 +1300,10 @@
     "marca": "Microjet",
     "hp": [],
     "voltaje": [],
-    "imagen": "microjet_eco.jpg",
+    "imagen": "microjet_eco.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/microjet_eco.jpg",
     "publicado": true,
-    "localImage": "/uploads/microjet_eco.jpg",
+    "localImage": "/uploads/microjet_eco.webp",
     "destacado": false
   },
   {
@@ -1321,10 +1321,10 @@
     "marca": "Programadores",
     "hp": [],
     "voltaje": [],
-    "imagen": "control-galcon.jpg",
+    "imagen": "control-galcon.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/control-galcon.jpg",
     "publicado": true,
-    "localImage": "/uploads/control-galcon.jpg",
+    "localImage": "/uploads/control-galcon.webp",
     "destacado": false
   },
   {
@@ -1342,10 +1342,10 @@
     "marca": "Programadores",
     "hp": [],
     "voltaje": [],
-    "imagen": "control-hunter.jpg",
+    "imagen": "control-hunter.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/control-hunter.jpg",
     "publicado": true,
-    "localImage": "/uploads/control-hunter.jpg",
+    "localImage": "/uploads/control-hunter.webp",
     "destacado": false
   },
   {
@@ -1363,10 +1363,10 @@
     "marca": "Programadores",
     "hp": [],
     "voltaje": [],
-    "imagen": "control-rainbird.jpg",
+    "imagen": "control-rainbird.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/control-rainbird.jpg",
     "publicado": true,
-    "localImage": "/uploads/control-rainbird.jpg",
+    "localImage": "/uploads/control-rainbird.webp",
     "destacado": false
   },
   {
@@ -1384,10 +1384,10 @@
     "marca": "Programadores",
     "hp": [],
     "voltaje": [],
-    "imagen": "control-krain.jpg",
+    "imagen": "control-krain.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/control-krain.jpg",
     "publicado": true,
-    "localImage": "/uploads/control-krain.jpg",
+    "localImage": "/uploads/control-krain.webp",
     "destacado": false
   },
   {
@@ -1405,10 +1405,10 @@
     "marca": "Programadores",
     "hp": [],
     "voltaje": [],
-    "imagen": "control-filtron.jpg",
+    "imagen": "control-filtron.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/control-filtron.jpg",
     "publicado": true,
-    "localImage": "/uploads/control-filtron.jpg",
+    "localImage": "/uploads/control-filtron.webp",
     "destacado": false
   },
   {
@@ -1426,10 +1426,10 @@
     "marca": "Tableros",
     "hp": [],
     "voltaje": [],
-    "imagen": "tablero.jpg",
+    "imagen": "tablero.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/tablero.jpg",
     "publicado": true,
-    "localImage": "/uploads/tablero.jpg",
+    "localImage": "/uploads/tablero.webp",
     "destacado": false
   },
   {
@@ -1447,10 +1447,10 @@
     "marca": "Tableros",
     "hp": [],
     "voltaje": [],
-    "imagen": "variador-frecuencia.jpg",
+    "imagen": "variador-frecuencia.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/variador-frecuencia.jpg",
     "publicado": true,
-    "localImage": "/uploads/variador-frecuencia.jpg",
+    "localImage": "/uploads/variador-frecuencia.webp",
     "destacado": false
   },
   {
@@ -1468,10 +1468,10 @@
     "marca": "Sensores",
     "hp": [],
     "voltaje": [],
-    "imagen": "sensor-lluvia.jpg",
+    "imagen": "sensor-lluvia.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/sensor-lluvia.jpg",
     "publicado": true,
-    "localImage": "/uploads/sensor-lluvia.jpg",
+    "localImage": "/uploads/sensor-lluvia.webp",
     "destacado": false
   },
   {
@@ -1489,10 +1489,10 @@
     "marca": "Sensores",
     "hp": [],
     "voltaje": [],
-    "imagen": "sensor-humedad.jpg",
+    "imagen": "sensor-humedad.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/sensor-humedad.jpg",
     "publicado": true,
-    "localImage": "/uploads/sensor-humedad.jpg",
+    "localImage": "/uploads/sensor-humedad.webp",
     "destacado": false
   },
   {
@@ -1510,10 +1510,10 @@
     "marca": "Sensores",
     "hp": [],
     "voltaje": [],
-    "imagen": "sensor-nivel.jpg",
+    "imagen": "sensor-nivel.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/sensor-nivel.jpg",
     "publicado": true,
-    "localImage": "/uploads/sensor-nivel.jpg",
+    "localImage": "/uploads/sensor-nivel.webp",
     "destacado": false
   },
   {
@@ -1531,10 +1531,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "linea_olivos.jpg",
+    "imagen": "linea_olivos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/linea_olivos.jpg",
     "publicado": true,
-    "localImage": "/uploads/linea_olivos.jpg",
+    "localImage": "/uploads/linea_olivos.webp",
     "destacado": false
   },
   {
@@ -1552,10 +1552,10 @@
     "marca": "Línea de riego",
     "hp": [],
     "voltaje": [],
-    "imagen": "bomba_soplante-2.jpg",
+    "imagen": "bomba_soplante-2.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/bomba_soplante-2.jpg",
     "publicado": true,
-    "localImage": "/uploads/bomba_soplante-2.jpg",
+    "localImage": "/uploads/bomba_soplante-2.webp",
     "destacado": false
   },
   {
@@ -1573,10 +1573,10 @@
     "marca": "Sensores",
     "hp": [],
     "voltaje": [],
-    "imagen": "press-control.jpg",
+    "imagen": "press-control.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/press-control.jpg",
     "publicado": true,
-    "localImage": "/uploads/press-control.jpg",
+    "localImage": "/uploads/press-control.webp",
     "destacado": false
   },
   {
@@ -1594,10 +1594,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "emisor-rainbird-cuerpo-popup.jpg",
+    "imagen": "emisor-rainbird-cuerpo-popup.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/emisor-rainbird-cuerpo-popup.jpg",
     "publicado": true,
-    "localImage": "/uploads/emisor-rainbird-cuerpo-popup.jpg",
+    "localImage": "/uploads/emisor-rainbird-cuerpo-popup.webp",
     "destacado": false
   },
   {
@@ -1615,10 +1615,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "emisor-rainbird-boquillas.jpg",
+    "imagen": "emisor-rainbird-boquillas.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/emisor-rainbird-boquillas.jpg",
     "publicado": true,
-    "localImage": "/uploads/emisor-rainbird-boquillas.jpg",
+    "localImage": "/uploads/emisor-rainbird-boquillas.webp",
     "destacado": false
   },
   {
@@ -1636,10 +1636,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "emisor-rainbird-aspersordeimpacto.jpg",
+    "imagen": "emisor-rainbird-aspersordeimpacto.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/emisor-rainbird-aspersordeimpacto.jpg",
     "publicado": true,
-    "localImage": "/uploads/emisor-rainbird-aspersordeimpacto.jpg",
+    "localImage": "/uploads/emisor-rainbird-aspersordeimpacto.webp",
     "destacado": false
   },
   {
@@ -1657,10 +1657,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "emisor-rainbird-rotores.jpg",
+    "imagen": "emisor-rainbird-rotores.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/emisor-rainbird-rotores.jpg",
     "publicado": true,
-    "localImage": "/uploads/emisor-rainbird-rotores.jpg",
+    "localImage": "/uploads/emisor-rainbird-rotores.webp",
     "destacado": false
   },
   {
@@ -1678,10 +1678,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "emisor-rainbird-golf.jpg",
+    "imagen": "emisor-rainbird-golf.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/emisor-rainbird-golf.jpg",
     "publicado": true,
-    "localImage": "/uploads/emisor-rainbird-golf.jpg",
+    "localImage": "/uploads/emisor-rainbird-golf.webp",
     "destacado": false
   },
   {
@@ -1698,10 +1698,10 @@
     "marca": "Tuberías y Fittings",
     "hp": [],
     "voltaje": [],
-    "imagen": "fittings-polietileno.jpg",
+    "imagen": "fittings-polietileno.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/fittings-polietileno.jpg",
     "publicado": true,
-    "localImage": "/uploads/fittings-polietileno.jpg",
+    "localImage": "/uploads/fittings-polietileno.webp",
     "destacado": false
   },
   {
@@ -1718,10 +1718,10 @@
     "marca": "Entrega inmediata",
     "hp": [],
     "voltaje": [],
-    "imagen": "hunter-2.jpg",
+    "imagen": "hunter-2.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hunter-2.jpg",
     "publicado": false,
-    "localImage": "/uploads/hunter-2.jpg",
+    "localImage": "/uploads/hunter-2.webp",
     "destacado": false
   },
   {
@@ -1738,10 +1738,10 @@
     "marca": "Entrega inmediata",
     "hp": [],
     "voltaje": [],
-    "imagen": "hunter.jpg",
+    "imagen": "hunter.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hunter.jpg",
     "publicado": false,
-    "localImage": "/uploads/hunter.jpg",
+    "localImage": "/uploads/hunter.webp",
     "destacado": false
   },
   {
@@ -1758,10 +1758,10 @@
     "marca": "Entrega inmediata",
     "hp": [],
     "voltaje": [],
-    "imagen": "elentek.jpg",
+    "imagen": "elentek.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/elentek.jpg",
     "publicado": false,
-    "localImage": "/uploads/elentek.jpg",
+    "localImage": "/uploads/elentek.webp",
     "destacado": false
   },
   {
@@ -1780,10 +1780,10 @@
     "marca": "Emisores Rain Bird",
     "hp": [],
     "voltaje": [],
-    "imagen": "prod.png",
+    "imagen": "prod.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/prod.png",
     "publicado": true,
-    "localImage": "/uploads/prod.png",
+    "localImage": "/uploads/prod.webp",
     "destacado": false
   },
   {
@@ -1802,10 +1802,10 @@
     "marca": "Pedrollo",
     "hp": [],
     "voltaje": [],
-    "imagen": "boomba-pedrollo.jpg",
+    "imagen": "boomba-pedrollo.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/boomba-pedrollo.jpg",
     "publicado": true,
-    "localImage": "/uploads/boomba-pedrollo.jpg",
+    "localImage": "/uploads/boomba-pedrollo.webp",
     "destacado": false
   },
   {
@@ -1823,10 +1823,10 @@
     "marca": "Bombas",
     "hp": [],
     "voltaje": [],
-    "imagen": "bestflow.jpg",
+    "imagen": "bestflow.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/bestflow.jpg",
     "publicado": true,
-    "localImage": "/uploads/bestflow.jpg",
+    "localImage": "/uploads/bestflow.webp",
     "destacado": false
   },
   {
@@ -1849,10 +1849,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -1876,10 +1876,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -1903,10 +1903,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -1930,10 +1930,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -1957,10 +1957,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -1984,10 +1984,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2011,10 +2011,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2038,10 +2038,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2065,10 +2065,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2092,10 +2092,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2119,10 +2119,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2146,10 +2146,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2173,10 +2173,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2200,10 +2200,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2227,10 +2227,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2254,10 +2254,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "PK.png",
+    "imagen": "PK.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
     "publicado": true,
-    "localImage": "/uploads/PK.png",
+    "localImage": "/uploads/PK.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2281,10 +2281,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "ck.jpg",
+    "imagen": "ck.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
-    "localImage": "/uploads/ck.jpg",
+    "localImage": "/uploads/ck.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2308,10 +2308,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "ck.jpg",
+    "imagen": "ck.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
-    "localImage": "/uploads/ck.jpg",
+    "localImage": "/uploads/ck.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2335,10 +2335,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "ck.jpg",
+    "imagen": "ck.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/ck.jpg",
     "publicado": true,
-    "localImage": "/uploads/ck.jpg",
+    "localImage": "/uploads/ck.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2362,10 +2362,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2389,10 +2389,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2416,10 +2416,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2443,10 +2443,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2470,10 +2470,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2497,10 +2497,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2524,10 +2524,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2551,10 +2551,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2578,10 +2578,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2605,10 +2605,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "jdw.jpg",
+    "imagen": "jdw.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/jdw.jpg",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2632,10 +2632,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2659,10 +2659,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2686,10 +2686,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2713,10 +2713,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2740,10 +2740,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2767,10 +2767,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -2794,10 +2794,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "plurijet-80-100.jpg",
+    "imagen": "plurijet-80-100.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-80-100.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-80-100.jpg",
+    "localImage": "/uploads/plurijet-80-100.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2821,10 +2821,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2848,10 +2848,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "plurijet-80-100.jpg",
+    "imagen": "plurijet-80-100.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-80-100.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-80-100.jpg",
+    "localImage": "/uploads/plurijet-80-100.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2875,10 +2875,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "plurijet-90-130-200.jpg",
+    "imagen": "plurijet-90-130-200.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/04/plurijet-90-130-200.jpg",
     "publicado": true,
-    "localImage": "/uploads/plurijet-90-130-200.jpg",
+    "localImage": "/uploads/plurijet-90-130-200.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2905,7 +2905,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2932,7 +2932,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2959,7 +2959,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -2986,7 +2986,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3013,7 +3013,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3040,7 +3040,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/jdw.jpg",
+    "localImage": "/uploads/jdw.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3064,10 +3064,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3091,10 +3091,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3118,10 +3118,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3145,10 +3145,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3172,10 +3172,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3199,10 +3199,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3226,10 +3226,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3253,10 +3253,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3280,10 +3280,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3307,10 +3307,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3334,10 +3334,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3361,10 +3361,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3388,10 +3388,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3415,10 +3415,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3442,10 +3442,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3469,10 +3469,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3496,10 +3496,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3523,10 +3523,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3550,10 +3550,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3577,10 +3577,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3604,10 +3604,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3631,10 +3631,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3658,10 +3658,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3685,10 +3685,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3712,10 +3712,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3739,10 +3739,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -3766,10 +3766,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3793,10 +3793,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3820,10 +3820,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3847,10 +3847,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3874,10 +3874,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3901,10 +3901,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3928,10 +3928,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3955,10 +3955,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -3982,10 +3982,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4009,10 +4009,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4036,10 +4036,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4063,10 +4063,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4090,10 +4090,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4117,10 +4117,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4144,10 +4144,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4171,10 +4171,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4198,10 +4198,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4225,10 +4225,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4252,10 +4252,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4279,10 +4279,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "cp.jpg",
+    "imagen": "cp.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/cp.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4306,10 +4306,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4333,10 +4333,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4360,10 +4360,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4387,10 +4387,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4414,10 +4414,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4441,10 +4441,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4468,10 +4468,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga.jpg",
+    "imagen": "nga.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga.jpg",
+    "localImage": "/uploads/nga.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4495,10 +4495,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4522,10 +4522,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4549,10 +4549,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4576,10 +4576,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4603,10 +4603,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4630,10 +4630,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "nga-gris.jpg",
+    "imagen": "nga-gris.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/nga-gris.jpg",
     "publicado": true,
-    "localImage": "/uploads/nga-gris.jpg",
+    "localImage": "/uploads/nga-gris.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4657,10 +4657,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4684,10 +4684,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4711,10 +4711,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4738,10 +4738,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4765,10 +4765,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -4792,10 +4792,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4819,10 +4819,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4846,10 +4846,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4873,10 +4873,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4900,10 +4900,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4927,10 +4927,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4954,10 +4954,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -4981,10 +4981,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5008,10 +5008,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5035,10 +5035,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5062,10 +5062,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudaes-altos.jpg",
+    "imagen": "hfcaudaes-altos.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudaes-altos.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudaes-altos.jpg",
+    "localImage": "/uploads/hfcaudaes-altos.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5089,10 +5089,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5116,10 +5116,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5143,10 +5143,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5170,10 +5170,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5197,10 +5197,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5224,10 +5224,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5251,10 +5251,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5278,10 +5278,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5305,10 +5305,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5332,10 +5332,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5359,10 +5359,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5386,10 +5386,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "hfcaudales-medios.jpg",
+    "imagen": "hfcaudales-medios.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/hfcaudales-medios.jpg",
     "publicado": true,
-    "localImage": "/uploads/hfcaudales-medios.jpg",
+    "localImage": "/uploads/hfcaudales-medios.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5858,7 +5858,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5885,7 +5885,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5909,10 +5909,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5936,10 +5936,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -5963,10 +5963,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -5993,7 +5993,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6020,7 +6020,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6047,7 +6047,7 @@
     "imagen": "",
     "imagenUrl": "",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6071,10 +6071,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6098,10 +6098,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6125,10 +6125,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "4cr.jpg",
+    "imagen": "4cr.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/4cr.jpg",
     "publicado": true,
-    "localImage": "/uploads/cp.jpg",
+    "localImage": "/uploads/cp.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6152,10 +6152,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6179,10 +6179,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6206,10 +6206,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6233,10 +6233,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6260,10 +6260,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6287,10 +6287,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6314,10 +6314,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6341,10 +6341,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6368,10 +6368,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6395,10 +6395,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6422,10 +6422,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6449,10 +6449,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6476,10 +6476,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6503,10 +6503,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6530,10 +6530,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6557,10 +6557,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6584,10 +6584,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -6611,10 +6611,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6638,10 +6638,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6665,10 +6665,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6692,10 +6692,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6719,10 +6719,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6746,10 +6746,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6773,10 +6773,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6800,10 +6800,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6827,10 +6827,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6854,10 +6854,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6881,10 +6881,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6908,10 +6908,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6935,10 +6935,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6962,10 +6962,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -6989,10 +6989,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7016,10 +7016,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7043,10 +7043,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7070,10 +7070,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7097,10 +7097,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7124,10 +7124,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7151,10 +7151,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7178,10 +7178,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7205,10 +7205,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7232,10 +7232,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7259,10 +7259,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7286,10 +7286,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7313,10 +7313,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7340,10 +7340,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7367,10 +7367,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7394,10 +7394,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7421,10 +7421,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7448,10 +7448,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7475,10 +7475,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7502,10 +7502,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7529,10 +7529,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7556,10 +7556,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7583,10 +7583,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7610,10 +7610,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7637,10 +7637,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7664,10 +7664,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7691,10 +7691,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7718,10 +7718,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7745,10 +7745,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7772,10 +7772,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7799,10 +7799,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7826,10 +7826,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7853,10 +7853,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7880,10 +7880,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7907,10 +7907,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7934,10 +7934,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7961,10 +7961,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -7988,10 +7988,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8015,10 +8015,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8042,10 +8042,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8069,10 +8069,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8096,10 +8096,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8123,10 +8123,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8150,10 +8150,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8177,10 +8177,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8204,10 +8204,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8231,10 +8231,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8258,10 +8258,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8285,10 +8285,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8312,10 +8312,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8339,10 +8339,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8366,10 +8366,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8393,10 +8393,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8420,10 +8420,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8447,10 +8447,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8474,10 +8474,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "f.jpg",
+    "imagen": "f.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/f.jpg",
     "publicado": true,
-    "localImage": "/uploads/f.jpg",
+    "localImage": "/uploads/f.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8501,10 +8501,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8528,10 +8528,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -8555,10 +8555,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -8582,10 +8582,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -8609,10 +8609,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -8636,10 +8636,10 @@
     "voltaje": [
       "230V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },
@@ -8663,10 +8663,10 @@
     "voltaje": [
       "400V"
     ],
-    "imagen": "future.jpg",
+    "imagen": "future.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/future.jpg",
     "publicado": true,
-    "localImage": "/uploads/future.jpg",
+    "localImage": "/uploads/future.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8690,10 +8690,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "pq.jpg",
+    "imagen": "pq.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pq.jpg",
     "publicado": true,
-    "localImage": "/uploads/pq.jpg",
+    "localImage": "/uploads/pq.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8717,10 +8717,10 @@
     "voltaje": [
       "380V"
     ],
-    "imagen": "pv.jpg",
+    "imagen": "pv.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pv.jpg",
     "publicado": true,
-    "localImage": "/uploads/pv.jpg",
+    "localImage": "/uploads/pv.webp",
     "destacado": false,
     "fasico": "Trifásica"
   },
@@ -8744,10 +8744,10 @@
     "voltaje": [
       "220V"
     ],
-    "imagen": "pv.jpg",
+    "imagen": "pv.webp",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/pv.jpg",
     "publicado": true,
-    "localImage": "/uploads/pv.jpg",
+    "localImage": "/uploads/pv.webp",
     "destacado": false,
     "fasico": "Monofásica"
   },

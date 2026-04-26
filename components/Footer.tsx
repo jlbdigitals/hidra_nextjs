@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo + description */}
         <div>
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.webp"
             alt="Hidra"
             width={180}
             height={57}
