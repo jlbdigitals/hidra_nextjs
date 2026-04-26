@@ -94,6 +94,7 @@ export default async function ProductoPage({
               <div className="text-9xl opacity-20">💧</div>
             )}
           </div>
+        </div>
         {/* Info column */}
         <div className="lg:w-1/2 flex flex-col gap-8 py-4">
           {/* Brand/Serie meta */}
