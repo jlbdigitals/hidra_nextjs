@@ -385,59 +385,74 @@ export default async function BombasPage({
   ].filter(Boolean);
 
   return (
-    <div>
+    <div className="bg-white min-h-screen">
       {/* Hero */}
-      <div style={{ backgroundColor: "#53B94A" }} className="py-10 px-4">
-        <div className="max-w-[1140px] mx-auto">
-          <nav className="flex items-center gap-1.5 text-xs text-white/70 mb-2">
-            <Link href="/" className="hover:text-white">Inicio</Link>
-            <span>/</span>
-            <span className="text-white font-semibold">Bombas</span>
+      <div className="relative pt-32 pb-20 overflow-hidden bg-[#0f172a]">
+        {/* Decorative elements */}
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#006e0c]/10 to-transparent pointer-events-none" />
+        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#4059aa]/10 rounded-full blur-3xl pointer-events-none" />
+        
+        <div className="max-w-[1280px] mx-auto px-6 relative z-10">
+          <nav className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-6">
+            <Link href="/" className="hover:text-[#006e0c] transition-colors">Inicio</Link>
+            <span className="text-white/20">/</span>
+            <span className="text-white">Bombas</span>
           </nav>
-          <h1
-            className="text-3xl font-bold text-white mb-1"
-            style={{ fontFamily: "var(--font-nunito)" }}
-          >
-            Bombas
-          </h1>
-          <p className="text-white/85 text-sm">
-            Bombas disponibles para compra · {allProducts.length} productos
-          </p>
+          <div className="max-w-2xl">
+            <h1
+              className="text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight"
+              style={{ fontFamily: "var(--font-manrope)" }}
+            >
+              Soluciones en <span className="text-[#006e0c]">Bombeo</span>
+            </h1>
+            <p className="text-lg text-slate-400 leading-relaxed max-w-lg">
+              Bombas de alta eficiencia para riego, industria y hogar. Calidad garantizada de las mejores marcas globales.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-[1140px] mx-auto px-4 py-8">
-        <div className="flex gap-8">
+      <div className="max-w-[1280px] mx-auto px-6 py-16">
+        <div className="flex flex-col lg:flex-row gap-12">
           {/* Sidebar */}
-          <div className="hidden lg:block shrink-0" style={{ width: "22%" }}>
-            <Suspense>
-              <BombasSidebar
-                brands={brandList}
-                hpValues={hpValues}
-                voltajes={voltajes}
-              />
-            </Suspense>
+          <div className="w-full lg:w-72 shrink-0">
+            <div className="sticky top-28">
+              <Suspense>
+                <BombasSidebar
+                  brands={brandList}
+                  hpValues={hpValues}
+                  voltajes={voltajes}
+                />
+              </Suspense>
+            </div>
           </div>
 
           {/* Main content */}
           <div className="flex-1 min-w-0">
             {/* Results header */}
-            <div className="flex items-center justify-between mb-5">
-              <p className="text-sm text-[#7A7A7A]">
-                {activeFilters.length > 0 && (
-                  <span className="font-semibold text-[#54595F]">
-                    {activeFilters.join(" · ")}{" — "}
-                  </span>
-                )}
-                {filtered.length} productos
-              </p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 pb-6 border-b border-[#f1f5f9] gap-4">
+              <div className="flex flex-col gap-1">
+                <span className="text-[10px] font-extrabold text-[#4059aa] uppercase tracking-[0.2em]">Resultados del Catálogo</span>
+                <p className="text-sm text-[#64748b] font-medium">
+                  {activeFilters.length > 0 ? (
+                    <>
+                      Mostrando <span className="text-[#1e293b] font-bold">{activeFilters.join(" • ")}</span>
+                      <span className="mx-2 text-slate-300">|</span>
+                    </>
+                  ) : null}
+                  <span className="text-[#1e293b] font-bold">{filtered.length}</span> productos encontrados
+                </p>
+              </div>
+              
               {activeFilters.length > 0 && (
                 <Link
                   href="/bombas"
-                  className="text-xs font-semibold hover:underline"
-                  style={{ color: "#53B94A" }}
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-[#f1f5f9] rounded-full text-[10px] font-extrabold text-[#94a3b8] uppercase tracking-widest hover:border-[#ef4444] hover:text-[#ef4444] transition-all shadow-sm"
                 >
-                  × Limpiar filtros
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  Limpiar Filtros
                 </Link>
               )}
             </div>
@@ -445,67 +460,80 @@ export default async function BombasPage({
             {/* Grid */}
             {pageProducts.length > 0 ? (
               <>
-                <div
-                  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
-                  style={{ columnGap: 20, rowGap: 24 }}
-                >
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
                   {pageProducts.map((p) => (
                     <ProductCard key={p.id} product={p} />
                   ))}
                 </div>
 
                 {totalPages > 1 && (
-                  <div className="flex justify-center items-center gap-2 mt-10">
+                  <div className="flex justify-center items-center gap-2 mt-20 pt-10 border-t border-[#f1f5f9]">
                     {currentPage > 1 && (
                       <Link
                         href={pageHref(currentPage - 1)}
-                        className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]"
-                        style={{ borderColor: "#e0e0e0", color: "#54595F" }}
+                        className="p-3 rounded-xl border border-[#f1f5f9] text-[#64748b] hover:bg-[#f8fafc] hover:border-[#cbd5e1] transition-all"
                       >
-                        ← Anterior
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+                        </svg>
                       </Link>
                     )}
-                    {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-                      const n =
-                        totalPages <= 7
-                          ? i + 1
-                          : currentPage <= 4
-                          ? i + 1
-                          : currentPage >= totalPages - 3
-                          ? totalPages - 6 + i
-                          : currentPage - 3 + i;
-                      return (
-                        <Link
-                          key={n}
-                          href={pageHref(n)}
-                          className="w-9 h-9 flex items-center justify-center text-sm font-semibold rounded transition-colors"
-                          style={
-                            n === currentPage
-                              ? { backgroundColor: "#53B94A", color: "white" }
-                              : { border: "1px solid #e0e0e0", color: "#54595F" }
-                          }
-                        >
-                          {n}
-                        </Link>
-                      );
-                    })}
+                    
+                    <div className="flex items-center gap-1">
+                      {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                        const n =
+                          totalPages <= 7
+                            ? i + 1
+                            : currentPage <= 4
+                            ? i + 1
+                            : currentPage >= totalPages - 3
+                            ? totalPages - 6 + i
+                            : currentPage - 3 + i;
+                        return (
+                          <Link
+                            key={n}
+                            href={pageHref(n)}
+                            className={`w-11 h-11 flex items-center justify-center text-sm font-bold rounded-xl transition-all ${
+                              n === currentPage
+                                ? "bg-[#006e0c] text-white shadow-lg shadow-[#006e0c]/20 scale-110 z-10"
+                                : "bg-white text-[#64748b] border border-[#f1f5f9] hover:border-[#cbd5e1] hover:text-[#1e293b]"
+                            }`}
+                            style={{ fontFamily: "var(--font-manrope)" }}
+                          >
+                            {n}
+                          </Link>
+                        );
+                      })}
+                    </div>
+
                     {currentPage < totalPages && (
                       <Link
                         href={pageHref(currentPage + 1)}
-                        className="px-4 py-2 text-sm font-semibold rounded border transition-colors hover:bg-[#F3F8F3]"
-                        style={{ borderColor: "#e0e0e0", color: "#54595F" }}
+                        className="p-3 rounded-xl border border-[#f1f5f9] text-[#64748b] hover:bg-[#f8fafc] hover:border-[#cbd5e1] transition-all"
                       >
-                        Siguiente →
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                        </svg>
                       </Link>
                     )}
                   </div>
                 )}
               </>
             ) : (
-              <div className="py-16 text-center">
-                <p className="text-[#7A7A7A]">No se encontraron productos con esos filtros.</p>
-                <Link href="/bombas" className="text-sm font-semibold mt-3 inline-block" style={{ color: "#53B94A" }}>
-                  Ver todos los productos
+              <div className="py-24 text-center bg-[#f8fafc] rounded-3xl border border-dashed border-[#cbd5e1]">
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                  <svg className="w-10 h-10 text-[#94a3b8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-[#1e293b] mb-2" style={{ fontFamily: "var(--font-manrope)" }}>Sin resultados</h3>
+                <p className="text-[#64748b] mb-8 max-w-xs mx-auto">No encontramos productos que coincidan con los filtros seleccionados.</p>
+                <Link 
+                  href="/bombas" 
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#006e0c] text-white text-sm font-bold rounded-full hover:bg-[#005a0a] transition-all shadow-lg shadow-[#006e0c]/20"
+                  style={{ fontFamily: "var(--font-manrope)" }}
+                >
+                  Ver todo el catálogo
                 </Link>
               </div>
             )}

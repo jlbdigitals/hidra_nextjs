@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito, Nunito_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,16 +7,10 @@ import { CartProvider } from "@/components/CartContext";
 import CartSidebar from "@/components/CartSidebar";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
-const nunito = Nunito({
+const manrope = Manrope({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
-  variable: "--font-nunito",
-});
-
-const nunitoSans = Nunito_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-nunito-sans",
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -31,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${nunito.variable} ${nunitoSans.variable} h-full`} suppressHydrationWarning>
+    <html lang="es" className={`${manrope.variable} h-full`} suppressHydrationWarning>
       <body 
-        className="min-h-full flex flex-col bg-white text-[#54595F] font-[family-name:var(--font-nunito)]"
+        className="min-h-full flex flex-col bg-white text-[#171c21] font-[family-name:var(--font-manrope)]"
         suppressHydrationWarning
       >
         <CartProvider>

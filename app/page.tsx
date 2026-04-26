@@ -54,135 +54,146 @@ export default function HomePage() {
     <>
       {/* ========== HERO ========== */}
       <section
-        className="relative flex items-center justify-center text-center overflow-hidden"
-        style={{ minHeight: 600 }}
+        className="relative flex items-center justify-start text-left overflow-hidden bg-[#0f172a]"
+        style={{ minHeight: '85vh' }}
       >
         <Image
           src="/images/hero.webp"
           alt="Hidra — Equipos Hidráulicos"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center opacity-60"
           priority
         />
-        {/* 40% black overlay */}
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.4)" }} />
+        {/* Gradient overlay for better text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
 
-        <div className="relative z-10 px-4 max-w-2xl">
-          <h1
-            className="text-white font-bold mb-3 leading-tight"
-            style={{ fontFamily: "var(--font-nunito)", fontSize: 40, fontWeight: 700 }}
-          >
-            TODO EN BOMBAS DE AGUA Y FILTROS PARA LA INDUSTRIA Y LA AGRICULTURA
-          </h1>
-          <p
-            className="text-white mb-8"
-            style={{ fontFamily: "var(--font-nunito)", fontWeight: 600 }}
-          >
-            Compra Online con Envío Rápido en 24 hrs.
-          </p>
-          <Link
-            href="/productos"
-            className="inline-block px-8 py-3 text-white font-semibold rounded transition-colors"
-            style={{ backgroundColor: "#53B94A" }}
-          >
-            Cotiza AQUI
-          </Link>
+        <div className="relative z-10 px-6 lg:px-12 max-w-[1280px] mx-auto w-full">
+          <div className="max-w-3xl space-y-8">
+            <div className="space-y-4">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-[#006e0c] text-white text-[10px] font-extrabold uppercase tracking-[0.2em]">
+                Liderazgo en Soluciones Hidráulicas
+              </span>
+              <h1
+                className="text-white font-extrabold leading-[1.1] tracking-tight"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
+              >
+                PRECISIÓN INDUSTRIAL <br />
+                PARA EL <span className="text-[#53b94a]">CRECIMIENTO</span> AGRÍCOLA
+              </h1>
+              <p
+                className="text-lg text-slate-300 max-w-xl leading-relaxed"
+                style={{ fontFamily: "var(--font-manrope)", fontWeight: 400 }}
+              >
+                Expertos en sistemas de bombeo, filtración y riego de alta eficiencia. 
+                Tecnología avanzada para optimizar cada gota de su inversión.
+              </p>
+            </div>
+            
+            <div className="flex flex-wrap gap-4 pt-4">
+              <Link
+                href="/productos"
+                className="inline-flex items-center justify-center px-10 py-4 bg-[#006e0c] text-white font-bold rounded-base shadow-[0px_8px_30px_rgba(0,110,12,0.3)] hover:bg-[#005a0a] transition-all hover:-translate-y-1"
+                style={{ fontFamily: "var(--font-manrope)" }}
+              >
+                EXPLORAR CATÁLOGO
+              </Link>
+              <Link
+                href="/bombas"
+                className="inline-flex items-center justify-center px-10 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold rounded-base hover:bg-white/20 transition-all"
+                style={{ fontFamily: "var(--font-manrope)" }}
+              >
+                SOLUCIONES DE BOMBEO
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* ========== GREEN BANNER ========== */}
-      <div
-        className="flex items-center justify-center text-white text-center py-3 px-4"
-        style={{ backgroundColor: "#53B94A", minHeight: 60 }}
-      >
-        <p
-          className="font-semibold text-sm sm:text-base"
-          style={{ fontFamily: "var(--font-nunito)", fontWeight: 600 }}
-        >
-          BOMBAS ONLINE - DESPACHO O RETIRO EN 25 HORAS
-        </p>
+      {/* ========== TICKER / ANNOUNCEMENT ========== */}
+      <div className="bg-[#f8fafc] border-b border-[#dee3ea] overflow-hidden py-3">
+        <div className="max-w-[1280px] mx-auto px-6 flex items-center justify-center gap-12 animate-in fade-in duration-1000">
+          <div className="flex items-center gap-3">
+            <div className="w-2 h-2 rounded-full bg-[#006e0c] animate-pulse"></div>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">BOMBAS EN STOCK</span>
+          </div>
+          <div className="hidden md:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
+            <div className="w-2 h-2 rounded-full bg-[#4059aa]"></div>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ENVÍOS A TODO CHILE EN 24H</span>
+          </div>
+          <div className="hidden lg:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
+            <div className="w-2 h-2 rounded-full bg-[#53b94a]"></div>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">SOPORTE TÉCNICO ESPECIALIZADO</span>
+          </div>
+        </div>
       </div>
 
       {/* ========== FEATURES ========== */}
-      <section className="bg-white py-16">
-        <div className="max-w-[1140px] mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2
-              className="font-bold mb-3"
-              style={{ fontFamily: "var(--font-nunito-sans)", color: "#53B94A", fontWeight: 700, fontSize: 28 }}
-            >
-              LOS MEJORES PRODUCTOS DE RIEGO EN UN SOLO LUGAR
-            </h2>
-            <p style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontSize: 20 }}>
-              En Hidra encontrarás una amplia variedad de productos de las mejores marcas y a excelentes precios.
+      <section className="bg-white py-24 lg:py-32">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
+            <div className="space-y-6">
+              <h2
+                className="font-extrabold tracking-tight leading-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(2rem, 4vw, 3rem)' }}
+              >
+                TECNOLOGÍA <span className="text-[#4059aa]">HIDRÁULICA</span> <br />
+                DE CLASE MUNDIAL
+              </h2>
+              <div className="w-20 h-1.5 bg-[#006e0c] rounded-full"></div>
+            </div>
+            <p className="text-xl text-[#475569] leading-relaxed" style={{ fontFamily: "var(--font-manrope)" }}>
+              Representamos a las marcas líderes globales para ofrecer soluciones robustas que garantizan la continuidad operativa de sus proyectos industriales y agrícolas.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((f) => (
-              <div key={f.title} className="flex flex-col items-center text-center gap-3">
+              <div key={f.title} className="p-8 rounded-2xl bg-white border border-[#f1f5f9] hover:shadow-[0px_20px_50px_rgba(0,0,0,0.05)] transition-all duration-500 group">
                 <div
-                  className="w-14 h-14 rounded-full flex items-center justify-center text-2xl text-white"
-                  style={{ backgroundColor: "#53B94A" }}
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl bg-[#f0fdf4] text-[#006e0c] mb-6 group-hover:scale-110 transition-transform duration-500 shadow-sm"
                 >
                   {f.icon}
                 </div>
                 <h3
-                  className="font-semibold"
-                  style={{ fontFamily: "var(--font-nunito)", fontSize: 20, fontWeight: 600, color: "#53B94A" }}
+                  className="font-extrabold mb-3 text-[#1e293b]"
+                  style={{ fontFamily: "var(--font-manrope)", fontSize: 20 }}
                 >
                   {f.title}
                 </h3>
-                <p className="text-sm text-[#7A7A7A]">{f.desc}</p>
+                <p className="text-sm text-[#64748b] leading-relaxed font-medium">{f.desc}</p>
               </div>
             ))}
-          </div>
-
-          <div className="text-center">
-            <Link
-              href="/productos"
-              className="inline-block px-8 py-3 text-white font-semibold rounded transition-colors"
-              style={{ backgroundColor: "#53B94A" }}
-            >
-              Cotiza AQUI
-            </Link>
           </div>
         </div>
       </section>
 
       {/* ========== ELECTROBOMBAS SECTION ========== */}
-      <section className="py-16" style={{ backgroundColor: "#F3F8F3" }}>
-        <div className="max-w-[1140px] mx-auto px-4">
-          <div className="text-center">
-            <h2
-              className="font-bold mb-4"
-              style={{ fontFamily: "var(--font-nunito-sans)", color: "#53B94A", fontWeight: 700, fontSize: 28 }}
+      <section className="py-24 lg:py-32 bg-[#f8fafc]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Catálogo Especializado</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                ELECTROBOMBAS DE ALTA PRESIÓN
+              </h2>
+            </div>
+            <Link
+              href="/bombas"
+              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
             >
-              ELECTROBOMBAS
-            </h2>
-            <p
-              className="mb-8 max-w-2xl mx-auto"
-              style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontSize: 20 }}
-            >
-              Todo en bombas centrífugas, periféricas, sumergibles, de pozo y mucho más…
-            </p>
+              VER TODAS LAS BOMBAS
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
           </div>
 
           {electrobombasCarousel.length > 0 && (
-            <div className="mb-10">
+            <div className="mb-16">
               <ProductCarousel products={electrobombasCarousel} />
             </div>
           )}
-
-          <div className="text-center">
-            <Link
-              href="/bombas"
-              className="inline-block px-8 py-3 text-white font-semibold rounded transition-colors"
-              style={{ backgroundColor: "#53B94A" }}
-            >
-              Ver todas las bombas
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -192,96 +203,116 @@ export default function HomePage() {
       {/* ========== FILTROS AUTOMATICOS LOGOS ========== */}
       <BrandCarousel />
 
-
-
       {/* ========== PRODUCTOS DESTACADOS ========== */}
-      <section className="py-16" style={{ backgroundColor: "#F3F8F3" }}>
-        <div className="max-w-[1140px] mx-auto px-4">
-          <h2
-            className="text-center font-bold mb-8"
-            style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontWeight: 700, fontSize: 28 }}
-          >
-            Productos que destacamos
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
+            <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Selección Hidra</span>
+            <h2
+              className="font-extrabold tracking-tight text-[#171c21]"
+              style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+            >
+              EQUIPOS DESTACADOS DEL MES
+            </h2>
+            <p className="text-[#64748b] text-lg font-medium">
+              Soluciones probadas en terreno con el mejor respaldo técnico del mercado.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {featured.map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}
           </div>
-          <div className="text-center mt-8">
+          
+          <div className="text-center mt-20">
             <Link
               href="/productos"
-              className="inline-block px-8 py-3 text-white font-semibold rounded transition-colors"
-              style={{ backgroundColor: "#53B94A" }}
+              className="inline-flex items-center justify-center px-12 py-4 bg-[#1e293b] text-white font-bold rounded-base hover:bg-black transition-all shadow-xl shadow-slate-200"
             >
-              Catálogo
+              VER CATÁLOGO COMPLETO
             </Link>
           </div>
         </div>
       </section>
 
-
-
       {/* ========== NUESTROS PRODUCTOS (Slider + Catalog) ========== */}
-      <section className="py-16 bg-white">
-        <div className="max-w-[1140px] mx-auto px-4">
-          <h2
-            className="text-center font-bold mb-10 uppercase"
-            style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontWeight: 700, fontSize: 28 }}
-          >
-            NUESTROS PRODUCTOS
-          </h2>
-          
-          <div className="flex flex-col md:flex-row gap-6 items-stretch mb-12">
-            {/* Left Column: Category Slider (65%) */}
-            <div className="w-full md:w-[65%]">
+      <section className="py-24 lg:py-32 bg-[#f8fafc] border-y border-[#dee3ea]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-12 gap-12 items-stretch">
+            <div className="lg:col-span-8 space-y-8">
+              <div className="space-y-4">
+                <h2
+                  className="font-extrabold tracking-tight text-[#171c21] uppercase"
+                  style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+                >
+                  NUESTRAS LÍNEAS DE PRODUCTO
+                </h2>
+                <div className="w-16 h-1 bg-[#4059aa] rounded-full"></div>
+              </div>
               <CategoryRectSlider categories={categorySlides} />
             </div>
 
-            {/* Right Column: Catálogo (35%) */}
-            <div className="w-full md:w-[35%]">
-              <Link href="/catalogo" className="group relative block h-full min-h-[300px] overflow-hidden rounded-lg shadow-lg">
+            <div className="lg:col-span-4 h-full">
+              <Link href="/catalogo" className="group relative block h-full min-h-[400px] overflow-hidden rounded-2xl shadow-2xl transition-all duration-700 hover:shadow-emerald-900/10 border border-[#dee3ea]">
                 <Image
                   src="/images/consulta-catalogo.webp" 
                   alt="Consulta nuestro catálogo"
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover group-hover:scale-110 transition-transform duration-1000 opacity-90"
                 />
-                <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                <div className="absolute bottom-10 left-10 right-10 space-y-4">
+                  <span className="text-[10px] font-extrabold text-[#53b94a] uppercase tracking-[0.3em]">RECURSOS TÉCNICOS</span>
+                  <h3 className="text-white text-2xl font-extrabold tracking-tight">CATÁLOGO DE <br />SOLUCIONES 2024</h3>
+                  <div className="inline-flex items-center gap-3 text-white text-xs font-bold border-b border-white/30 pb-2 group-hover:border-white transition-all">
+                    SOLICITAR INFORMACIÓN
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </div>
+                </div>
               </Link>
             </div>
-          </div>
-
-          {/* WhatsApp Button */}
-          <div className="text-center">
-            <a
-              href="https://wa.me/56997107845"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-10 py-4 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg"
-              style={{ backgroundColor: "#25D366" }}
-            >
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.89-11.893 11.89-.199 0-.399-.012-.593-.035l-6.191 1.621c-.482.126-.957.172-1.422.172-.857 0-1.611-.253-2.146-.732-.489-.439-.817-1.129-.734-2.005zm4.032-5.753l-.248.437c-1.01 1.772-1.545 3.812-1.545 5.894 0 .438.163.812.441 1.062.242.244.629.404 1.157.301l4.437-1.162.483.287c1.3.774 2.766 1.182 4.28 1.182 5.674 0 10.291-4.616 10.291-10.291s-4.617-10.291-10.291-10.291c-5.676 0-10.292 4.616-10.292 10.291 0 1.838.537 3.633 1.554 5.188l.288.439-1.135 4.144 4.331-1.132z" />
-              </svg>
-              COTIZA AQUÍ
-            </a>
           </div>
         </div>
       </section>
 
-      {/* ========== CONTACT BANNER ========== */}
-      <section
-        className="py-10"
-        style={{ backgroundColor: "#F3F8F3" }}
-      >
-        <div className="max-w-[1140px] mx-auto px-4 text-center">
-          <p className="text-[#7A7A7A] text-lg mb-1">+569 9710 7845</p>
-          <p className="text-[#7A7A7A] text-sm mb-1">Dolores Bernal #1485 oficina N°2, Maipú - Santiago</p>
-          <p className="text-[#7A7A7A] text-sm mb-1">+562 2723 8788</p>
-          <a href="mailto:contacto@hidra.cl" className="text-[#53B94A] text-sm font-semibold hover:underline">
-            contacto@hidra.cl
-          </a>
+      {/* ========== CONTACT / CTA ========== */}
+      <section className="relative py-24 overflow-hidden bg-[#006e0c]">
+        {/* Subtle background decoration */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-black/5 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+
+        <div className="relative z-10 max-w-[1280px] mx-auto px-6 lg:px-12 text-center space-y-12">
+          <div className="space-y-4">
+            <h2 className="text-white font-extrabold tracking-tight text-3xl lg:text-5xl" style={{ fontFamily: "var(--font-manrope)" }}>
+              ¿NECESITA ASESORÍA TÉCNICA?
+            </h2>
+            <p className="text-emerald-100 text-lg lg:text-xl max-w-2xl mx-auto font-medium">
+              Nuestro equipo de ingenieros está listo para ayudarle a dimensionar el equipo perfecto para su aplicación.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-8">
+            <a
+              href="https://wa.me/56997107845"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-4 px-10 py-5 bg-white text-[#006e0c] font-extrabold rounded-base transition-all hover:-translate-y-1 shadow-2xl shadow-black/20"
+              style={{ fontFamily: "var(--font-manrope)" }}
+            >
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.89-11.893 11.89-.199 0-.399-.012-.593-.035l-6.191 1.621c-.482.126-.957.172-1.422.172-.857 0-1.611-.253-2.146-.732-.489-.439-.817-1.129-.734-2.005zm4.032-5.753l-.248.437c-1.01 1.772-1.545 3.812-1.545 5.894 0 .438.163.812.441 1.062.242.244.629.404 1.157.301l4.437-1.162.483.287c1.3.774 2.766 1.182 4.28 1.182 5.674 0 10.291-4.616 10.291-10.291s-4.617-10.291-10.291-10.291c-5.676 0-10.292 4.616-10.292 10.291 0 1.838.537 3.633 1.554 5.188l.288.439-1.135 4.144 4.331-1.132z" />
+              </svg>
+              HABLAR CON UN EXPERTO
+            </a>
+            
+            <div className="flex flex-col items-center lg:items-start text-emerald-50 gap-1">
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-60">Teléfono Directo</span>
+              <a href="tel:+56227238788" className="text-xl font-extrabold hover:text-white transition-colors">+56 2 2723 8788</a>
+            </div>
+          </div>
         </div>
       </section>
     </>

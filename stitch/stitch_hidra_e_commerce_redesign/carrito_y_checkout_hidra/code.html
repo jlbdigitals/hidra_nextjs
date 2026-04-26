@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Checkout | AgriPump Pro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#424845",
+                    "primary-fixed": "#91fa82",
+                    "surface-container": "#eaeef5",
+                    "primary-container": "#53b94a",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed": "#00164e",
+                    "tertiary": "#5a605c",
+                    "surface-dim": "#d6dae1",
+                    "inverse-surface": "#2c3136",
+                    "on-surface-variant": "#3f4a3b",
+                    "outline": "#6f7a6a",
+                    "on-secondary-container": "#1d3989",
+                    "on-primary-fixed-variant": "#005307",
+                    "primary": "#006e0c",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#f7f9ff",
+                    "surface-bright": "#f7f9ff",
+                    "surface-container-high": "#e4e8f0",
+                    "on-primary-fixed": "#002201",
+                    "inverse-primary": "#76dd69",
+                    "surface-container-low": "#f0f4fb",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#006e0c",
+                    "secondary": "#4059aa",
+                    "on-tertiary-container": "#363b38",
+                    "primary-fixed-dim": "#76dd69",
+                    "on-tertiary": "#ffffff",
+                    "on-background": "#171c21",
+                    "tertiary-container": "#a0a5a1",
+                    "tertiary-fixed": "#dfe4df",
+                    "error": "#ba1a1a",
+                    "surface-variant": "#dee3ea",
+                    "background": "#f7f9ff",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#264191",
+                    "outline-variant": "#becab7",
+                    "secondary-container": "#8fa7fe",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#edf1f8",
+                    "secondary-fixed": "#dce1ff",
+                    "tertiary-fixed-dim": "#c2c8c3",
+                    "on-tertiary-fixed": "#171d1a",
+                    "on-primary-container": "#004505",
+                    "surface-container-highest": "#dee3ea",
+                    "secondary-fixed-dim": "#b6c4ff",
+                    "on-surface": "#171c21"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "80px",
+                    "gutter": "24px",
+                    "lg": "48px",
+                    "xs": "4px",
+                    "sm": "12px",
+                    "base": "8px",
+                    "md": "24px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Manrope"],
+                    "label-sm": ["Manrope"],
+                    "headline-xl": ["Manrope"],
+                    "headline-lg": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "body-lg": ["Manrope"],
+                    "label-lg": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500"}],
+                    "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #F3F8F3;
+        }
+    </style>
+</head>
+<body class="bg-surface">
+<!-- Top Navigation Bar -->
+<header class="bg-white dark:bg-slate-950 border-b border-slate-100 dark:border-slate-800 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] docked full-width top-0 z-50 sticky">
+<div class="max-w-[1280px] mx-auto flex justify-between items-center px-8 py-4 w-full">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-extrabold text-[#1E3A8A] dark:text-white">AgriPump Pro</span>
+<nav class="hidden md:flex items-center gap-6 font-manrope text-sm font-medium tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Pumps</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Filters</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Catalog</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Support</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-slate-50 rounded-full transition-colors">
+<span class="material-symbols-outlined text-slate-600">shopping_cart</span>
+</button>
+<button class="p-2 hover:bg-slate-50 rounded-full transition-colors">
+<span class="material-symbols-outlined text-slate-600">person</span>
+</button>
+<button class="bg-[#53B94A] text-white px-6 py-2 rounded-lg font-bold text-sm hover:opacity-90 transition-all">Request Quote</button>
+</div>
+</div>
+</header>
+<main class="max-w-[1280px] mx-auto px-8 py-12">
+<!-- Checkout Journey Header -->
+<div class="mb-12">
+<h1 class="font-headline-lg text-headline-lg text-on-background mb-2">Secure Checkout</h1>
+<div class="flex items-center gap-4 text-slate-500 font-label-sm uppercase">
+<span class="text-primary font-bold">1. Cart</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-primary font-bold">2. Shipping &amp; Payment</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-slate-400">3. Confirmation</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Form Section -->
+<div class="lg:col-span-7 space-y-8">
+<!-- Shipping Information -->
+<section class="bg-white p-8 rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-[#1E3A8A]">local_shipping</span>
+<h2 class="font-headline-md text-headline-md">Shipping Details</h2>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-2 md:col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">Full Name</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div class="col-span-2 md:col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">RUT</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" placeholder="12.345.678-9" type="text"/>
+</div>
+<div class="col-span-2">
+<label class="block font-label-lg text-on-surface-variant mb-2">Street Address</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" placeholder="Av. Providencia 1234, Oficina 501" type="text"/>
+</div>
+<div class="col-span-2 md:col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">Region (Chile)</label>
+<select class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary outline-none transition-all bg-white">
+<option>Región Metropolitana</option>
+<option>Valparaíso</option>
+<option>Antofagasta</option>
+<option>Biobío</option>
+</select>
+</div>
+<div class="col-span-2 md:col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">Commune</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" placeholder="Santiago" type="text"/>
+</div>
+</div>
+</section>
+<!-- Shipping Options -->
+<section class="bg-white p-8 rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<h2 class="font-headline-md text-headline-md mb-6">Delivery Method</h2>
+<div class="space-y-4">
+<label class="flex items-center justify-between p-4 border border-[#53B94A] bg-[#F3F8F3] rounded-lg cursor-pointer">
+<div class="flex items-center gap-4">
+<input checked="" class="text-[#53B94A] focus:ring-[#53B94A]" name="shipping" type="radio"/>
+<div>
+<p class="font-body-md font-bold">Standard Industrial Shipping</p>
+<p class="text-sm text-slate-500">3-5 Business Days (Chile-wide)</p>
+</div>
+</div>
+<span class="font-bold text-[#53B94A]">FREE</span>
+</label>
+<label class="flex items-center justify-between p-4 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+<div class="flex items-center gap-4">
+<input class="text-[#53B94A] focus:ring-[#53B94A]" name="shipping" type="radio"/>
+<div>
+<p class="font-body-md font-bold">Priority Tech-Logistics</p>
+<p class="text-sm text-slate-500">Next Day Delivery (Metropolitana only)</p>
+</div>
+</div>
+<span class="font-bold">$12.500 CLP</span>
+</label>
+</div>
+</section>
+<!-- Payment Information -->
+<section class="bg-white p-8 rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#1E3A8A]">lock</span>
+<h2 class="font-headline-md text-headline-md">Secure Payment</h2>
+</div>
+<div class="flex gap-2 opacity-60">
+<img alt="PayPal" class="h-4" data-alt="PayPal payment logo minimal icon gray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpp2AKPY-7_qAzkxzNDur7BWPr8h_6uuMgLaZzdgXvopi9BMr8H7pMZuidPD9WMjI_-pvY7WXdUJD7_xgkVCUueFJMidxD-MBcuB7DBYdcfh3JHn0jwKL3NG4vxDabszbDpg1BYiiLYZkKjh4vZxpVssAV52zgu_KSVY7WpPL-ME1ZJJfP2q8JZxLQ7rwuT3mbynz5f-uHsLWZBAlhT6dxI9W3y937DXO1DpfRXVRdcvBGeWis3Mrp1UtN65vrq5s9w6vzfoh0PsQ-"/>
+<img alt="Visa" class="h-4" data-alt="Visa card payment logo minimal icon gray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTDkBvFm_SzHstCG5akR53hOVs84m16do4kDyOjgpyZIzn9yPZbGnVWdM3QEUlJpEq_wjfi7SV-5YdNKJrboMv8MXmjJ_AYpKkLE1-nqRm9x_Dp9P0OUaBVEe7lxEP4KbJWA2ZLCW4VLs1iKIq1gegm7gZwazFDR6Ib7xYZ7cSA9j5UK7PiCTsg60-xm1L8koCWE5sSSw_nyBVHOqW-QI6ugO-lCZSpFTqDDJ5Ti4dDvMZLanxy4azc2IJoGUEx4C2S3EF7jcJfErw"/>
+<img alt="Mastercard" class="h-4" data-alt="Mastercard payment logo minimal icon gray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFm0XUTd7z29wQRwK5O1gAZXJfwLbpvsPwi-48uUi-5zIwtSDVG0df0LTm43v9ClTgK4HoQoJuyx31EfRdGPC_XdBbr2eyDBRyEyPYPfCd9xocj_GAL2iHhdBAd0D9iS8qBv1niaBOAKavmcV6V90oG0z5_m-dlohpQ8fjrCgX7aTuk6GTTX8uiWoQi6T3lRUSyDyWVPG9h-NGQfAVt9hgYE4GR-TNe_SCqdoqNc_EedO1pNLWS1jtEzXyfaeDfVs0fp_tRRuADVMz"/>
+</div>
+</div>
+<div class="space-y-4">
+<div class="p-4 border border-slate-200 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-slate-500">account_balance</span>
+<span class="font-body-md">Bank Transfer (Transbank / WebPay)</span>
+</div>
+<span class="material-symbols-outlined">radio_button_checked</span>
+</div>
+<div class="grid grid-cols-2 gap-4 mt-6">
+<div class="col-span-2">
+<label class="block font-label-lg text-on-surface-variant mb-2">Card Number</label>
+<div class="relative">
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary outline-none transition-all pl-12" placeholder="0000 0000 0000 0000" type="text"/>
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">credit_card</span>
+</div>
+</div>
+<div class="col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">Expiry Date</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary outline-none transition-all" placeholder="MM / YY" type="text"/>
+</div>
+<div class="col-span-1">
+<label class="block font-label-lg text-on-surface-variant mb-2">CVV</label>
+<input class="w-full px-4 py-3 rounded-lg border border-outline-variant focus:border-secondary outline-none transition-all" placeholder="123" type="text"/>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Order Summary Section -->
+<div class="lg:col-span-5">
+<div class="sticky top-28 space-y-6">
+<section class="bg-white p-8 rounded-xl border border-slate-100 shadow-[0px_4px_30px_rgba(0,0,0,0.06)]">
+<h2 class="font-headline-md text-headline-md mb-8">Order Summary</h2>
+<div class="space-y-6 mb-8">
+<!-- Product 1 -->
+<div class="flex gap-4">
+<div class="w-20 h-20 bg-surface rounded-lg overflow-hidden flex-shrink-0 border border-slate-100">
+<img alt="AgriPump VX-500" class="w-full h-full object-cover" data-alt="Close-up of industrial heavy duty water pump with metallic finish and green accents in bright studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV8X3iS1Tt9DkT8OtHx6p_TPK3OP5hFvr-TJXuKLmUSf4FCNWhF_bhNpJLQQ4hy0_sAUTXZ-Tv8eH8nq-s6X3uyADnD4mNkwal8tcxtwudYDHyjYc9_L9q2qGne9VQaQ2QYwr87w8fnfVjJwU1VtPE-kRI4en13YGzQmDg4aBaS-UH9wQsUGan-rxxwPsxbyNidLOSBiT_8U2XWPMsaKFa7A8vYCWz6_l9Apva9Bi-ec98cSieGg9gKCT3pbF7Hhfmd89VEzNwuxCR"/>
+</div>
+<div class="flex-1">
+<h3 class="font-label-lg text-on-surface">AgriPump VX-500 High-Flow</h3>
+<p class="text-sm text-slate-500 mb-1">SKU: AP-VX500-24</p>
+<div class="flex justify-between items-end">
+<span class="text-xs font-semibold bg-surface px-2 py-1 rounded">Qty: 1</span>
+<span class="font-bold text-on-surface">$1.240.000</span>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="flex gap-4">
+<div class="w-20 h-20 bg-surface rounded-lg overflow-hidden flex-shrink-0 border border-slate-100">
+<img alt="Industrial Filter S2" class="w-full h-full object-cover" data-alt="Industrial steel sediment filter for agricultural irrigation systems with precise mesh detail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBobsLpWldHaT687RCpxTp39PW_f1ZDwl2tLpcsok8jiSV26JsKude5uYyDogZbL1vejI8Om8q8Vj-vw_aJuutZlNTlEQa7PZOmfN8oSN5TboNcSBldnVHGMikglRdesPzxn9QUJkrX8qa_MwdT0eUL6tePGXXHJDrIy1Ls1_hckBU5Lyitytk6pfiDmgPASIgHs36get7uOKoRYxvjNwaAXadav1lUNDE99VcrMHQj6rGHRPRsOrDniGpNDm5ii4a1gR6OR-tQPn7m"/>
+</div>
+<div class="flex-1">
+<h3 class="font-label-lg text-on-surface">Sediment Tech-Filter S2</h3>
+<p class="text-sm text-slate-500 mb-1">SKU: FIL-S2-PRO</p>
+<div class="flex justify-between items-end">
+<span class="text-xs font-semibold bg-surface px-2 py-1 rounded">Qty: 2</span>
+<span class="font-bold text-on-surface">$310.000</span>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-100 pt-6 space-y-3">
+<div class="flex justify-between text-body-md text-slate-600">
+<span>Subtotal</span>
+<span>$1.550.000</span>
+</div>
+<div class="flex justify-between text-body-md text-slate-600">
+<span>Shipping</span>
+<span class="text-[#53B94A] font-medium">Free</span>
+</div>
+<div class="flex justify-between text-body-md text-slate-600">
+<span>Tax (IVA 19%)</span>
+<span>$294.500</span>
+</div>
+<div class="flex justify-between pt-4 border-t border-slate-100">
+<span class="font-headline-md text-headline-md">Total</span>
+<span class="font-headline-md text-headline-md text-[#1E3A8A]">$1.844.500 CLP</span>
+</div>
+</div>
+<button class="w-full bg-[#53B94A] hover:bg-[#469e3e] text-white py-4 rounded-lg font-bold text-lg mt-8 shadow-lg shadow-[#53B94A]/20 transition-all flex items-center justify-center gap-2">
+<span>Complete Purchase</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<p class="text-center text-xs text-slate-400 mt-6 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-xs">verified_user</span>
+                            Encrypted 256-bit Secure Transaction
+                        </p>
+</section>
+<!-- Trust Badge Card -->
+<div class="bg-[#EAEFF5] p-6 rounded-xl border border-slate-200">
+<div class="flex items-start gap-4">
+<div class="bg-white p-2 rounded-lg">
+<span class="material-symbols-outlined text-[#1E3A8A]">engineering</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface mb-1">Industrial Warranty</h4>
+<p class="text-sm text-slate-600">All Hidra components include a 24-month manufacturer warranty and specialized technical support across Chile.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#F3F8F3] dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-20">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 w-full">
+<div class="space-y-4">
+<span class="text-lg font-bold text-slate-900 dark:text-white uppercase tracking-widest">AgriPump Pro</span>
+<p class="text-xs font-manrope text-slate-500 uppercase tracking-widest font-semibold leading-relaxed">
+                    © 2024 AgriPump Industrial Systems. Engineered for Precision.
+                </p>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-manrope text-xs uppercase tracking-widest font-bold text-slate-900 dark:text-white mb-2">Technical</h4>
+<a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 dark:text-slate-400 hover:text-[#1E3A8A] transition-opacity" href="#">Technical Specs</a>
+<a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 dark:text-slate-400 hover:text-[#1E3A8A] transition-opacity" href="#">Warranty Information</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-manrope text-xs uppercase tracking-widest font-bold text-slate-900 dark:text-white mb-2">Company</h4>
+<a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 dark:text-slate-400 hover:text-[#1E3A8A] transition-opacity" href="#">Contact Engineering</a>
+<a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 dark:text-slate-400 hover:text-[#1E3A8A] transition-opacity" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-manrope text-xs uppercase tracking-widest font-bold text-slate-900 dark:text-white mb-2">Support</h4>
+<p class="font-manrope text-xs text-slate-500 leading-relaxed uppercase tracking-widest font-semibold">
+                    Santiago, Chile<br/>
+                    Av. Vitacura 2670<br/>
+                    support@agripump.cl
+                </p>
+</div>
+</div>
+</footer>
+</body></html>

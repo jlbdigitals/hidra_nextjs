@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AgriPump Pro | Industrial Water Systems</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#424845",
+                        "primary-fixed": "#91fa82",
+                        "surface-container": "#eaeef5",
+                        "primary-container": "#53b94a",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#00164e",
+                        "tertiary": "#5a605c",
+                        "surface-dim": "#d6dae1",
+                        "inverse-surface": "#2c3136",
+                        "on-surface-variant": "#3f4a3b",
+                        "outline": "#6f7a6a",
+                        "on-secondary-container": "#1d3989",
+                        "on-primary-fixed-variant": "#005307",
+                        "primary": "#006e0c",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#f7f9ff",
+                        "surface-bright": "#f7f9ff",
+                        "surface-container-high": "#e4e8f0",
+                        "on-primary-fixed": "#002201",
+                        "inverse-primary": "#76dd69",
+                        "surface-container-low": "#f0f4fb",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#006e0c",
+                        "secondary": "#4059aa",
+                        "on-tertiary-container": "#363b38",
+                        "primary-fixed-dim": "#76dd69",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#171c21",
+                        "tertiary-container": "#a0a5a1",
+                        "tertiary-fixed": "#dfe4df",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#dee3ea",
+                        "background": "#f7f9ff",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#264191",
+                        "outline-variant": "#becab7",
+                        "secondary-container": "#8fa7fe",
+                        "on-primary": "#ffffff",
+                        "inverse-on-surface": "#edf1f8",
+                        "secondary-fixed": "#dce1ff",
+                        "tertiary-fixed-dim": "#c2c8c3",
+                        "on-tertiary-fixed": "#171d1a",
+                        "on-primary-container": "#004505",
+                        "surface-container-highest": "#dee3ea",
+                        "secondary-fixed-dim": "#b6c4ff",
+                        "on-surface": "#171c21"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xl": "80px",
+                        "gutter": "24px",
+                        "lg": "48px",
+                        "xs": "4px",
+                        "sm": "12px",
+                        "base": "8px",
+                        "md": "24px",
+                        "margin": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Manrope"],
+                        "label-sm": ["Manrope"],
+                        "headline-xl": ["Manrope"],
+                        "headline-lg": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "label-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500"}],
+                        "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #F3F8F3; /* Surface 0: Pale Mint */
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .product-card-shadow {
+            shadow-[0px_4px_20px_rgba(0,0,0,0.04)];
+        }
+        .product-card-shadow:hover {
+            shadow-[0px_8px_30px_rgba(0,0,0,0.08)];
+        }
+    </style>
+</head>
+<body class="bg-surface">
+<!-- TopNavBar -->
+<header class="bg-white dark:bg-slate-950 border-b border-slate-100 dark:border-slate-800 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] docked full-width top-0 z-50 sticky transition-all duration-300 ease-in-out">
+<nav class="max-w-[1280px] mx-auto flex justify-between items-center px-8 py-4 w-full">
+<div class="text-2xl font-extrabold text-[#1E3A8A] dark:text-white font-headline-md">
+                AgriPump Pro
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-manrope text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Pumps</a>
+<a class="font-manrope text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Filters</a>
+<a class="font-manrope text-sm font-medium tracking-tight text-[#53B94A] border-b-2 border-[#53B94A] pb-1 font-bold" href="#">Solutions</a>
+<a class="font-manrope text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Catalog</a>
+<a class="font-manrope text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-[#53B94A] transition-colors" href="#">Support</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-4 text-slate-600">
+<span class="material-symbols-outlined cursor-pointer hover:bg-slate-50 p-2 rounded-full transition-colors" data-icon="shopping_cart">shopping_cart</span>
+<span class="material-symbols-outlined cursor-pointer hover:bg-slate-50 p-2 rounded-full transition-colors" data-icon="person">person</span>
+</div>
+<button class="bg-[#53B94A] text-white px-6 py-2.5 rounded-lg font-label-lg font-bold hover:opacity-90 transition-opacity">
+                    Request Quote
+                </button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative w-full bg-white overflow-hidden py-xl">
+<div class="max-w-[1280px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="inline-block bg-primary-container/10 text-primary px-4 py-1.5 rounded-full font-label-sm mb-6">INGENIERÍA DE PRECISIÓN</span>
+<h1 class="font-headline-xl text-headline-xl text-on-background mb-6">
+                        Soluciones de Bombeo de <span class="text-primary">Alto Rendimiento</span> para la Industria.
+                    </h1>
+<p class="font-body-lg text-body-lg text-tertiary mb-10 max-w-lg">
+                        Diseñamos sistemas hidráulicos inteligentes que optimizan el uso de energía y maximizan el caudal. Desde bombas sumergibles hasta filtración avanzada.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-lg font-label-lg hover:shadow-lg transition-all">Ver Catálogo 2024</button>
+<button class="border border-outline text-on-background px-8 py-4 rounded-lg font-label-lg hover:bg-surface-container transition-all">Asesoría Técnica</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+<img alt="Industrial Water Pump" class="rounded-xl shadow-2xl relative z-10 w-full object-cover aspect-[4/3]" data-alt="industrial water pump machinery close up with stainless steel surfaces and blue technical highlights in a clean warehouse environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCebC3MRj9IVlxRXW5ZeiE4BI-RzfivzECJMfW460HtB4oIjA__SL2QeaPbzPZX1yb32ZHMdCKNOL4fh5l-4v713BiuZlvfJyswRhLrmkOBt9Mk4UMxz0njIQjsYqpNKlkDHw_YpE3Gi-OU_wGT41a7QP3jL9iEkAyr0ErhqjLo0a40pALjtKJP9E7cv4_qbMXp1r4mafDzn74CKFYoUcHwK0oH_2vUmsoYqlr5kl1PN52HNWEg2wDSj8ZuiChlcuQa38b_-R5b9p8"/>
+</div>
+</div>
+</section>
+<!-- Trust Section -->
+<section class="bg-surface-container-low py-lg">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="local_shipping">local_shipping</span>
+<div>
+<p class="font-label-lg text-on-surface">Envíos a todo Chile</p>
+<p class="font-label-sm text-tertiary">Logística industrial asegurada</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="payments">payments</span>
+<div>
+<p class="font-label-lg text-on-surface">Precios Competitivos</p>
+<p class="font-label-sm text-tertiary">Directo de fábrica</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="verified">verified</span>
+<div>
+<p class="font-label-lg text-on-surface">Garantía Extendida</p>
+<p class="font-label-sm text-tertiary">Soporte técnico 24/7</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Categories (Bento Grid) -->
+<section class="py-xl max-w-[1280px] mx-auto px-8">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-lg text-center">Categorías Destacadas</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-gutter h-[600px]">
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl bg-white border border-slate-100 cursor-pointer shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<img alt="Bombas Industriales" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="powerful industrial centrifugal water pump system in a professional setting with bright lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS-xCI6dh1BmZYMRTDJ77XT1OM7aXzGfLpDISPqYWyoeOfIevwCt8XAF8n6nlBuOFrDvSbrZ2QbsduAS0ajW7p7icogl_XyEMIzbPU-TWlxn2VUJlv2369jAQWVJLVz6qQvCAb5icW3HIwhuqsvBP1pdZgflSqPKhPifV0_lNymdLT15OaXBDPJyUn_pAgoYLNZU-7agKKYlvE1DhXzVdylknkCjVI7rhJsaTTuN1_2B13wUadWPLsxjrxbCwL8_ZZE11_ZN5bcnnB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent"></div>
+<div class="absolute bottom-8 left-8 text-white">
+<p class="font-label-sm uppercase tracking-widest mb-2 opacity-80">Sistemas de Caudal</p>
+<h3 class="font-headline-md text-headline-md mb-4">Bombas Hidráulicas</h3>
+<button class="bg-primary px-6 py-2 rounded-lg font-label-lg flex items-center gap-2 group">
+                            Explorar <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="md:col-span-2 relative group overflow-hidden rounded-xl bg-white border border-slate-100 cursor-pointer shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<img alt="Filtros" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="advanced water filtration system with multiple blue filters and chrome piping in industrial facility" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbt_7kkhjEr-KlqYvqLWfuZvJLyeP9soYDk6S4_Gin_Vc5xVNrrH6oFkSM0gA1F7EfhF6Y-Vf9tj-_dBdqHxUQjwV8cNCzgPDnI-aso7NtshtrG8H8W7kDm4mZtW0r5T2UijIergZxRdy3ApP4rfo2AX8TFwJEypTsF6CrXT6YOOg60nZXJYZGg8DsqxqK9jOFTAdpN93_ptZUK8AlO_izHN1YwBH_LU0p315P2Yz5NNFBrFvc0PG9zOh5K8E9ZrPLLxm1sWQYgETa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<h3 class="font-headline-md text-headline-md">Filtración Técnica</h3>
+</div>
+</div>
+<div class="md:col-span-2 relative group overflow-hidden rounded-xl bg-white border border-slate-100 cursor-pointer shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<img alt="Riego" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="automated agricultural irrigation system spraying water over a lush green crop field during sunrise" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlPFgdN_aAjHkmztaxJm5nt6HoSXIoJZzs3pVfuJjwN17te2vf3MOnl49ymkTzA5TWAllYlA0lIEACHbc9de49RY7kgcP6bqd2DZRA4H4AOQo-RuiZjKe2avdr_MfqfpGTGRVgcuoaYKnk7S1L9Lgyx8LAu4XMXRZ2y9fdDLt4AUtFVMCkXen0J7NgBcsn0kBK-EywOyR379T7X9uvARiEA-iu2ijBkeJ6sEqPj1rU9OQeQqByydZCQ7eSJ6yjzKzBhv3-ww1p17J7"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<h3 class="font-headline-md text-headline-md">Sistemas de Riego</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- Top-selling Products Grid -->
+<section class="bg-surface py-xl">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="flex justify-between items-end mb-lg">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-background">Más Vendidos</h2>
+<p class="font-body-md text-tertiary">Equipos de alta demanda garantizados por nuestros clientes.</p>
+</div>
+<a class="text-primary font-label-lg flex items-center gap-1 hover:underline" href="#">Ver todo el catálogo <span class="material-symbols-outlined">trending_flat</span></a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product Card 1 -->
+<div class="bg-white rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0px_8px_30px_rgba(0,0,0,0.08)] flex flex-col">
+<div class="p-4 relative">
+<span class="absolute top-6 left-6 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded">STOCK</span>
+<img alt="Bomba Centrifuga" class="w-full h-48 object-contain mb-4" data-alt="heavy duty silver industrial water pump on a white background with sharp focus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMHwPCs0pZE0J56xd3O0RPzmWJtJA5MqHJzhYBoxhEPDYkV8fE6tLLpbuuNDtBoJ1fa-UBoANpwPljuYabkuy0-2vRy5JG3a5knzfJqWLq20vuEJ8qRUZ20F19Uyg5wBYXaqrDzNU02ts-352eEODptJ6wGfa3TgwD2zg_b8y0c-B_UDUOmT9fYwHCjZPF-5bsNXA62Ra-kr6ompthjpBQrJ6w3E9VHeu4q_5YilKsiaJ1hk7AwqsCSufYRVlra5XxrM1LZomhuKZq"/>
+</div>
+<div class="p-6 pt-0 flex-grow">
+<span class="font-label-sm text-primary uppercase">Centrífugas</span>
+<h4 class="font-headline-md text-body-lg mt-1 mb-2">Bomba Titan X-500</h4>
+<div class="bg-surface-container-low rounded p-3 mb-4">
+<table class="w-full text-[11px] font-label-sm text-tertiary">
+<tbody><tr><td class="py-0.5">Potencia:</td><td class="text-right font-bold text-on-surface">5.5 HP</td></tr>
+<tr><td class="py-0.5">Caudal Máx:</td><td class="text-right font-bold text-on-surface">450 L/min</td></tr>
+</tbody></table>
+</div>
+<div class="flex justify-between items-center">
+<p class="font-headline-md text-primary">$1.240.000</p>
+<button class="bg-on-secondary-container text-white p-2 rounded-lg hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined" data-icon="add_shopping_cart">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-white rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0px_8px_30px_rgba(0,0,0,0.08)] flex flex-col">
+<div class="p-4 relative">
+<img alt="Filtro de Anillas" class="w-full h-48 object-contain mb-4" data-alt="industrial blue water filtration cylinder with professional chrome valve connectors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC51tFpfXZw93SyiFM07KvGZ0vvexJ5wIDoH1xClQKKmT8rC7DTEXZ1AD56hVBX2H8kmvyAEMsH529qxMKzdtm3w2Cm_Doc20ObPLOSJDdMSazjRInRqMXAvV_JBgfnLSIvZUhRqKNPYeoCmYjmRsS9yRofdDZKPLyekkIb3tf-yukoWYk7a-aoztTDaYoQLypxSdfV1fl2SzdfkgIFyp6uA_Ojsh1pYmQZ2PKP2gdo9zqQMlVbL04nFLFEEMG2Tx6zdI45ohMCCoe6"/>
+</div>
+<div class="p-6 pt-0 flex-grow">
+<span class="font-label-sm text-primary uppercase">Filtración</span>
+<h4 class="font-headline-md text-body-lg mt-1 mb-2">Filtro Helix Automático</h4>
+<div class="bg-surface-container-low rounded p-3 mb-4">
+<table class="w-full text-[11px] font-label-sm text-tertiary">
+<tbody><tr><td class="py-0.5">Grado:</td><td class="text-right font-bold text-on-surface">130 micras</td></tr>
+<tr><td class="py-0.5">Conexión:</td><td class="text-right font-bold text-on-surface">3" Brida</td></tr>
+</tbody></table>
+</div>
+<div class="flex justify-between items-center">
+<p class="font-headline-md text-primary">$890.900</p>
+<button class="bg-on-secondary-container text-white p-2 rounded-lg hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined" data-icon="add_shopping_cart">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="bg-white rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0px_8px_30px_rgba(0,0,0,0.08)] flex flex-col">
+<div class="p-4 relative">
+<img alt="Bomba Sumergible" class="w-full h-48 object-contain mb-4" data-alt="long stainless steel submersible borehole pump with electrical cabling on white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmkxLij-Tlwsg88dVAKxh43Y2jj8JS4anr5w_nVDH7vjWXl5dF4TBkj8MbpqsFkEEBqpltfFxCghyigYEqjZ-wW1q7fVQkqpoAIFw9VHxzXKpeT74mVjAhoo-Or9joO5wDLFy_nMYo6JozaQB0IlivJBv2zTReh7i8Ou0le3ipu6gfHOUBPGQqdyp1yZTen9sgt8IhqS2XoYe14pCLxL0zwDiaimOjTrM0v3ovZqARhrof0aOWlt73w6XA5OtnbBM7ajpGKSL8qIow"/>
+</div>
+<div class="p-6 pt-0 flex-grow">
+<span class="font-label-sm text-primary uppercase">Pozos</span>
+<h4 class="font-headline-md text-body-lg mt-1 mb-2">DeepWell Pro 4"</h4>
+<div class="bg-surface-container-low rounded p-3 mb-4">
+<table class="w-full text-[11px] font-label-sm text-tertiary">
+<tbody><tr><td class="py-0.5">Altura Máx:</td><td class="text-right font-bold text-on-surface">120 m</td></tr>
+<tr><td class="py-0.5">Material:</td><td class="text-right font-bold text-on-surface">Inox AISI 304</td></tr>
+</tbody></table>
+</div>
+<div class="flex justify-between items-center">
+<p class="font-headline-md text-primary">$2.150.000</p>
+<button class="bg-on-secondary-container text-white p-2 rounded-lg hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined" data-icon="add_shopping_cart">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="bg-white rounded-xl border border-slate-100 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0px_8px_30px_rgba(0,0,0,0.08)] flex flex-col">
+<div class="p-4 relative">
+<img alt="Variador" class="w-full h-48 object-contain mb-4" data-alt="compact grey industrial frequency drive controller for water pumps with digital display" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE-ac8zUee9N2c9-qEFoHlxVlMvVgRLtX0EYNuXhhRZZpXXWLc-seL5UDOFGe4tYSdcM-ZPgvK4XsCxdzPp2DQhqvz8BlkHo-tKt2yKbk2S4f0LoYaEOKwXTGk5F1KDQN0gixZytSaA_YxXXbgodWmmZg1bAtnLIG71DV6r3--yz8Sp7IJ17IpsYOG4wwd_tA1QHcLogrMKrXu2nGTU4vHlnMns5JU4ZnO-J5obrSyAr6_ltSkKvpDokGsWL-yhPYGnClmthE-uTFj"/>
+</div>
+<div class="p-6 pt-0 flex-grow">
+<span class="font-label-sm text-primary uppercase">Control</span>
+<h4 class="font-headline-md text-body-lg mt-1 mb-2">VFD SmartDrive 7.5</h4>
+<div class="bg-surface-container-low rounded p-3 mb-4">
+<table class="w-full text-[11px] font-label-sm text-tertiary">
+<tbody><tr><td class="py-0.5">Frecuencia:</td><td class="text-right font-bold text-on-surface">50/60 Hz</td></tr>
+<tr><td class="py-0.5">Protección:</td><td class="text-right font-bold text-on-surface">IP66</td></tr>
+</tbody></table>
+</div>
+<div class="flex justify-between items-center">
+<p class="font-headline-md text-primary">$560.000</p>
+<button class="bg-on-secondary-container text-white p-2 rounded-lg hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined" data-icon="add_shopping_cart">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / CTA -->
+<section class="bg-secondary-container/20 py-xl">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="bg-on-secondary-container rounded-2xl p-12 text-white flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-xl text-center md:text-left">
+<h2 class="font-headline-lg text-headline-lg mb-4 text-white">¿Necesitas un proyecto hidráulico a medida?</h2>
+<p class="font-body-lg text-secondary-fixed opacity-90">Nuestro equipo de ingenieros diseña la solución óptima para tu campo o planta industrial. Recibe una cotización formal en menos de 24 horas.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+<input class="px-6 py-4 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 w-full sm:w-64 focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Tu correo corporativo" type="email"/>
+<button class="bg-primary text-white px-8 py-4 rounded-lg font-label-lg whitespace-nowrap hover:bg-primary-container transition-all">Solicitar Asesoría</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#F3F8F3] dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 full-width border-t">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 w-full">
+<div class="col-span-1">
+<div class="text-lg font-bold text-slate-900 dark:text-white font-manrope mb-6">AgriPump Pro</div>
+<p class="font-manrope text-xs text-slate-500 uppercase tracking-widest leading-loose">
+                    Ingeniería de vanguardia para el manejo de recursos hídricos. Líderes en tecnología hidráulica industrial.
+                </p>
+</div>
+<div>
+<h4 class="font-manrope text-xs uppercase tracking-widest font-semibold text-[#53B94A] mb-6">Productos</h4>
+<ul class="space-y-4">
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Technical Specs</a></li>
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Bombas Centrífugas</a></li>
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Sistemas Filtro</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-manrope text-xs uppercase tracking-widest font-semibold text-[#53B94A] mb-6">Soporte</h4>
+<ul class="space-y-4">
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Warranty Information</a></li>
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Contact Engineering</a></li>
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Servicio Técnico</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-manrope text-xs uppercase tracking-widest font-semibold text-[#53B94A] mb-6">Legal</h4>
+<ul class="space-y-4">
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Privacy Policy</a></li>
+<li><a class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500 hover:text-[#1E3A8A] transition-opacity" href="#">Términos y Condiciones</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto px-8 py-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:row items-center justify-between gap-4">
+<p class="font-manrope text-xs uppercase tracking-widest font-semibold text-slate-500">
+                © 2024 AgriPump Industrial Systems. Engineered for Precision.
+            </p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors" data-icon="language">language</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors" data-icon="shield">shield</span>
+</div>
+</div>
+</footer>
+</body></html>

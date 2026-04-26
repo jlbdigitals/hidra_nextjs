@@ -12,33 +12,42 @@ const PUMP_BRANDS = [
 
 export default function PumpBrands() {
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-[1140px] mx-auto px-4">
-        <h2 
-          className="text-center font-bold mb-12 uppercase"
-          style={{ fontFamily: "var(--font-nunito-sans)", color: "#54595F", fontWeight: 700, fontSize: 28 }}
-        >
-          NUESTRAS MARCAS LÍDERES
-        </h2>
+    <section className="py-24 bg-[#f8fafc] border-y border-[#dee3ea]">
+      <div className="max-w-[1280px] mx-auto px-6">
+        <div className="flex flex-col items-center text-center mb-20 space-y-4">
+          <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Socios Estratégicos</span>
+          <h2 
+            className="font-extrabold tracking-tight text-[#171c21]"
+            style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+          >
+            LÍDERES EN TECNOLOGÍA DE BOMBEO
+          </h2>
+          <div className="w-16 h-1 bg-[#006e0c] rounded-full"></div>
+        </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {PUMP_BRANDS.map((brand) => (
             <Link 
               key={brand.name}
               href={brand.href}
-              className="group flex flex-col items-center gap-4 transition-transform hover:-translate-y-1"
+              className="group flex flex-col items-center gap-8 p-8 rounded-3xl bg-white border border-[#f1f5f9] transition-all duration-500 hover:shadow-[0px_30px_60px_rgba(0,0,0,0.06)] hover:-translate-y-2"
             >
-              <div className="relative w-full h-32 flex items-center justify-center">
+              <div className="relative w-full h-24 flex items-center justify-center">
                 <Image
                   src={brand.img}
                   alt={brand.name}
                   fill
-                  className="object-contain transition-transform group-hover:scale-110"
+                  className="object-contain"
                 />
               </div>
-              <span className="font-bold text-[#54595F] group-hover:text-[#53B94A] transition-colors">
-                {brand.name}
-              </span>
+              <div className="flex flex-col items-center gap-3">
+                <span className="font-extrabold text-[#1e293b] text-lg tracking-tight transition-colors group-hover:text-[#006e0c]" style={{ fontFamily: "var(--font-manrope)" }}>
+                  {brand.name}
+                </span>
+                <span className="text-[10px] font-bold text-[#94a3b8] uppercase tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-all duration-500">
+                  Ver Productos
+                </span>
+              </div>
             </Link>
           ))}
         </div>

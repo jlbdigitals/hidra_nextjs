@@ -51,115 +51,112 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 bg-white"
-      style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.5)" }}
+      className="sticky top-0 z-50 bg-white/95 backdrop-blur-md"
+      style={{ boxShadow: "0px 10px 40px rgba(0,0,0,0.03)" }}
     >
-      <div className="max-w-[1140px] mx-auto px-4">
+      <div className="max-w-[1280px] mx-auto px-6">
         {/* Top row: logo + search + cart */}
-        <div className="grid grid-cols-[auto_1fr_auto] items-center py-3 gap-8">
+        <div className="flex items-center justify-between py-5 gap-8 lg:gap-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/">
+          <div className="flex items-center shrink-0">
+            <Link href="/" className="hover:opacity-90 transition-opacity">
               <Image
                 src="/images/logo.webp"
                 alt="Hidra"
-                width={220}
-                height={70}
-                className="h-12 w-auto object-contain"
+                width={200}
+                height={64}
+                className="h-9 w-auto object-contain"
                 priority
               />
             </Link>
           </div>
 
-          {/* Search */}
-          <div className="flex justify-center w-full">
-            <form onSubmit={handleSearch} className="w-full max-w-md">
-              <div className="relative">
+          {/* Search - Central */}
+          <div className="hidden md:flex flex-1 max-w-2xl">
+            <form onSubmit={handleSearch} className="w-full">
+              <div className="relative group">
                 <input
                   type="text"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  placeholder="Buscar productos..."
-                  className="w-full border border-[#e0e0e0] rounded px-4 py-2 text-sm text-[#54595F] placeholder-[#aaa] focus:outline-none focus:border-[#53B94A]"
+                  placeholder="Busca bombas, filtros o marcas..."
+                  className="w-full bg-[#f8fafc] border border-slate-100 rounded-2xl px-6 py-3 text-sm text-[#1e293b] font-bold placeholder-slate-400 focus:outline-none focus:border-[#4059aa]/30 focus:ring-4 focus:ring-[#4059aa]/5 transition-all shadow-inner"
+                  style={{ fontFamily: "var(--font-manrope)" }}
                 />
                 <button
                   type="submit"
-                  className="absolute right-2 top-1/2 -translate-y-1/2 text-[#7A7A7A] hover:text-[#53B94A]"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 group-hover:text-[#4059aa] transition-colors"
                 >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </button>
               </div>
             </form>
           </div>
 
-          {/* Cart / contact */}
-          <div className="flex justify-end items-center gap-4">
-            <div className="hidden lg:flex flex-col items-end gap-0 whitespace-nowrap">
-              <a
-                href="tel:+56227238788"
-                className="flex items-center gap-1.5 text-xs text-[#7A7A7A] hover:text-[#53B94A] transition-colors"
-              >
-                <svg className="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          {/* Cart / mobile actions */}
+          <div className="flex items-center gap-4 lg:gap-8">
+            {/* Desktop Phone */}
+            <div className="hidden xl:flex items-center gap-3 pr-4 border-r border-slate-100">
+              <div className="w-10 h-10 rounded-full bg-[#f1f5f9] flex items-center justify-center text-[#006e0c]">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>Oficina: 2 2723 8788</span>
-              </a>
-              <a
-                href="tel:+56997107845"
-                className="flex items-center gap-1.5 text-xs text-[#7A7A7A] hover:text-[#53B94A] transition-colors"
-              >
-                <svg className="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <span>Celular: +56 9 9710 7845</span>
-              </a>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">Asesoría</span>
+                <a href="tel:+56997107845" className="text-sm font-extrabold text-[#1e293b] hover:text-[#006e0c] transition-colors leading-tight">+56 9 9710 7845</a>
+              </div>
             </div>
+            
             <CartButton />
+
             {/* Mobile menu toggle */}
             <button
-              className="lg:hidden text-[#7A7A7A] p-1"
+              className="lg:hidden w-10 h-10 flex items-center justify-center bg-slate-50 text-[#1e293b] rounded-xl hover:bg-slate-100 transition-colors"
               onClick={() => setMenuOpen(!menuOpen)}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 6h16M4 12h16M4 18h16" />
                 )}
               </svg>
             </button>
           </div>
         </div>
 
-        {/* Nav */}
-        <nav className="hidden lg:flex items-center gap-1 border-t border-[#f0f0f0] py-0.5">
+        {/* Desktop Nav Row */}
+        <nav className="hidden lg:flex items-center gap-1 border-t border-slate-50 py-1">
           {navLinks.map((link) => (
             <div key={link.href} className="relative group">
               <Link
                 href={link.href}
-                className="px-3 py-2.5 text-sm font-bold text-[#7A7A7A] hover:text-white hover:bg-[#53B94A] rounded transition-colors block"
-                style={{ fontFamily: "var(--font-nunito)" }}
+                className="px-5 py-4 text-[13px] font-extrabold text-slate-500 hover:text-[#006e0c] transition-all flex items-center gap-2 group-hover:bg-slate-50/50 rounded-2xl"
+                style={{ fontFamily: "var(--font-manrope)" }}
               >
-                {link.label}
+                <span>{link.label}</span>
                 {link.submenu && (
-                  <svg className="inline w-3 h-3 ml-1 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <svg className="w-3.5 h-3.5 opacity-40 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                   </svg>
                 )}
               </Link>
               {link.submenu && (
-                <div className="absolute top-full left-0 hidden group-hover:block bg-[#F3F8F3] border border-[#e0e0e0] rounded shadow-lg min-w-48 z-50">
-                  {link.submenu.map((sub) => (
-                    <Link
-                      key={sub.href}
-                      href={sub.href}
-                      className="block px-4 py-2.5 text-sm font-medium text-[#7A7A7A] hover:text-[#53B94A] hover:bg-[#F3F8F3] transition-colors"
-                    >
-                      {sub.label}
-                    </Link>
-                  ))}
+                <div className="absolute top-[85%] left-0 hidden group-hover:block pt-4 min-w-64 z-50 animate-fade-in">
+                  <div className="bg-white border border-slate-100 rounded-[24px] shadow-2xl shadow-black/10 py-3 overflow-hidden">
+                    {link.submenu.map((sub) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        className="block px-6 py-3.5 text-sm font-bold text-slate-600 hover:text-[#006e0c] hover:bg-slate-50 transition-colors"
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -169,17 +166,35 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="lg:hidden border-t border-[#f0f0f0] bg-white px-4 py-3 flex flex-col gap-1">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="px-3 py-2 text-sm font-bold text-[#7A7A7A] hover:text-[#53B94A] rounded"
-            >
-              {link.label}
-            </Link>
-          ))}
+        <div className="lg:hidden border-t border-slate-100 bg-white px-6 py-8 flex flex-col gap-4 shadow-2xl animate-fade-in-up">
+          <div className="flex flex-col gap-1">
+             {navLinks.map((link) => (
+               <Link
+                 key={link.href}
+                 href={link.href}
+                 onClick={() => setMenuOpen(false)}
+                 className="px-6 py-4 text-lg font-extrabold text-[#1e293b] active:bg-slate-50 rounded-2xl flex items-center justify-between"
+               >
+                 <span>{link.label}</span>
+                 <svg className="w-5 h-5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                 </svg>
+               </Link>
+             ))}
+          </div>
+          <div className="mt-6 pt-6 border-t border-slate-100 space-y-4">
+             <div className="flex items-center gap-4 p-4 bg-slate-50 rounded-[24px]">
+               <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#006e0c] shadow-sm">
+                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                 </svg>
+               </div>
+               <div className="flex flex-col">
+                 <span className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">Contacto Directo</span>
+                 <a href="tel:+56997107845" className="text-base font-extrabold text-[#1e293b]">+56 9 9710 7845</a>
+               </div>
+             </div>
+          </div>
         </div>
       )}
     </header>
