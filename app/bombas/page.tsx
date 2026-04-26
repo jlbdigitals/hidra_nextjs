@@ -318,7 +318,13 @@ export default async function BombasPage({
     filtered = filtered.filter((p) => p.hp.includes(hp));
   }
   if (voltaje) {
-    filtered = filtered.filter((p) => p.voltaje.includes(voltaje));
+    if (voltaje === "monofasica") {
+      filtered = filtered.filter((p) => p.voltaje.some((v) => parseInt(v) < 380));
+    } else if (voltaje === "trifasica") {
+      filtered = filtered.filter((p) => p.voltaje.some((v) => parseInt(v) >= 380));
+    } else {
+      filtered = filtered.filter((p) => p.voltaje.includes(voltaje));
+    }
   }
 
   // Pagination
@@ -340,7 +346,21 @@ export default async function BombasPage({
     return `/bombas${s ? `?${s}` : ""}`;
   };
 
-  const activeFilters = [marca, serie, hp ? `${hp} HP` : null, voltaje ? `${voltaje}V` : null].filter(Boolean);
+  const voltajeLabel =
+    voltaje === "monofasica"
+      ? "Monofásica"
+      : voltaje === "trifasica"
+      ? "Trifásica"
+      : voltaje
+      ? `${voltaje}V`
+      : null;
+
+  const activeFilters = [
+    marca,
+    serie,
+    hp ? `${hp} HP` : null,
+    voltajeLabel,
+  ].filter(Boolean);
 
   return (
     <div>

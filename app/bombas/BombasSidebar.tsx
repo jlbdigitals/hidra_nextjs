@@ -196,22 +196,35 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
           >
             Filtrar por Voltaje
           </h3>
-          <div className="flex flex-wrap gap-1.5 px-1">
-            {voltajes.map((v) => (
+          <div className="flex flex-col gap-1.5 px-1">
+            {voltajes.some(v => parseInt(v) < 380) && (
               <button
-                key={v}
-                onClick={() => toggleVoltaje(v)}
-                className="px-2.5 py-1 text-xs font-semibold rounded border transition-colors"
+                onClick={() => toggleVoltaje("monofasica")}
+                className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
                 style={{
                   fontFamily: "var(--font-nunito)",
-                  backgroundColor: currentVoltaje === v ? "#53B94A" : "#F3F8F3",
-                  color: currentVoltaje === v ? "#fff" : "#54595F",
-                  borderColor: currentVoltaje === v ? "#53B94A" : "#e0e0e0",
+                  backgroundColor: currentVoltaje === "monofasica" ? "#53B94A" : "#F3F8F3",
+                  color: currentVoltaje === "monofasica" ? "#fff" : "#54595F",
+                  borderColor: currentVoltaje === "monofasica" ? "#53B94A" : "#e0e0e0",
                 }}
               >
-                {v}V
+                Monofásicas (220V)
               </button>
-            ))}
+            )}
+            {voltajes.some(v => parseInt(v) >= 380) && (
+              <button
+                onClick={() => toggleVoltaje("trifasica")}
+                className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
+                style={{
+                  fontFamily: "var(--font-nunito)",
+                  backgroundColor: currentVoltaje === "trifasica" ? "#53B94A" : "#F3F8F3",
+                  color: currentVoltaje === "trifasica" ? "#fff" : "#54595F",
+                  borderColor: currentVoltaje === "trifasica" ? "#53B94A" : "#e0e0e0",
+                }}
+              >
+                Trifásicas (380V+)
+              </button>
+            )}
           </div>
         </div>
       )}
