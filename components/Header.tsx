@@ -100,17 +100,17 @@ export default function Header() {
           <div className="flex items-center gap-4 lg:gap-8">
             {/* Desktop Phones */}
             <div className="hidden xl:flex items-center gap-6 pr-4 border-r border-slate-100">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#f1f5f9] flex items-center justify-center text-[#006e0c]">
+              <a href="https://wa.me/56997107845" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
+                <div className="w-9 h-9 rounded-full bg-[#f1f5f9] flex items-center justify-center text-[#006e0c] group-hover:bg-[#dcfce7] transition-colors">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.89-11.893 11.89-.199 0-.399-.012-.593-.035l-6.191 1.621c-.482.126-.957.172-1.422.172-.857 0-1.611-.253-2.146-.732-.489-.439-.817-1.129-.734-2.005zm4.032-5.753l-.248.437c-1.01 1.772-1.545 3.812-1.545 5.894 0 .438.163.812.441 1.062.242.244.629.404 1.157.301l4.437-1.162.483.287c1.3.774 2.766 1.182 4.28 1.182 5.674 0 10.291-4.616 10.291-10.291s-4.617-10.291-10.291-10.291c-5.676 0-10.292 4.616-10.292 10.291 0 1.838.537 3.633 1.554 5.188l.288.439-1.135 4.144 4.331-1.132z" />
                   </svg>
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[9px] font-extrabold text-slate-400 uppercase tracking-widest">WhatsApp</span>
-                  <a href="https://wa.me/56997107845" className="text-[13px] font-extrabold text-[#1e293b] hover:text-[#006e0c] transition-colors leading-tight">+56 9 9710 7845</a>
+                  <span className="text-[13px] font-extrabold text-[#1e293b] group-hover:text-[#006e0c] transition-colors leading-tight">+56 9 9710 7845</span>
                 </div>
-              </div>
+              </a>
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 rounded-full bg-[#f1f5f9] flex items-center justify-center text-[#4059aa]">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

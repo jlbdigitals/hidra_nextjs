@@ -26,7 +26,7 @@ export default function ContactoPage() {
             Estamos a un <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#53B94A] to-[#4059aa]">click de distancia</span>
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto font-medium" style={{ fontFamily: "var(--font-manrope)" }}>
-            Nuestro equipo de expertos está listo para asesorarte en tus proyectos hidráulicos y agrícolas.
+            Te asesoramos en bombas, filtros y todo lo que necesitas para tu proyecto.
           </p>
         </div>
       </div>

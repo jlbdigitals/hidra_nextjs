@@ -131,15 +131,16 @@ export default function HomePage() {
       <section className="py-24 lg:py-32 bg-[#0f172a] overflow-hidden">
         <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="relative group">
-              <div className="absolute -inset-4 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-700"></div>
-              <Image 
-                src="/images/bomba-featured.png" 
-                alt="Bomba Hidráulica Premium" 
-                width={600} 
-                height={600} 
-                className="relative z-10 rounded-3xl shadow-2xl border border-white/5"
-              />
+            <div className="relative group flex items-center justify-center">
+              <div className="absolute inset-0 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-700"></div>
+              <div className="relative z-10 w-full aspect-square max-w-[500px] rounded-3xl overflow-hidden shadow-2xl border border-white/5 bg-[#1e293b]">
+                <Image
+                  src="/uploads/pks.jpg"
+                  alt="Bomba Pedrollo PKS"
+                  fill
+                  className="object-contain p-8 drop-shadow-2xl"
+                />
+              </div>
             </div>
             <div className="space-y-8">
               <div className="space-y-4">
@@ -160,7 +161,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center gap-4 text-slate-300">
                   <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#53b94a] border border-white/10">✓</div>
-                  <span className="font-bold">Construcción en Acero Inoxidable y Bronce</span>
+                  <span className="font-bold">Materiales pensados para cada aplicación</span>
                 </div>
                 <div className="flex items-center gap-4 text-slate-300">
                   <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#53b94a] border border-white/10">✓</div>

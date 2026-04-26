@@ -64,9 +64,9 @@ export default function Footer() {
 
         {/* Brands */}
         <div>
-          <h4 className="text-[10px] font-extrabold text-[#4059aa] uppercase tracking-[0.4em] mb-10">Marcas Representadas</h4>
+          <h4 className="text-[10px] font-extrabold text-[#4059aa] uppercase tracking-[0.4em] mb-10">Marcas Comercializadas</h4>
           <ul className="grid grid-cols-1 gap-y-5">
-            {["Hidra", "Pedrollo", "Calpeda", "Reggio", "Bestflow", "Hunter", "Rain Bird", "Amiad", "Azud"].map((b) => (
+            {["Pedrollo", "Calpeda", "Reggio", "Bestflow", "Hunter", "Rain Bird", "Amiad", "Azud"].map((b) => (
               <li key={b}>
                 <Link href={`/bombas?marca=${encodeURIComponent(b)}`} className="text-sm font-bold text-slate-500 hover:text-[#006e0c] transition-all flex items-center gap-3 group">
                   <span className="w-1 h-1 rounded-full bg-slate-200 group-hover:bg-[#006e0c] group-hover:scale-150 transition-all"></span>
