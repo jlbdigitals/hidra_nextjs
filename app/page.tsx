@@ -114,7 +114,7 @@ export default function HomePage() {
         <div className="max-w-[1280px] mx-auto px-6 flex items-center justify-center gap-12 animate-in fade-in duration-1000">
           <div className="flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-[#006e0c] animate-pulse"></div>
-            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">BOMBAS EN STOCK</span>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">EQUIPOS DE ALTA CALIDAD</span>
           </div>
           <div className="hidden md:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
             <div className="w-2 h-2 rounded-full bg-[#4059aa]"></div>
@@ -122,7 +122,7 @@ export default function HomePage() {
           </div>
           <div className="hidden lg:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
             <div className="w-2 h-2 rounded-full bg-[#53b94a]"></div>
-            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ASISTENCIA TÉCNICA ESPECIALIZADA</span>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ATENCIÓN DIRECTA Y PERSONALIZADA</span>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ export default function HomePage() {
             </div>
             <div className="space-y-8">
               <div className="space-y-4">
-                <span className="text-[11px] font-extrabold uppercase tracking-[0.3em] text-[#53b94a]">Ingeniería de Precisión</span>
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.3em] text-[#53b94a]">Equipos de Alto Rendimiento</span>
                 <h2 className="text-4xl lg:text-6xl font-extrabold text-white leading-tight" style={{ fontFamily: "var(--font-manrope)" }}>
                   BOMBAS QUE <span className="text-[#53b94a]">IMPULSAN</span> <br />
                   SU PRODUCCIÓN
@@ -354,10 +354,10 @@ export default function HomePage() {
         <div className="relative z-10 max-w-[1280px] mx-auto px-6 lg:px-12 text-center space-y-12">
           <div className="space-y-4">
             <h2 className="text-white font-extrabold tracking-tight text-3xl lg:text-5xl" style={{ fontFamily: "var(--font-manrope)" }}>
-              ¿NECESITA ASESORÍA TÉCNICA?
+              ¿NECESITA UNA COTIZACIÓN?
             </h2>
             <p className="text-emerald-100 text-lg lg:text-xl max-w-2xl mx-auto font-medium">
-              Obtenga asesoría técnica especializada para dimensionar el equipo perfecto para su aplicación.
+              Contáctenos para recibir una propuesta a la medida de sus necesidades hidráulicas.
             </p>
           </div>
 
@@ -372,11 +372,11 @@ export default function HomePage() {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.89-11.893 11.89-.199 0-.399-.012-.593-.035l-6.191 1.621c-.482.126-.957.172-1.422.172-.857 0-1.611-.253-2.146-.732-.489-.439-.817-1.129-.734-2.005zm4.032-5.753l-.248.437c-1.01 1.772-1.545 3.812-1.545 5.894 0 .438.163.812.441 1.062.242.244.629.404 1.157.301l4.437-1.162.483.287c1.3.774 2.766 1.182 4.28 1.182 5.674 0 10.291-4.616 10.291-10.291s-4.617-10.291-10.291-10.291c-5.676 0-10.292 4.616-10.292 10.291 0 1.838.537 3.633 1.554 5.188l.288.439-1.135 4.144 4.331-1.132z" />
               </svg>
-              HABLAR CON UN EXPERTO
+              HABLAR CON HIDRA
             </a>
             
             <div className="flex flex-col items-center lg:items-start text-emerald-50 gap-1">
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-60">Teléfono Directo</span>
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-60">Oficina Principal</span>
               <a href="tel:+56227238788" className="text-xl font-extrabold hover:text-white transition-colors">+56 2 2723 8788</a>
             </div>
           </div>
