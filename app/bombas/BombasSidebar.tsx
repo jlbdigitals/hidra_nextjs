@@ -167,22 +167,43 @@ export default function BombasSidebar({ brands, hpValues, voltajes }: Props) {
           >
             Filtrar por HP
           </h3>
-          <div className="flex flex-wrap gap-1.5 px-1">
-            {hpValues.map((hp) => (
-              <button
-                key={hp}
-                onClick={() => toggleHp(hp)}
-                className="px-2.5 py-1 text-xs font-semibold rounded border transition-colors"
-                style={{
-                  fontFamily: "var(--font-nunito)",
-                  backgroundColor: currentHp === hp ? "#53B94A" : "#F3F8F3",
-                  color: currentHp === hp ? "#fff" : "#54595F",
-                  borderColor: currentHp === hp ? "#53B94A" : "#e0e0e0",
-                }}
-              >
-                {hp}
-              </button>
-            ))}
+          <div className="flex flex-col gap-1.5 px-1">
+            <button
+              onClick={() => toggleHp("0-1")}
+              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
+              style={{
+                fontFamily: "var(--font-nunito)",
+                backgroundColor: currentHp === "0-1" ? "#53B94A" : "#F3F8F3",
+                color: currentHp === "0-1" ? "#fff" : "#54595F",
+                borderColor: currentHp === "0-1" ? "#53B94A" : "#e0e0e0",
+              }}
+            >
+              0 a 1 HP
+            </button>
+            <button
+              onClick={() => toggleHp("1-10")}
+              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
+              style={{
+                fontFamily: "var(--font-nunito)",
+                backgroundColor: currentHp === "1-10" ? "#53B94A" : "#F3F8F3",
+                color: currentHp === "1-10" ? "#fff" : "#54595F",
+                borderColor: currentHp === "1-10" ? "#53B94A" : "#e0e0e0",
+              }}
+            >
+              1 a 10 HP
+            </button>
+            <button
+              onClick={() => toggleHp("10-100")}
+              className="w-full text-left px-3 py-2 text-sm font-semibold rounded border transition-colors"
+              style={{
+                fontFamily: "var(--font-nunito)",
+                backgroundColor: currentHp === "10-100" ? "#53B94A" : "#F3F8F3",
+                color: currentHp === "10-100" ? "#fff" : "#54595F",
+                borderColor: currentHp === "10-100" ? "#53B94A" : "#e0e0e0",
+              }}
+            >
+              10 a 100 HP
+            </button>
           </div>
         </div>
       )}

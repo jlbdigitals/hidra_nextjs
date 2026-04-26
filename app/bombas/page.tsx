@@ -309,7 +309,24 @@ export default async function BombasPage({
     });
   }
   if (hp) {
-    filtered = filtered.filter((p) => p.hp.includes(hp));
+    if (hp === "0-1") {
+      filtered = filtered.filter((p) => p.hp.some((h) => {
+        const val = parseFloat(h);
+        return val >= 0 && val <= 1;
+      }));
+    } else if (hp === "1-10") {
+      filtered = filtered.filter((p) => p.hp.some((h) => {
+        const val = parseFloat(h);
+        return val > 1 && val <= 10;
+      }));
+    } else if (hp === "10-100") {
+      filtered = filtered.filter((p) => p.hp.some((h) => {
+        const val = parseFloat(h);
+        return val > 10 && val <= 100;
+      }));
+    } else {
+      filtered = filtered.filter((p) => p.hp.includes(hp));
+    }
   }
   if (voltaje) {
     if (voltaje === "monofasica") {
@@ -349,10 +366,21 @@ export default async function BombasPage({
       ? `${voltaje}V`
       : null;
 
+  const hpLabel =
+    hp === "0-1"
+      ? "0 a 1 HP"
+      : hp === "1-10"
+      ? "1 a 10 HP"
+      : hp === "10-100"
+      ? "10 a 100 HP"
+      : hp
+      ? `${hp} HP`
+      : null;
+
   const activeFilters = [
     marca,
     serie,
-    hp ? `${hp} HP` : null,
+    hpLabel,
     voltajeLabel,
   ].filter(Boolean);
 
