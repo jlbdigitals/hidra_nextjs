@@ -13,6 +13,7 @@ const navLinks = [
     href: "/bombas",
     submenu: [
       { label: "Ver todas las bombas", href: "/bombas" },
+      { label: "Hidra", href: "/bombas?marca=Hidra" },
       { label: "Pedrollo", href: "/bombas?marca=Pedrollo" },
       { label: "Calpeda", href: "/bombas?marca=Calpeda" },
       { label: "Reggio", href: "/bombas?marca=Reggio" },
