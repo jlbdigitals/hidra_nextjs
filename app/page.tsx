@@ -19,10 +19,10 @@ const categorySlides = [
 ];
 
 const features = [
-  { icon: "🏆", title: "Marcas reconocidas en el mercado", desc: "Trabajamos con las mejores marcas italianas y americanas." },
-  { icon: "🚚", title: "Envíos a todo Chile", desc: "Despacho rápido a cualquier punto del país." },
-  { icon: "📦", title: "Retiros disponibles en Santiago", desc: "Retira en nuestras oficinas en Maipú, Santiago." },
-  { icon: "💰", title: "Precios Competitivos", desc: "Los mejores precios del mercado garantizados." },
+  { icon: "🔒", title: "Pagos Seguros", desc: "Transacciones protegidas mediante Webpay y transferencias bancarias directas." },
+  { icon: "🚚", title: "Envíos a todo Chile", desc: "Despacho rápido y garantizado a través de los principales transportes del país." },
+  { icon: "🛠️", title: "Garantía Oficial", desc: "Respaldo directo de fábrica en todos nuestros equipos y componentes." },
+  { icon: "🤝", title: "Asesoría Técnica Directa", desc: "Le ayudamos a seleccionar el equipo preciso para su necesidad específica." },
 ];
 
 export default function HomePage() {
@@ -84,7 +84,7 @@ export default function HomePage() {
                 className="text-lg text-slate-300 max-w-xl leading-relaxed"
                 style={{ fontFamily: "var(--font-manrope)", fontWeight: 400 }}
               >
-                Expertos en sistemas de bombeo, filtración y riego de alta eficiencia. 
+                Especialistas en sistemas de bombeo y filtración de alta eficiencia. 
                 Tecnología avanzada para optimizar cada gota de su inversión.
               </p>
             </div>
@@ -118,34 +118,131 @@ export default function HomePage() {
           </div>
           <div className="hidden md:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
             <div className="w-2 h-2 rounded-full bg-[#4059aa]"></div>
-            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ENVÍOS A TODO CHILE EN 24H</span>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ENVÍOS A TODO CHILE</span>
           </div>
           <div className="hidden lg:flex items-center gap-3 border-l border-[#dee3ea] pl-12">
             <div className="w-2 h-2 rounded-full bg-[#53b94a]"></div>
-            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">SOPORTE TÉCNICO ESPECIALIZADO</span>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#64748b]">ASISTENCIA TÉCNICA ESPECIALIZADA</span>
           </div>
         </div>
       </div>
 
-      {/* ========== FEATURES ========== */}
-      <section className="bg-white py-24 lg:py-32">
+      {/* ========== PUMP FEATURED (NEW GRAPHIC) ========== */}
+      <section className="py-24 lg:py-32 bg-[#0f172a] overflow-hidden">
         <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
-            <div className="space-y-6">
-              <h2
-                className="font-extrabold tracking-tight leading-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(2rem, 4vw, 3rem)' }}
-              >
-                TECNOLOGÍA <span className="text-[#4059aa]">HIDRÁULICA</span> <br />
-                DE CLASE MUNDIAL
-              </h2>
-              <div className="w-20 h-1.5 bg-[#006e0c] rounded-full"></div>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-700"></div>
+              <Image 
+                src="/images/bomba-featured.png" 
+                alt="Bomba Hidráulica Premium" 
+                width={600} 
+                height={600} 
+                className="relative z-10 rounded-3xl shadow-2xl border border-white/5"
+              />
             </div>
-            <p className="text-xl text-[#475569] leading-relaxed" style={{ fontFamily: "var(--font-manrope)" }}>
-              Representamos a las marcas líderes globales para ofrecer soluciones robustas que garantizan la continuidad operativa de sus proyectos industriales y agrícolas.
-            </p>
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.3em] text-[#53b94a]">Ingeniería de Precisión</span>
+                <h2 className="text-4xl lg:text-6xl font-extrabold text-white leading-tight" style={{ fontFamily: "var(--font-manrope)" }}>
+                  BOMBAS QUE <span className="text-[#53b94a]">IMPULSAN</span> <br />
+                  SU PRODUCCIÓN
+                </h2>
+                <p className="text-slate-400 text-lg leading-relaxed max-w-xl">
+                  Nuestras electrobombas están diseñadas para soportar las condiciones más exigentes, 
+                  garantizando un flujo constante y eficiente en cada ciclo de riego.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <div className="flex items-center gap-4 text-slate-300">
+                  <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#53b94a] border border-white/10">✓</div>
+                  <span className="font-bold">Eficiencia Energética Superior</span>
+                </div>
+                <div className="flex items-center gap-4 text-slate-300">
+                  <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#53b94a] border border-white/10">✓</div>
+                  <span className="font-bold">Construcción en Acero Inoxidable y Bronce</span>
+                </div>
+                <div className="flex items-center gap-4 text-slate-300">
+                  <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#53b94a] border border-white/10">✓</div>
+                  <span className="font-bold">Respaldo Técnico y Repuestos Garantizados</span>
+                </div>
+              </div>
+              <div className="pt-4">
+                <Link href="/bombas" className="inline-flex items-center gap-3 px-8 py-4 bg-[#006e0c] text-white font-extrabold rounded-base hover:bg-[#005a0a] transition-all">
+                  CONFIGURAR MI SISTEMA DE BOMBEO
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== ELECTROBOMBAS SECTION ========== */}
+      <section className="py-24 lg:py-32 bg-[#f8fafc]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Sistemas de Bombeo</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                ELECTROBOMBAS DISPONIBLES
+              </h2>
+            </div>
+            <Link
+              href="/bombas"
+              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
+            >
+              VER TODAS LAS BOMBAS
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
           </div>
 
+          {electrobombasCarousel.length > 0 && (
+            <div className="mb-16">
+              <ProductCarousel products={electrobombasCarousel} />
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ========== FILTROS SECTION ========== */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Protección de Activos</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                SISTEMAS DE FILTRACIÓN AVANZADA
+              </h2>
+            </div>
+            <Link
+              href="/catalogo/filtros"
+              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
+            >
+              VER TODOS LOS FILTROS
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
+          </div>
+
+          {filtrosProducts.length > 0 && (
+            <div className="mb-16">
+              <ProductCarousel products={filtrosProducts} />
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ========== TRUST FEATURES ========== */}
+      <section className="bg-[#f8fafc] py-24 border-y border-[#dee3ea]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((f) => (
               <div key={f.title} className="p-8 rounded-2xl bg-white border border-[#f1f5f9] hover:shadow-[0px_20px_50px_rgba(0,0,0,0.05)] transition-all duration-500 group">
@@ -164,36 +261,6 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ========== ELECTROBOMBAS SECTION ========== */}
-      <section className="py-24 lg:py-32 bg-[#f8fafc]">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Catálogo Especializado</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                ELECTROBOMBAS DE ALTA PRESIÓN
-              </h2>
-            </div>
-            <Link
-              href="/bombas"
-              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
-            >
-              VER TODAS LAS BOMBAS
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-
-          {electrobombasCarousel.length > 0 && (
-            <div className="mb-16">
-              <ProductCarousel products={electrobombasCarousel} />
-            </div>
-          )}
         </div>
       </section>
 
@@ -236,7 +303,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========== NUESTROS PRODUCTOS (Slider + Catalog) ========== */}
+      {/* ========== NUESTRAS LÍNEAS DE PRODUCTO ========== */}
       <section className="py-24 lg:py-32 bg-[#f8fafc] border-y border-[#dee3ea]">
         <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-12 gap-12 items-stretch">
@@ -290,7 +357,7 @@ export default function HomePage() {
               ¿NECESITA ASESORÍA TÉCNICA?
             </h2>
             <p className="text-emerald-100 text-lg lg:text-xl max-w-2xl mx-auto font-medium">
-              Nuestro equipo de ingenieros está listo para ayudarle a dimensionar el equipo perfecto para su aplicación.
+              Obtenga asesoría técnica especializada para dimensionar el equipo perfecto para su aplicación.
             </p>
           </div>
 
