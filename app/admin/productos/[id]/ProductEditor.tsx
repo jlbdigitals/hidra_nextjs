@@ -85,13 +85,33 @@ export default function ProductEditor({ product, productSlug }: { product: Produ
     const file = e.target.files?.[0]
     if (!file) return
     setUploading(true)
+    setError('')
     try {
       const fd = new FormData()
       fd.append('file', file)
       const res = await fetch('/api/admin/products/upload', { method: 'POST', body: fd })
       const data = await res.json()
       if (data.success) {
-        setLocalImage(data.path)
+        // Save immediately with new image path
+        const saveRes = await fetch(`/api/admin/products/${product.id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            nombre, descripcionCorta, descripcion,
+            precio: parseFloat(precio) || 0,
+            publicado, topCategoria, deepCategoria, marca,
+            hp, voltaje, localImage: data.path, imagenUrl,
+          }),
+        })
+        if (saveRes.ok) {
+          setLocalImage(data.path)
+          setSaved(true)
+          setTimeout(() => setSaved(false), 3000)
+          router.refresh()
+        } else {
+          setLocalImage(data.path)
+          setError('Imagen subida pero no guardada — usa "Guardar cambios"')
+        }
       } else {
         setError(data.error || 'Error al subir imagen')
       }
@@ -99,6 +119,7 @@ export default function ProductEditor({ product, productSlug }: { product: Produ
       setError('Error de conexión')
     } finally {
       setUploading(false)
+      if (fileInputRef.current) fileInputRef.current.value = ''
     }
   }
 
