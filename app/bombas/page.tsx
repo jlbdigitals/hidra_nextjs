@@ -131,16 +131,10 @@ export default async function BombasPage({
   }
 
   const brandList = Array.from(brandMap.entries())
+    .filter(([brand]) => ["Pedrollo", "Calpeda", "Reggio", "Bestflow"].includes(brand))
     .sort(([a], [b]) => {
-      if (a === "Pedrollo") return -1;
-      if (b === "Pedrollo") return 1;
-      if (a === "Calpeda") return -1;
-      if (b === "Calpeda") return 1;
-      if (a === "Reggio") return -1;
-      if (b === "Reggio") return 1;
-      if (a === "Bestflow") return -1;
-      if (b === "Bestflow") return 1;
-      return a.localeCompare(b);
+      const order = ["Pedrollo", "Calpeda", "Reggio", "Bestflow"];
+      return order.indexOf(a) - order.indexOf(b);
     })
     .map(([brand, seriesSet]) => {
       let series = Array.from(seriesSet);

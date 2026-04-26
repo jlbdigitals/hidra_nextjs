@@ -1847,7 +1847,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -1874,7 +1874,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -1901,7 +1901,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -1928,7 +1928,7 @@
       "0.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -1955,7 +1955,7 @@
       "0.7"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -1982,7 +1982,7 @@
       "1"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "PK.png",
     "imagenUrl": "http://hidra.local/wp-content/uploads/2026/03/PK.png",
@@ -11133,7 +11133,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11159,7 +11159,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11185,7 +11185,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11211,7 +11211,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11237,7 +11237,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11263,7 +11263,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11289,7 +11289,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11315,7 +11315,7 @@
       "15"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11341,7 +11341,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11367,7 +11367,7 @@
       "2.0"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11393,7 +11393,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11419,7 +11419,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11445,7 +11445,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11471,7 +11471,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11497,7 +11497,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11523,7 +11523,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11549,7 +11549,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11575,7 +11575,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11601,7 +11601,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11627,7 +11627,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11653,7 +11653,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11679,7 +11679,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11705,7 +11705,7 @@
       "1.2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11731,7 +11731,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11757,7 +11757,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11783,7 +11783,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11809,7 +11809,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11835,7 +11835,7 @@
       "0.75"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11861,7 +11861,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11887,7 +11887,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11913,7 +11913,7 @@
       "0.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11939,7 +11939,7 @@
       "0.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11965,7 +11965,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -11991,7 +11991,7 @@
       "1.0"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12017,7 +12017,7 @@
       "0.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12043,7 +12043,7 @@
       "0.8"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12069,7 +12069,7 @@
       "0.8"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12095,7 +12095,7 @@
       "0.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12121,7 +12121,7 @@
       "0.8"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12147,7 +12147,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12173,7 +12173,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12199,7 +12199,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12225,7 +12225,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12251,7 +12251,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12277,7 +12277,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12303,7 +12303,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12329,7 +12329,7 @@
       "2.0"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12355,7 +12355,7 @@
       "2.0"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12381,7 +12381,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12407,7 +12407,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12433,7 +12433,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12459,7 +12459,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12485,7 +12485,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12511,7 +12511,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12537,7 +12537,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12563,7 +12563,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12589,7 +12589,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12615,7 +12615,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12641,7 +12641,7 @@
       "1"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12667,7 +12667,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12693,7 +12693,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12719,7 +12719,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12745,7 +12745,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12771,7 +12771,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12797,7 +12797,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12823,7 +12823,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12849,7 +12849,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12875,7 +12875,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12901,7 +12901,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12927,7 +12927,7 @@
       "1"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12953,7 +12953,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -12979,7 +12979,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13005,7 +13005,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13031,7 +13031,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13057,7 +13057,7 @@
       "1.2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13083,7 +13083,7 @@
       "1.3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13109,7 +13109,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13135,7 +13135,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13161,7 +13161,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13187,7 +13187,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13213,7 +13213,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13239,7 +13239,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13265,7 +13265,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13291,7 +13291,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13317,7 +13317,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13343,7 +13343,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13369,7 +13369,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13395,7 +13395,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13421,7 +13421,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13447,7 +13447,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13473,7 +13473,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13499,7 +13499,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13525,7 +13525,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13551,7 +13551,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13577,7 +13577,7 @@
       "2"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13603,7 +13603,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13629,7 +13629,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13655,7 +13655,7 @@
       "12.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13681,7 +13681,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13707,7 +13707,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13733,7 +13733,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13759,7 +13759,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13785,7 +13785,7 @@
       "12.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13811,7 +13811,7 @@
       "15"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13837,7 +13837,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13863,7 +13863,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13889,7 +13889,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13915,7 +13915,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13941,7 +13941,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13967,7 +13967,7 @@
       "1"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -13993,7 +13993,7 @@
       "1.5"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14019,7 +14019,7 @@
       "1.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14045,7 +14045,7 @@
       "0.8"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14071,7 +14071,7 @@
       "12.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14097,7 +14097,7 @@
       "2"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14123,7 +14123,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14149,7 +14149,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14175,7 +14175,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14201,7 +14201,7 @@
       "3"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14227,7 +14227,7 @@
       "1"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14253,7 +14253,7 @@
       "0.8"
     ],
     "voltaje": [
-      "220"
+      "220V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14279,7 +14279,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14305,7 +14305,7 @@
       "3"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14331,7 +14331,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14357,7 +14357,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14383,7 +14383,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14409,7 +14409,7 @@
       "4"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14435,7 +14435,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14461,7 +14461,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14487,7 +14487,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14513,7 +14513,7 @@
       "20"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14539,7 +14539,7 @@
       "15"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14565,7 +14565,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14591,7 +14591,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14617,7 +14617,7 @@
       "5.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14643,7 +14643,7 @@
       "20"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14669,7 +14669,7 @@
       "15"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14695,7 +14695,7 @@
       "12.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14721,7 +14721,7 @@
       "30"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14747,7 +14747,7 @@
       "25"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14773,7 +14773,7 @@
       "20"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14799,7 +14799,7 @@
       "20"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14825,7 +14825,7 @@
       "15"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14851,7 +14851,7 @@
       "12.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14877,7 +14877,7 @@
       "10"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14903,7 +14903,7 @@
       "7.5"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14929,7 +14929,7 @@
       "30"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14955,7 +14955,7 @@
       "25"
     ],
     "voltaje": [
-      "380"
+      "380V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -14981,7 +14981,7 @@
       "25"
     ],
     "voltaje": [
-      "690"
+      "690V"
     ],
     "imagen": "",
     "imagenUrl": "",
@@ -15006,7 +15006,7 @@
       "30"
     ],
     "voltaje": [
-      "690"
+      "690V"
     ],
     "imagen": "",
     "imagenUrl": "",

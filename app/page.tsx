@@ -7,6 +7,7 @@ import ProductCarousel from "@/components/ProductCarousel";
 import CategorySlider from "@/components/CategorySlider";
 import CategoryRectSlider from "@/components/CategoryRectSlider";
 import BrandCarousel from "@/components/BrandCarousel";
+import PumpBrands from "@/components/PumpBrands";
 
 const categorySlides = [
   { name: "Bombas", img: "/images/categories/bombas.png", href: "/bombas" },
@@ -35,17 +36,14 @@ export default function HomePage() {
     featured = featured.slice(0, 6); // Limit to 6
   }
 
-  // Electrobombas carousel: 3 Pedrollo + 3 others, all with price
+  // Electrobombas carousel: Products from the 4 main brands with price
   const bombasConPrecio = allProducts.filter(
     (p) => isRealProduct(p) && isVenta(p.topCategoria) && p.precio > 0
   );
-  const pedrollo = bombasConPrecio.filter((p) =>
-    p.categorias.some((c) => c.includes("Pedrollo"))
-  ).slice(0, 3);
-  const otherBombas = bombasConPrecio.filter(
-    (p) => !pedrollo.includes(p) && !p.categorias.some((c) => c.includes("Pedrollo"))
-  ).slice(0, 3);
-  const electrobombasCarousel = [...pedrollo, ...otherBombas];
+  const mainBrands = ["Pedrollo", "Calpeda", "Reggio", "Bestflow"];
+  const electrobombasCarousel = bombasConPrecio
+    .filter((p) => mainBrands.includes(p.marca))
+    .slice(0, 8); // Show up to 8 products from these brands
 
   // Filtros carousel: up to 6 filter products
   const filtrosProducts = allProducts.filter(
@@ -187,6 +185,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ========== PUMP BRANDS MODULE ========== */}
+      <PumpBrands />
 
       {/* ========== FILTROS SECTION ========== */}
       <section className="py-16 bg-white">

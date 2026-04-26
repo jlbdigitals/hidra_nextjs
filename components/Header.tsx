@@ -14,9 +14,9 @@ const navLinks = [
     submenu: [
       { label: "Ver todas las bombas", href: "/bombas" },
       { label: "Pedrollo", href: "/bombas?marca=Pedrollo" },
-      { label: "Lowara", href: "/bombas?marca=Lowara" },
-      { label: "Salmson", href: "/bombas?marca=Salmson" },
-      { label: "Berkeley", href: "/bombas?marca=Berkeley" },
+      { label: "Calpeda", href: "/bombas?marca=Calpeda" },
+      { label: "Reggio", href: "/bombas?marca=Reggio" },
+      { label: "Bestflow", href: "/bombas?marca=Bestflow" },
     ],
   },
   { label: "Filtros", href: "/catalogo/filtros" },
