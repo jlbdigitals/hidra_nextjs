@@ -25,7 +25,7 @@ export default function CategoryRectSlider({ categories, autoPlayMs = 5000 }: Pr
 
   const prevSlide = () => {
     setCurrentPage((prev) => (prev - 1 + categories.length) % categories.length);
-  }, [categories.length]);
+  };
 
   useEffect(() => {
     if (paused || autoPlayMs <= 0) return;
