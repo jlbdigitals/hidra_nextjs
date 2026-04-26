@@ -133,12 +133,12 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative group flex items-center justify-center">
               <div className="absolute inset-0 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-700"></div>
-              <div className="relative z-10 w-full aspect-square max-w-[500px] rounded-3xl overflow-hidden shadow-2xl border border-white/5 bg-[#1e293b]">
+              <div className="relative z-10 w-full aspect-square max-w-[500px] [mask-image:radial-gradient(ellipse_75%_75%_at_50%_50%,black_55%,transparent_100%)]">
                 <Image
                   src="/uploads/pks.jpg"
                   alt="Bomba Pedrollo PKS"
                   fill
-                  className="object-contain p-8 drop-shadow-2xl"
+                  className="object-contain p-6 drop-shadow-2xl"
                 />
               </div>
             </div>
