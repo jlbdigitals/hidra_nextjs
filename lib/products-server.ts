@@ -1,5 +1,5 @@
 import { eq, or, ilike, sql } from "drizzle-orm";
-import { db } from "./db";
+import { getDb } from "./db";
 import { products } from "./db/schema";
 import type { Product } from "./products";
 
@@ -29,12 +29,16 @@ function toProduct(row: typeof products.$inferSelect): Product {
 }
 
 export async function getProducts(): Promise<Product[]> {
-  const rows = await db.select().from(products);
+  const _db = getDb();
+  if (!_db) return [];
+  const rows = await _db.select().from(products);
   return rows.map(toProduct);
 }
 
 export async function getProductById(id: number): Promise<Product | undefined> {
-  const rows = await db.select().from(products).where(eq(products.id, id));
+  const _db = getDb();
+  if (!_db) return undefined;
+  const rows = await _db.select().from(products).where(eq(products.id, id));
   return rows[0] ? toProduct(rows[0]) : undefined;
 }
 
@@ -65,7 +69,9 @@ export async function updateProduct(id: number, data: Partial<Omit<Product, "id"
   if (data.voltaje !== undefined)          update.voltaje = data.voltaje;
   if (data.categorias !== undefined)       update.categorias = data.categorias;
 
-  const rows = await db.update(products).set(update).where(eq(products.id, id)).returning();
+  const _db = getDb();
+  if (!_db) return null;
+  const rows = await _db.update(products).set(update).where(eq(products.id, id)).returning();
   return rows[0] ? toProduct(rows[0]) : null;
 }
 

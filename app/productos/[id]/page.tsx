@@ -10,8 +10,12 @@ import ProductQuoteForm from "@/components/ProductQuoteForm";
 import ProductCarousel from "@/components/ProductCarousel";
 import BackButton from "@/components/BackButton";
 
+export const dynamic = 'force-dynamic';
+
 export async function generateStaticParams() {
-  return (await getProducts())
+  const prods = await getProducts();
+  if (!prods.length) return [];
+  return prods
     .slice(0, 200)
     .map((p) => ({ id: getProductSlug(p) }));
 }

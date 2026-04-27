@@ -23,8 +23,8 @@ function slugify(text: string): string {
     .slice(0, 80)
 }
 
-function seedFromProducts(): Category[] {
-  const products = getProducts()
+async function seedFromProducts(): Promise<Category[]> {
+  const products = await getProducts()
   const cats: Category[] = []
   let nextId = 1
 
@@ -85,7 +85,7 @@ function seedFromProducts(): Category[] {
   return cats
 }
 
-export function getCategories(): Category[] {
+export async function getCategories(): Promise<Category[]> {
   try {
     const raw = readFileSync(DATA_PATH, 'utf-8')
     const parsed = JSON.parse(raw)
@@ -93,7 +93,7 @@ export function getCategories(): Category[] {
   } catch {
     // fall through to seed
   }
-  const seeded = seedFromProducts()
+  const seeded = await seedFromProducts()
   writeFileSync(DATA_PATH, JSON.stringify(seeded, null, 2))
   return seeded
 }
@@ -102,8 +102,8 @@ function saveCategories(cats: Category[]) {
   writeFileSync(DATA_PATH, JSON.stringify(cats, null, 2))
 }
 
-export function addCategory(data: Omit<Category, 'id'>): Category {
-  const cats = getCategories()
+export async function addCategory(data: Omit<Category, 'id'>): Promise<Category> {
+  const cats = await getCategories()
   const id = cats.length > 0 ? Math.max(...cats.map((c) => c.id)) + 1 : 1
   const newCat: Category = { id, ...data }
   cats.push(newCat)
@@ -111,8 +111,8 @@ export function addCategory(data: Omit<Category, 'id'>): Category {
   return newCat
 }
 
-export function updateCategory(id: number, data: Partial<Omit<Category, 'id'>>): Category | null {
-  const cats = getCategories()
+export async function updateCategory(id: number, data: Partial<Omit<Category, 'id'>>): Promise<Category | null> {
+  const cats = await getCategories()
   const idx = cats.findIndex((c) => c.id === id)
   if (idx === -1) return null
   cats[idx] = { ...cats[idx], ...data }
@@ -120,8 +120,8 @@ export function updateCategory(id: number, data: Partial<Omit<Category, 'id'>>):
   return cats[idx]
 }
 
-export function deleteCategory(id: number): boolean {
-  const cats = getCategories()
+export async function deleteCategory(id: number): Promise<boolean> {
+  const cats = await getCategories()
   // Re-parent children to grandparent
   const target = cats.find((c) => c.id === id)
   if (!target) return false
@@ -132,9 +132,9 @@ export function deleteCategory(id: number): boolean {
   return true
 }
 
-export function getCategoryProductCounts(): Record<number, number> {
-  const cats = getCategories()
-  const products = getProducts().filter((p) => p.publicado)
+export async function getCategoryProductCounts(): Promise<Record<number, number>> {
+  const cats = await getCategories()
+  const products = (await getProducts()).filter((p) => p.publicado)
   const counts: Record<number, number> = {}
 
   // Build full path for each category

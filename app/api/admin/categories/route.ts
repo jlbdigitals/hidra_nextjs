@@ -18,8 +18,8 @@ async function checkAuth() {
 
 export async function GET() {
   if (!await checkAuth()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-  const cats = getCategories()
-  const counts = getCategoryProductCounts()
+  const cats = await getCategories()
+  const counts = await getCategoryProductCounts()
   return NextResponse.json(cats.map((c) => ({ ...c, count: counts[c.id] ?? 0 })))
 }
 
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
   if (!await checkAuth()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   const { name, slug, parentId, description, icon } = await req.json()
   if (!name?.trim()) return NextResponse.json({ error: 'Nombre requerido' }, { status: 400 })
-  const cat = addCategory({ name: name.trim(), slug: slug?.trim() || '', parentId: parentId ?? null, description: description ?? '', icon: icon ?? '' })
+  const cat = await addCategory({ name: name.trim(), slug: slug?.trim() || '', parentId: parentId ?? null, description: description ?? '', icon: icon ?? '' })
   return NextResponse.json(cat, { status: 201 })
 }
 
@@ -35,7 +35,7 @@ export async function PUT(req: NextRequest) {
   if (!await checkAuth()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   const { id, ...data } = await req.json()
   if (!id) return NextResponse.json({ error: 'Missing id' }, { status: 400 })
-  const updated = updateCategory(Number(id), data)
+  const updated = await updateCategory(Number(id), data)
   if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
   return NextResponse.json(updated)
 }
