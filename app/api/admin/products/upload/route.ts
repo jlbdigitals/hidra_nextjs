@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
   const filename = formData.get('filename') as string | null
 
   if (action === 'delete' && filename) {
-    const uploadsDir = join(process.cwd(), 'public', 'uploads')
+    const uploadsDir = join(process.env.DATA_DIR ?? join(process.cwd(), 'public'), 'uploads')
     const filePath = join(uploadsDir, filename)
     if (existsSync(filePath)) {
       await unlink(filePath)
@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'No file provided' }, { status: 400 })
   }
 
-  const uploadsDir = join(process.cwd(), 'public', 'uploads')
+  const uploadsDir = join(process.env.DATA_DIR ?? join(process.cwd(), 'public'), 'uploads')
   if (!existsSync(uploadsDir)) {
     await mkdir(uploadsDir, { recursive: true })
   }

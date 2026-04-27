@@ -7,7 +7,8 @@ import type { Product } from './products'
 export type { Product } from './products'
 export { getProductImageSrc, getProductSlug, slugify, CATEGORY_ICONS, CATEGORY_DESCRIPTIONS } from './products'
 
-const PRODUCTS_PATH = join(process.cwd(), 'public', 'products.json')
+const DATA_DIR = process.env.DATA_DIR ?? join(process.cwd(), 'public')
+const PRODUCTS_PATH = join(DATA_DIR, 'products.json')
 export function getProducts(): Product[] {
   return JSON.parse(readFileSync(PRODUCTS_PATH, 'utf-8')) as Product[]
 }
