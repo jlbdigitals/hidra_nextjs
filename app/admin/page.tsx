@@ -70,10 +70,10 @@ function StatusBadge({ estado }: { estado: string }) {
   )
 }
 
-export default function AdminDashboard() {
+export default async function AdminDashboard() {
   const quotes = getQuotes()
-  const products = getProducts()
-  const categories = getTopCategories()
+  const products = await getProducts()
+  const categories = await getTopCategories()
 
   const pendingCount = quotes.filter((q) => q.estado === 'pendiente').length
   const recentQuotes = quotes.slice(0, 5)

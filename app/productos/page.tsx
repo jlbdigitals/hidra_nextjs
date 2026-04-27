@@ -29,11 +29,11 @@ export default async function ProductosPage({
   const { categoria = "", marca = "", hp = "", voltaje = "", q = "", page = "1" } = params;
   const currentPage = parseInt(page) || 1;
 
-  const allProducts = filterProducts({ categoria, marca, hp, voltaje, q });
-  const topCategories = getTopCategories();
-  const subcategories = categoria ? getSubcategories(categoria) : [];
-  const hpValues = getHpValues();
-  const voltajesAll = getVoltajes();
+  const allProducts = await filterProducts({ categoria, marca, hp, voltaje, q });
+  const topCategories = await getTopCategories();
+  const subcategories = categoria ? await getSubcategories(categoria) : [];
+  const hpValues = await getHpValues();
+  const voltajesAll = await getVoltajes();
 
   const totalPages = Math.ceil(allProducts.length / PAGE_SIZE);
   const products = allProducts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);

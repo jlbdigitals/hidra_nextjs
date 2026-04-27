@@ -25,8 +25,8 @@ const features = [
   { icon: "🤝", title: "Asesoría Técnica Directa", desc: "Le ayudamos a seleccionar el equipo preciso para su necesidad específica." },
 ];
 
-export default function HomePage() {
-  const allProducts = getProducts().filter((p) => p.publicado);
+export default async function HomePage() {
+  const allProducts = (await getProducts()).filter((p) => p.publicado);
   
   // Featured: products marked as 'destacado', or fallback to those with HP specs
   let featured = allProducts.filter((p) => p.destacado);

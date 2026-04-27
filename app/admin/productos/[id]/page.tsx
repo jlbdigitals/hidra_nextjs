@@ -16,7 +16,7 @@ export default async function AdminProductoPage({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const product = getProductById(parseInt(id))
+  const product = await getProductById(parseInt(id))
   if (!product) notFound()
 
   return (

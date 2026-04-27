@@ -25,7 +25,7 @@ export async function PUT(
   }
 
   const body = await req.json()
-  const products = getProducts()
+  const products = await getProducts()
   const existingProduct = products.find(p => p.id === productId)
 
   if (!existingProduct) {
@@ -41,7 +41,7 @@ export async function PUT(
     ? (Array.isArray(body.voltaje) ? body.voltaje : String(body.voltaje || '').split(',').map((s: string) => s.trim()).filter(Boolean))
     : existingProduct.voltaje
 
-  const updated = updateProduct(productId, {
+  const updated = await updateProduct(productId, {
     nombre: body.nombre ?? existingProduct.nombre,
     descripcionCorta: body.descripcionCorta ?? existingProduct.descripcionCorta,
     descripcion: body.descripcion ?? existingProduct.descripcion,

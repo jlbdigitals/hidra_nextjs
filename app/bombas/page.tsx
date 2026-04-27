@@ -21,7 +21,7 @@ export default async function BombasPage({
   const { marca, serie, hp, voltaje, page } = await searchParams;
 
   // All saleable Bombas
-  const allProductsRaw = getProducts().filter(
+  const allProductsRaw = (await getProducts()).filter(
     (p) => p.publicado && isRealProduct(p) && isVenta(p.topCategoria) && p.precio > 0
   );
 

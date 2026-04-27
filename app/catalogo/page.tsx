@@ -69,8 +69,8 @@ const CATEGORIES = [
   },
 ];
 
-export default function CatalogoPage() {
-  const products = getProducts().filter((p) => p.publicado);
+export default async function CatalogoPage() {
+  const products = (await getProducts()).filter((p) => p.publicado);
 
   // Count per category
   const counts: Record<string, number> = {};

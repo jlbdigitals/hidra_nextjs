@@ -97,16 +97,16 @@ export default async function CategoriaPage({
   if (!cat) notFound();
 
   // Data for sidebar
-  const topCategories = getTopCategories();
-  const hpValues = getHpValues();
-  const voltajesAll = getVoltajes();
+  const topCategories = await getTopCategories();
+  const hpValues = await getHpValues();
+  const voltajesAll = await getVoltajes();
   const categoryMenuItems = Object.entries(CATALOG_MAP).map(([k, v]) => ({
     label: v.label,
     href: `/catalogo/${k}`,
   }));
 
   // For categories like Filtros where brand entries ARE the products, skip isRealProduct
-  const allProducts = getProducts().filter(
+  const allProducts = (await getProducts()).filter(
     (p) => p.publicado && p.topCategoria === cat.topCategoria && (cat.showAllProducts || isRealProduct(p))
   );
 

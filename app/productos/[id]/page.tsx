@@ -11,7 +11,7 @@ import ProductCarousel from "@/components/ProductCarousel";
 import BackButton from "@/components/BackButton";
 
 export async function generateStaticParams() {
-  return getProducts()
+  return (await getProducts())
     .slice(0, 200)
     .map((p) => ({ id: getProductSlug(p) }));
 }
@@ -22,7 +22,7 @@ export default async function ProductoPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const product = getProductBySlug(id);
+  const product = await getProductBySlug(id);
   if (!product) notFound();
 
   const brand = product.categorias
@@ -30,8 +30,8 @@ export default async function ProductoPage({
     ?.split(" > ")[1] ?? null;
 
   // Related: same brand and top category
-  const related = getProducts()
-    .filter((p) => 
+  const related = (await getProducts())
+    .filter((p) =>
       p.publicado && 
       p.id !== product.id && 
       (brand ? p.categorias.some(c => c.includes(`> ${brand}`)) : p.topCategoria === product.topCategoria)

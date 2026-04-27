@@ -19,7 +19,7 @@ export default async function AdminProductosPage({
   const { q = '', categoria = '', page = '1' } = params
   const currentPage = parseInt(page) || 1
 
-  let products = getProducts()
+  let products = await getProducts()
   if (q) {
     const ql = q.toLowerCase()
     products = products.filter(
@@ -35,7 +35,7 @@ export default async function AdminProductosPage({
   const total = products.length
   const totalPages = Math.ceil(total / PAGE_SIZE)
   const paged = products.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
-  const topCats = getTopCategories()
+  const topCats = await getTopCategories()
 
   return (
     <div style={{ padding: '0 32px 40px' }}>

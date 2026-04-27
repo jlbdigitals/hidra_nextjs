@@ -32,13 +32,13 @@ export async function PUT(req: NextRequest) {
     }
 
     if (accion === 'removeImage') {
-      const updated = updateProduct(productId, { localImage: '', imagenUrl: '' })
+      const updated = await updateProduct(productId, { localImage: '', imagenUrl: '' })
       results.push({ id: productId, success: !!updated })
     } else if (fasico !== undefined) {
-      const updated = updateProduct(productId, { fasico })
+      const updated = await updateProduct(productId, { fasico })
       results.push({ id: productId, success: !!updated })
     } else if (localImage !== undefined) {
-      const updated = updateProduct(productId, { localImage })
+      const updated = await updateProduct(productId, { localImage })
       results.push({ id: productId, success: !!updated })
     } else {
       results.push({ id: productId, success: false, error: 'No image data' })
