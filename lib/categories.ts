@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
-import { CATEGORY_ICONS, CATEGORY_DESCRIPTIONS, getProducts } from './products-server'
+import { CATEGORY_ICONS, CATEGORY_DESCRIPTIONS, getProducts, Product } from './products-server'
 
 export interface Category {
   id: number
@@ -24,12 +24,12 @@ function slugify(text: string): string {
 }
 
 async function seedFromProducts(): Promise<Category[]> {
-  const products = await getProducts()
+  const allProducts: Product[] = await getProducts()
   const cats: Category[] = []
   let nextId = 1
 
   // Level 1: topCategoria
-  const tops = new Set(products.map((p) => p.topCategoria).filter(Boolean))
+  const tops = new Set(allProducts.map((p) => p.topCategoria).filter(Boolean))
   const topMap = new Map<string, number>()
   for (const top of Array.from(tops).sort()) {
     const id = nextId++
@@ -47,7 +47,7 @@ async function seedFromProducts(): Promise<Category[]> {
   // Level 2: brands (top > brand)
   const brandMap = new Map<string, number>()
   const brandKeys = new Set<string>()
-  for (const p of products) {
+  for (const p of allProducts) {
     for (const c of p.categorias) {
       const parts = c.split(' > ')
       if (parts.length >= 2) {
@@ -66,7 +66,7 @@ async function seedFromProducts(): Promise<Category[]> {
 
   // Level 3: series (top > brand > series)
   const seriesKeys = new Set<string>()
-  for (const p of products) {
+  for (const p of allProducts) {
     for (const c of p.categorias) {
       const parts = c.split(' > ')
       if (parts.length >= 3) {
