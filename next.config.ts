@@ -19,6 +19,12 @@ const nextConfig: NextConfig = {
         destination: "https://hidra.cl/:path*",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.hidra.cl" }],
+        destination: "https://hidra.cl/:path*",
+        permanent: true,
+      },
     ];
   },
 };
