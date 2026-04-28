@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PUMP_BRANDS = [
-  { name: "Hidra", img: "/images/logo.webp", href: "/bombas?marca=Hidra" },
   { name: "Pedrollo", img: "/uploads/bomba_pedrollo.webp", href: "/bombas?marca=Pedrollo" },
   { name: "Calpeda", img: "/uploads/bomba_calpeda.webp", href: "/bombas?marca=Calpeda" },
   { name: "Reggio", img: "/uploads/bomba_reggio.webp", href: "/bombas?marca=Reggio" },
@@ -26,7 +25,7 @@ export default function PumpBrands() {
           <div className="w-16 h-1 bg-[#006e0c] rounded-full"></div>
         </div>
         
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {PUMP_BRANDS.map((brand) => (
             <Link 
               key={brand.name}
