@@ -25,30 +25,35 @@ const features = [
   { icon: "🤝", title: "Asesoría Técnica Directa", desc: "Le ayudamos a seleccionar el equipo preciso para su necesidad específica." },
 ];
 
-export default async function HomePage() {
-  const allProducts = (await getProducts()).filter((p) => p.publicado);
-  
-  // Featured: products marked as 'destacado', or fallback to those with HP specs
-  let featured = allProducts.filter((p) => p.destacado);
-  if (featured.length === 0) {
-    featured = allProducts.filter((p) => p.hp.length > 0).slice(0, 6);
-  } else {
-    featured = featured.slice(0, 6); // Limit to 6
-  }
-
-  // Electrobombas carousel: Products from the 4 main brands with price
-  const bombasConPrecio = allProducts.filter(
-    (p) => isRealProduct(p) && isVenta(p.topCategoria) && p.precio > 0
+function pickProducts(all: Awaited<ReturnType<typeof getProducts>>, cat: string, limit = 8) {
+  const filtered = all.filter(
+    (p) => p.publicado && isRealProduct(p) && p.categorias.some((c) => c.toLowerCase().includes(cat.toLowerCase()))
   );
-  const mainBrands = ["Pedrollo", "Calpeda", "Reggio", "Bestflow"];
-  const electrobombasCarousel = bombasConPrecio
-    .filter((p) => mainBrands.includes(p.marca))
-    .slice(0, 8); // Show up to 8 products from these brands
+  // fallback: any published real product if category returns nothing
+  return (filtered.length > 0 ? filtered : all.filter((p) => p.publicado && isRealProduct(p))).slice(0, limit);
+}
 
-  // Filtros carousel: up to 6 filter products
-  const filtrosProducts = allProducts.filter(
-    (p) => isRealProduct(p) && p.categorias.some((c) => c.startsWith("Filtros"))
-  ).slice(0, 6);
+export default async function HomePage() {
+  const allProducts = await getProducts();
+  const published = allProducts.filter((p) => p.publicado && isRealProduct(p));
+
+  // Featured: products marked as 'destacado', or fallback to first 6
+  let featured = allProducts.filter((p) => p.publicado && p.destacado);
+  if (featured.length === 0) featured = published.slice(0, 6);
+  else featured = featured.slice(0, 6);
+
+  // Carousels per category
+  const mainBrands = ["Pedrollo", "Calpeda", "Reggio", "Bestflow"];
+  const electrobombasCarousel = (() => {
+    const strict = published.filter((p) => isVenta(p.topCategoria) && mainBrands.includes(p.marca));
+    return (strict.length > 0 ? strict : published.filter((p) => isVenta(p.topCategoria))).slice(0, 8);
+  })();
+
+  const filtrosProducts     = pickProducts(allProducts, "Filtros", 8);
+  const riegoAgricolaProducts = pickProducts(allProducts, "Riego Agr", 8);
+  const riegoAreasVerdesProducts = pickProducts(allProducts, "Áreas Verdes", 8);
+  const valvulasProducts    = pickProducts(allProducts, "Válvulas", 8);
+  const controlProducts     = pickProducts(allProducts, "Control", 8);
 
   return (
     <>
@@ -226,20 +231,100 @@ export default async function HomePage() {
                 SISTEMAS DE FILTRACIÓN AVANZADA
               </h2>
             </div>
-            <Link
-              href="/catalogo/filtros"
-              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
-            >
+            <Link href="/catalogo/filtros" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
               VER TODOS LOS FILTROS
               <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
             </Link>
           </div>
+          <ProductCarousel products={filtrosProducts} />
+        </div>
+      </section>
 
-          {filtrosProducts.length > 0 && (
-            <div className="mb-16">
-              <ProductCarousel products={filtrosProducts} />
+      {/* ========== RIEGO AGRÍCOLA ========== */}
+      <section className="py-24 lg:py-32 bg-[#f8fafc]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Eficiencia en el Campo</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                RIEGO AGRÍCOLA
+              </h2>
             </div>
-          )}
+            <Link href="/catalogo/riego-agricola" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
+              VER TODO
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
+          </div>
+          <ProductCarousel products={riegoAgricolaProducts} />
+        </div>
+      </section>
+
+      {/* ========== RIEGO ÁREAS VERDES ========== */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Parques y Jardines</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                RIEGO ÁREAS VERDES
+              </h2>
+            </div>
+            <Link href="/catalogo/riego-areas-verdes" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
+              VER TODO
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
+          </div>
+          <ProductCarousel products={riegoAreasVerdesProducts} />
+        </div>
+      </section>
+
+      {/* ========== VÁLVULAS ========== */}
+      <section className="py-24 lg:py-32 bg-[#f8fafc]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Control de Flujo</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                VÁLVULAS Y ACCESORIOS
+              </h2>
+            </div>
+            <Link href="/catalogo/valvulas" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
+              VER TODO
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
+          </div>
+          <ProductCarousel products={valvulasProducts} />
+        </div>
+      </section>
+
+      {/* ========== CONTROL ========== */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+            <div className="space-y-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Automatización</span>
+              <h2
+                className="font-extrabold tracking-tight text-[#171c21]"
+                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
+              >
+                SISTEMAS DE CONTROL
+              </h2>
+            </div>
+            <Link href="/catalogo/control" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
+              VER TODO
+              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+            </Link>
+          </div>
+          <ProductCarousel products={controlProducts} />
         </div>
       </section>
 
