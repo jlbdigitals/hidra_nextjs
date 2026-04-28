@@ -11,10 +11,10 @@ if [ ! -f "$DATA_DIR/products.json" ]; then
   cp /app/public/products.json "$DATA_DIR/products.json"
 fi
 
-# Import products if database is empty
+# Import products to DB if empty
 if [ -n "$DATABASE_URL" ]; then
   echo "Checking database for products..."
-  node scripts/import-products.mjs || echo "Warning: Import script failed, continuing anyway..."
+  ./node_modules/.bin/tsx scripts/import-products.ts
 fi
 
 exec node server.js

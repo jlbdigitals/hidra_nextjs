@@ -35,6 +35,13 @@ async function main() {
       categorias       JSONB NOT NULL DEFAULT '[]'
     )
   `;
+  
+  const [{ count }] = await sql`SELECT count(*) FROM products`.catch(() => [{ count: '0' }]);
+  if (parseInt(count as string) > 0) {
+    console.log(`Base de datos ya tiene ${count} productos. Saltando importación.`);
+    await sql.end();
+    return;
+  }
 
   let inserted = 0;
   for (const p of raw) {
