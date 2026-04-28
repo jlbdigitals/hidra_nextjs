@@ -3,7 +3,6 @@ export const dynamic = "force-dynamic";
 import Link from "next/link";
 import Image from "next/image";
 import { getProducts, isRealProduct } from "@/lib/products-server";
-import { isVenta } from "@/lib/cart";
 import ProductCard from "@/components/ProductCard";
 import ProductCarousel from "@/components/ProductCarousel";
 import CategorySlider from "@/components/CategorySlider";
@@ -27,13 +26,12 @@ const features = [
   { icon: "🤝", title: "Asesoría Técnica Directa", desc: "Le ayudamos a seleccionar el equipo preciso para su necesidad específica." },
 ];
 
-function pickProducts(all: Awaited<ReturnType<typeof getProducts>>, cat: string, limit = 8) {
-  const filtered = all.filter(
-    (p) => p.publicado && isRealProduct(p) && p.categorias.some((c) => c.toLowerCase().includes(cat.toLowerCase()))
-  );
-  // fallback: any published real product if category returns nothing
-  return (filtered.length > 0 ? filtered : all.filter((p) => p.publicado && isRealProduct(p))).slice(0, limit);
-}
+const BRANDS = [
+  { name: "Pedrollo",  label: "Bombas Pedrollo",  subtitle: "Liderazgo Italiano en Bombeo" },
+  { name: "Calpeda",   label: "Bombas Calpeda",   subtitle: "Precisión y Durabilidad" },
+  { name: "Reggio",    label: "Bombas Reggio",    subtitle: "Rendimiento Comprobado" },
+  { name: "Bestflow",  label: "Bombas Bestflow",  subtitle: "Soluciones de Alta Eficiencia" },
+] as const;
 
 export default async function HomePage() {
   const allProducts = await getProducts();
@@ -44,18 +42,13 @@ export default async function HomePage() {
   if (featured.length === 0) featured = published.slice(0, 6);
   else featured = featured.slice(0, 6);
 
-  // Carousels per category
-  const mainBrands = ["Pedrollo", "Calpeda", "Reggio", "Bestflow"];
-  const electrobombasCarousel = (() => {
-    const strict = published.filter((p) => isVenta(p.topCategoria) && mainBrands.includes(p.marca));
-    return (strict.length > 0 ? strict : published.filter((p) => isVenta(p.topCategoria))).slice(0, 8);
-  })();
-
-  const filtrosProducts     = pickProducts(allProducts, "Filtros", 8);
-  const riegoAgricolaProducts = pickProducts(allProducts, "Riego Agr", 8);
-  const riegoAreasVerdesProducts = pickProducts(allProducts, "Áreas Verdes", 8);
-  const valvulasProducts    = pickProducts(allProducts, "Válvulas", 8);
-  const controlProducts     = pickProducts(allProducts, "Control", 8);
+  // One carousel per brand
+  const brandCarousels = BRANDS.map(({ name, label, subtitle }) => {
+    const products = published
+      .filter((p) => p.marca.toLowerCase() === name.toLowerCase())
+      .slice(0, 10);
+    return { name, label, subtitle, products };
+  }).filter((b) => b.products.length > 0);
 
   return (
     <>
@@ -190,145 +183,29 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ========== ELECTROBOMBAS SECTION ========== */}
-      <section className="py-24 lg:py-32 bg-[#f8fafc]">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Sistemas de Bombeo</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                ELECTROBOMBAS DISPONIBLES
-              </h2>
+      {/* ========== CARRUSELES POR MARCA ========== */}
+      {brandCarousels.map((brand, i) => (
+        <section key={brand.name} className={`py-24 lg:py-32 ${i % 2 === 0 ? "bg-[#f8fafc]" : "bg-white"}`}>
+          <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+            <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+              <div className="space-y-4">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">{brand.subtitle}</span>
+                <h2
+                  className="font-extrabold tracking-tight text-[#171c21]"
+                  style={{ fontFamily: "var(--font-manrope)", fontSize: "clamp(1.5rem, 3vw, 2.5rem)" }}
+                >
+                  {brand.label.toUpperCase()}
+                </h2>
+              </div>
+              <Link href="/bombas" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
+                VER TODAS LAS BOMBAS
+                <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
+              </Link>
             </div>
-            <Link
-              href="/bombas"
-              className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider"
-            >
-              VER TODAS LAS BOMBAS
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
+            <ProductCarousel products={brand.products} />
           </div>
-
-          {electrobombasCarousel.length > 0 && (
-            <div className="mb-16">
-              <ProductCarousel products={electrobombasCarousel} />
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ========== FILTROS SECTION ========== */}
-      <section className="py-24 lg:py-32 bg-white">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Protección de Activos</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                SISTEMAS DE FILTRACIÓN AVANZADA
-              </h2>
-            </div>
-            <Link href="/catalogo/filtros" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
-              VER TODOS LOS FILTROS
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-          <ProductCarousel products={filtrosProducts} />
-        </div>
-      </section>
-
-      {/* ========== RIEGO AGRÍCOLA ========== */}
-      <section className="py-24 lg:py-32 bg-[#f8fafc]">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Eficiencia en el Campo</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                RIEGO AGRÍCOLA
-              </h2>
-            </div>
-            <Link href="/catalogo/riego-agricola" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
-              VER TODO
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-          <ProductCarousel products={riegoAgricolaProducts} />
-        </div>
-      </section>
-
-      {/* ========== RIEGO ÁREAS VERDES ========== */}
-      <section className="py-24 lg:py-32 bg-white">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Parques y Jardines</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                RIEGO ÁREAS VERDES
-              </h2>
-            </div>
-            <Link href="/catalogo/riego-areas-verdes" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
-              VER TODO
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-          <ProductCarousel products={riegoAreasVerdesProducts} />
-        </div>
-      </section>
-
-      {/* ========== VÁLVULAS ========== */}
-      <section className="py-24 lg:py-32 bg-[#f8fafc]">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Control de Flujo</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                VÁLVULAS Y ACCESORIOS
-              </h2>
-            </div>
-            <Link href="/catalogo/valvulas" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
-              VER TODO
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-          <ProductCarousel products={valvulasProducts} />
-        </div>
-      </section>
-
-      {/* ========== CONTROL ========== */}
-      <section className="py-24 lg:py-32 bg-white">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
-            <div className="space-y-4">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#4059aa]">Automatización</span>
-              <h2
-                className="font-extrabold tracking-tight text-[#171c21]"
-                style={{ fontFamily: "var(--font-manrope)", fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
-              >
-                SISTEMAS DE CONTROL
-              </h2>
-            </div>
-            <Link href="/catalogo/control" className="group flex items-center gap-2 text-sm font-extrabold text-[#006e0c] uppercase tracking-wider">
-              VER TODO
-              <span className="w-8 h-[2px] bg-[#006e0c] group-hover:w-12 transition-all"></span>
-            </Link>
-          </div>
-          <ProductCarousel products={controlProducts} />
-        </div>
-      </section>
+        </section>
+      ))}
 
       {/* ========== TRUST FEATURES ========== */}
       <section className="bg-[#f8fafc] py-24 border-y border-[#dee3ea]">
