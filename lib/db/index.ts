@@ -2,15 +2,23 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";
 
-export function getDb() {
+type DrizzleDb = ReturnType<typeof drizzle<typeof schema>>;
+
+let _db: DrizzleDb | null = null;
+
+export function getDb(): DrizzleDb | null {
+  if (process.env.NEXT_PHASE === "phase-production-build") return null;
+
   const connectionString = process.env.DATABASE_URL;
-  if (!connectionString) return null;
-  
-  // During build, avoid connecting
-  if (process.env.NEXT_PHASE === 'phase-production-build') {
+  if (!connectionString) {
+    console.error("[db] DATABASE_URL no está configurada — la base de datos no estará disponible");
     return null;
   }
-  
-  const client = postgres(connectionString, { prepare: false });
-  return drizzle(client, { schema });
+
+  if (!_db) {
+    const client = postgres(connectionString, { prepare: false });
+    _db = drizzle(client, { schema });
+  }
+
+  return _db;
 }
