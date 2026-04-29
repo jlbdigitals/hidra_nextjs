@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
+  const router = useRouter();
   const [form, setForm] = useState({
     nombre: "",
     email: "",
@@ -10,7 +12,6 @@ export default function ContactForm() {
     asunto: "",
     mensaje: "",
   });
-  const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
@@ -20,50 +21,33 @@ export default function ContactForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
-    // Simulate submission — replace with real API call if needed
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
-    setLoading(false);
+
+    try {
+      const res = await fetch("/api/contacto", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      
+      if (res.ok) {
+        router.push("/gracias-contacto");
+      } else {
+        alert("Error al enviar. Intenta nuevamente.");
+      }
+    } catch {
+      alert("Error de conexión. Intenta nuevamente.");
+    } finally {
+      setLoading(false);
+    }
   }
 
-  if (submitted) {
-    return (
-      <div className="flex flex-col items-center justify-center py-10 gap-4 text-center">
-        <div
-          className="w-14 h-14 rounded-full flex items-center justify-center"
-          style={{ backgroundColor: "#53B94A" }}
-        >
-          <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
-        <h3
-          className="text-lg font-bold"
-          style={{ fontFamily: "var(--font-nunito)", color: "#54595F" }}
-        >
-          ¡Mensaje enviado!
-        </h3>
-        <p className="text-sm" style={{ color: "#7A7A7A" }}>
-          Nos pondremos en contacto con usted a la brevedad.
-        </p>
-        <button
-          onClick={() => { setSubmitted(false); setForm({ nombre: "", email: "", telefono: "", asunto: "", mensaje: "" }); }}
-          className="text-sm font-semibold hover:underline"
-          style={{ color: "#53B94A" }}
-        >
-          Enviar otro mensaje
-        </button>
-      </div>
-    );
-  }
-
-  const inputClass = "w-full border border-[#e0e0e0] rounded px-3 py-2 text-sm text-[#54595F] bg-white placeholder-[#aaa] focus:outline-none focus:border-[#53B94A]";
+  const inputClass = "w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-base font-bold text-[#1e293b] focus:border-[#006e0c] focus:ring-4 focus:ring-[#006e0c]/5 outline-none transition-all";
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <form onSubmit={handleSubmit} className="space-y-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
-          <label className="block text-xs font-semibold mb-1" style={{ color: "#54595F" }}>
+          <label className="block text-[10px] font-extrabold uppercase text-slate-400 tracking-widest mb-2">
             Nombre *
           </label>
           <input
@@ -72,12 +56,12 @@ export default function ContactForm() {
             value={form.nombre}
             onChange={handleChange}
             required
-            placeholder="Su nombre"
+            placeholder="Juan Pérez"
             className={inputClass}
           />
         </div>
         <div>
-          <label className="block text-xs font-semibold mb-1" style={{ color: "#54595F" }}>
+          <label className="block text-[10px] font-extrabold uppercase text-slate-400 tracking-widest mb-2">
             Teléfono
           </label>
           <input
@@ -92,7 +76,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="block text-xs font-semibold mb-1" style={{ color: "#54595F" }}>
+        <label className="block text-[10px] font-extrabold uppercase text-slate-400 tracking-widest mb-2">
           Email *
         </label>
         <input
@@ -101,13 +85,13 @@ export default function ContactForm() {
           value={form.email}
           onChange={handleChange}
           required
-          placeholder="correo@ejemplo.com"
+          placeholder="correo@empresa.cl"
           className={inputClass}
         />
       </div>
 
       <div>
-        <label className="block text-xs font-semibold mb-1" style={{ color: "#54595F" }}>
+        <label className="block text-[10px] font-extrabold uppercase text-slate-400 tracking-widest mb-2">
           Asunto
         </label>
         <select
@@ -125,7 +109,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="block text-xs font-semibold mb-1" style={{ color: "#54595F" }}>
+        <label className="block text-[10px] font-extrabold uppercase text-slate-400 tracking-widest mb-2">
           Mensaje *
         </label>
         <textarea
@@ -133,7 +117,7 @@ export default function ContactForm() {
           value={form.mensaje}
           onChange={handleChange}
           required
-          rows={4}
+          rows={5}
           placeholder="Escriba su consulta aquí..."
           className={inputClass}
           style={{ resize: "vertical" }}
@@ -143,10 +127,29 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading}
-        className="w-full py-2.5 rounded font-semibold text-sm text-white transition-opacity hover:opacity-90 disabled:opacity-60"
-        style={{ backgroundColor: "#53B94A" }}
+        className={`w-full py-5 rounded-[24px] text-lg font-extrabold transition-all shadow-2xl flex items-center justify-center gap-3 ${
+          loading
+            ? 'bg-slate-100 text-slate-400 cursor-not-allowed shadow-none'
+            : 'bg-[#006e0c] text-white hover:bg-[#005a0a] shadow-[#006e0c]/20 hover:scale-[1.01] active:scale-95'
+        }`}
+        style={{ fontFamily: "var(--font-manrope)" }}
       >
-        {loading ? "Enviando..." : "Enviar mensaje"}
+        {loading ? (
+          <>
+            <svg className="animate-spin h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <span>Enviando...</span>
+          </>
+        ) : (
+          <>
+            <span>Enviar Mensaje</span>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </>
+        )}
       </button>
     </form>
   );
